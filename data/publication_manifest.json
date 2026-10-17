@@ -1,0 +1,52 @@
+{
+  "publication_date": "2026-10-16",
+  "repository_prepared_date": "2026-10-17",
+  "editions": {
+    "full": {
+      "pdf": "books/ECU_Complete_Circuit_Book.pdf",
+      "docx": "books/ECU_Complete_Circuit_Book.docx",
+      "pages": 145,
+      "schematic_sheets": 30,
+      "unique_real_photos": 19,
+      "image_occurrences": 118
+    },
+    "course": {
+      "pdf": "books/ECU_Course_Handbook.pdf",
+      "docx": "books/ECU_Course_Handbook.docx",
+      "pages": 40,
+      "schematic_pages": 18,
+      "highlight_pages": [
+        7,
+        10,
+        13,
+        17,
+        27,
+        32
+      ],
+      "worksheet_pages": 4,
+      "image_occurrences": 31
+    }
+  },
+  "files": [
+    {
+      "path": "books/ECU_Complete_Circuit_Book.docx",
+      "bytes": 36231607,
+      "sha256": "2ddee9ddc58f62258b67ace5ffd92628f5e145a90e38dcd6b8337973fdd5ab55"
+    },
+    {
+      "path": "books/ECU_Complete_Circuit_Book.pdf",
+      "bytes": 49136124,
+      "sha256": "f753e07fb45bd799727b35168819c772f75a436885b59d263e8dbb095f512496"
+    },
+    {
+      "path": "books/ECU_Course_Handbook.docx",
+      "bytes": 12132712,
+      "sha256": "04cc2beeb8d903cc712b20e3c3f55570db3bc3c11a5f1aed0ec937954d827d14"
+    },
+    {
+      "path": "books/ECU_Course_Handbook.pdf",
+      "bytes": 53196553,
+      "sha256": "230fccbcc91dce9f894956f9c8765f50ea8fde1ce33247d8f8a9f2b7c751054d"
+    }
+  ]
+}

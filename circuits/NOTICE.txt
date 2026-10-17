@@ -1,0 +1,8 @@
+ECU circuit drawings 2026-10-16
+Drawings 01-26: Original educational drawings, licensed CERN-OHL-S-2.0.
+Drawings 27-30: Redrawn and rearranged excerpts derived from Speeduino v0.4.3d Rev 4d, 2021-03-27.
+Original project: Speeduino Hardware contributors. https://github.com/speeduino/Hardware
+Original schematic source: https://github.com/speeduino/Hardware/blob/main/v0.4/THT/Latest/v0.4.3d.pdf
+Modified by Codex, 2026-10-16: redrawn symbols, enlarged labels, translated explanatory material, selected subcircuits; omitted portions identified in the book.
+All SVGs are licensed under CERN-OHL-S-2.0. This archive is the source location supplied to the recipient for these modified drawings.
+These educational SVGs are not manufacturing files or a validated ECU design. Source and licence notices must be retained with redistribution.

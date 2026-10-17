@@ -1,0 +1,302 @@
+{
+  "planned_pages": 40,
+  "highlight_pages": [
+    7,
+    10,
+    13,
+    17,
+    27,
+    32
+  ],
+  "unique_photos": [
+    "ecu",
+    "lab",
+    "qfp",
+    "solder",
+    "bosch17",
+    "st24",
+    "atmel25"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "title": "คู่มือเรียนวงจรและซ่อม ECU",
+      "kind": "cover",
+      "asset": "bosch17",
+      "highlight": false
+    },
+    {
+      "page": 2,
+      "title": "วิธีเรียนและแผนเปิดอ่าน",
+      "kind": "guide",
+      "asset": null,
+      "highlight": false
+    },
+    {
+      "page": 3,
+      "title": "อ่านสัญลักษณ์และจุดต่อสาย",
+      "kind": "circuit",
+      "asset": "01",
+      "highlight": false
+    },
+    {
+      "page": 4,
+      "title": "มองแผง ECU ของจริง",
+      "kind": "photo",
+      "asset": "ecu",
+      "highlight": false
+    },
+    {
+      "page": 5,
+      "title": "เห็นความสัมพันธ์ของ V I R และ P",
+      "kind": "diagram",
+      "asset": "v1_c02_1",
+      "highlight": false
+    },
+    {
+      "page": 6,
+      "title": "เครื่องมือวัดและแหล่งจ่ายจริง",
+      "kind": "photo",
+      "asset": "lab",
+      "highlight": false
+    },
+    {
+      "page": 7,
+      "title": "ไฟเข้ากล่อง ฟิวส์ ไดโอด และ TVS",
+      "kind": "circuit",
+      "asset": "02",
+      "highlight": true
+    },
+    {
+      "page": 8,
+      "title": "LDO พร้อมคาปาซิเตอร์ขาเข้าและขาออก",
+      "kind": "circuit",
+      "asset": "04",
+      "highlight": false
+    },
+    {
+      "page": 9,
+      "title": "Buck converter และวงจรป้อนกลับ",
+      "kind": "circuit",
+      "asset": "05",
+      "highlight": false
+    },
+    {
+      "page": 10,
+      "title": "กรณีจริง Speeduino ภาคจ่ายไฟ",
+      "kind": "circuit",
+      "asset": "27",
+      "highlight": true
+    },
+    {
+      "page": 11,
+      "title": "คาปาซิเตอร์ Decoupling รอบ MCU",
+      "kind": "circuit",
+      "asset": "06",
+      "highlight": false
+    },
+    {
+      "page": 12,
+      "title": "Reset supervisor และขาควบคุม MCU",
+      "kind": "circuit",
+      "asset": "07",
+      "highlight": false
+    },
+    {
+      "page": 13,
+      "title": "NTC และตัวแบ่งแรงดันเข้าขา ADC",
+      "kind": "circuit",
+      "asset": "09",
+      "highlight": true
+    },
+    {
+      "page": 14,
+      "title": "TPS แบบโพเทนชิออมิเตอร์สามสาย",
+      "kind": "circuit",
+      "asset": "11",
+      "highlight": false
+    },
+    {
+      "page": 15,
+      "title": "Hall แบบ Open collector และตัวดึงขึ้น",
+      "kind": "circuit",
+      "asset": "12",
+      "highlight": false
+    },
+    {
+      "page": 16,
+      "title": "Low side ขับรีเลย์และไดโอดคร่อมโหลด",
+      "kind": "circuit",
+      "asset": "14",
+      "highlight": false
+    },
+    {
+      "page": 17,
+      "title": "ภาคขับหัวฉีดและวงจร Clamp",
+      "kind": "circuit",
+      "asset": "15",
+      "highlight": true
+    },
+    {
+      "page": 18,
+      "title": "H bridge และการกลับทิศมอเตอร์",
+      "kind": "circuit",
+      "asset": "17",
+      "highlight": false
+    },
+    {
+      "page": 19,
+      "title": "ตรวจวัดกระแสด้วย Shunt ด้านกราวด์",
+      "kind": "circuit",
+      "asset": "19",
+      "highlight": false
+    },
+    {
+      "page": 20,
+      "title": "CAN ด้วย NXP TJA1050T",
+      "kind": "circuit",
+      "asset": "20",
+      "highlight": false
+    },
+    {
+      "page": 21,
+      "title": "เห็นหน่วยความจำสามแบบ",
+      "kind": "diagram",
+      "asset": "v2_c02_1",
+      "highlight": false
+    },
+    {
+      "page": 22,
+      "title": "อ่านชื่อบนชิป Atmel ก่อนเลือกโปรไฟล์",
+      "kind": "photo",
+      "asset": "atmel25",
+      "highlight": false
+    },
+    {
+      "page": 23,
+      "title": "SPI EEPROM พร้อม Pull up และ Decoupling",
+      "kind": "circuit",
+      "asset": "22",
+      "highlight": false
+    },
+    {
+      "page": 24,
+      "title": "ดูชิป ST และจำแนกตระกูล 24",
+      "kind": "photo",
+      "asset": "st24",
+      "highlight": false
+    },
+    {
+      "page": 25,
+      "title": "I2C EEPROM พร้อมตัวดึงบัสขึ้น",
+      "kind": "circuit",
+      "asset": "23",
+      "highlight": false
+    },
+    {
+      "page": 26,
+      "title": "Microwire และขา ORG ที่กำหนดการจัดคำ",
+      "kind": "circuit",
+      "asset": "24",
+      "highlight": false
+    },
+    {
+      "page": 27,
+      "title": "เทียบการอ่านซ้ำทุกไบต์",
+      "kind": "diagram",
+      "asset": "v2_c05_1",
+      "highlight": true
+    },
+    {
+      "page": 28,
+      "title": "คลิปยังต่อกับวงจรอื่น",
+      "kind": "diagram",
+      "asset": "v2_c06_1",
+      "highlight": false
+    },
+    {
+      "page": 29,
+      "title": "แพ็กเกจ QFP และการตรวจขารอบตัว",
+      "kind": "photo",
+      "asset": "qfp",
+      "highlight": false
+    },
+    {
+      "page": 30,
+      "title": "ลำดับงานย้ายชิปที่รักษา Pad",
+      "kind": "diagram",
+      "asset": "v2_c08_1",
+      "highlight": false
+    },
+    {
+      "page": 31,
+      "title": "เครื่องมือและงานบัดกรีของจริง",
+      "kind": "photo",
+      "asset": "solder",
+      "highlight": false
+    },
+    {
+      "page": 32,
+      "title": "ตรวจความถูกต้องเป็นสามชั้น",
+      "kind": "diagram",
+      "asset": "v2_c11_1",
+      "highlight": true
+    },
+    {
+      "page": 33,
+      "title": "ใบงานตรวจไฟเข้าและกราวด์",
+      "kind": "worksheet",
+      "asset": null,
+      "highlight": false
+    },
+    {
+      "page": 34,
+      "title": "ใบงานเซนเซอร์และภาคขับ",
+      "kind": "worksheet",
+      "asset": null,
+      "highlight": false
+    },
+    {
+      "page": 35,
+      "title": "ใบงานอ่านสำรองและตรวจไฟล์",
+      "kind": "worksheet",
+      "asset": null,
+      "highlight": false
+    },
+    {
+      "page": 36,
+      "title": "ใบงานย้ายชิปและตรวจหลังงาน",
+      "kind": "worksheet",
+      "asset": null,
+      "highlight": false
+    },
+    {
+      "page": 37,
+      "title": "เอกสารอ้างอิงวงจร",
+      "kind": "references",
+      "asset": null,
+      "highlight": false
+    },
+    {
+      "page": 38,
+      "title": "เอกสารอ้างอิงหน่วยความจำ",
+      "kind": "references",
+      "asset": null,
+      "highlight": false
+    },
+    {
+      "page": 39,
+      "title": "เครดิตภาพถ่ายจริง",
+      "kind": "credits",
+      "asset": null,
+      "highlight": false
+    },
+    {
+      "page": 40,
+      "title": "เครดิตภาพถ่ายจริงต่อ",
+      "kind": "credits",
+      "asset": null,
+      "highlight": false
+    }
+  ]
+}
