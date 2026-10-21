@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1020" viewBox="0 0 1800 1020"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke" /></marker></defs><rect width="1800" height="1020" fill="white" />
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">ทดสอบน้ำมันกลับ: เทียบได้เมื่อเงื่อนไขเหมือนกัน</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">Injector return assessment: preserve the correct return-system conditions</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="22" fill="#596a75">ผังเลือกวิธีทดสอบ | ต้องตรงชนิดหัวฉีดและแรงดันทางกลับ | ไม่ใช่วิธีถอด return ที่ใช้ได้ทุกระบบ</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2" />
+<rect x="80" y="230" width="1630" height="130" rx="12" fill="#f5f8fa" stroke="#ae6900" stroke-width="3" />
+<text x="98" y="267" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">เริ่มจากยืนยันชนิดหัวฉีด + part number + ข้อกำหนดแรงดันทางกลับ</text>
+<text x="98" y="302" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">เลือกวิธีผู้ผลิต / ชุด adapter ที่ตรงระบบ ก่อนถอดท่อน้ำมันกลับ</text>
+<rect x="80" y="450" width="490" height="410" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3" />
+<text x="98" y="487" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">สิ่งที่ต้องบันทึกร่วม</text>
+<text x="98" y="522" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">เวลาเก็บ / ปริมาตรหรือ pressure</text>
+<text x="98" y="557" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">อุณหภูมิน้ำมัน / รอบ / โหลด</text>
+<text x="98" y="592" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">rail target และ actual</text>
+<text x="98" y="627" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">แรงดันทางกลับ / เครื่องมือ</text>
+<rect x="700" y="450" width="470" height="410" rx="12" fill="#f5f8fa" stroke="#16805e" stroke-width="3" />
+<text x="718" y="487" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">การเปรียบเทียบ</text>
+<text x="718" y="522" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">เปรียบเทียบรายสูบและยอดรวม</text>
+<text x="718" y="557" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">มองความต่างภายใต้เงื่อนไขเดียว</text>
+<text x="718" y="592" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">ค่าชดเชยไม่ใช่ค่า leak-off</text>
+<text x="718" y="627" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">ไม่มี mL กลางสำหรับทุกชุด</text>
+<rect x="1300" y="450" width="410" height="410" rx="12" fill="#f5f8fa" stroke="#147aa5" stroke-width="3" />
+<text x="1318" y="487" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">หลักฐานหลังแก้</text>
+<text x="1318" y="522" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">ทดสอบซ้ำด้วยเงื่อนไขเดิม</text>
+<text x="1318" y="557" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">ตรวจการรั่วและ rail tracking</text>
+<text x="1318" y="592" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">ทำ coding / learning</text>
+<text x="1318" y="627" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">เฉพาะที่คู่มือกำหนด</text>
+<polyline points="570,650 700,650" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)" />
+<polyline points="1170,650 1300,650" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)" />
+<text x="100" y="970" font-family="Arial, Leelawadee UI, sans-serif" font-size="27" fill="#c53838">ไม่อุดทางกลับ ไม่ตัดแรงดันทางกลับจำเป็น และไม่ใช้วิธี solenoid แทน piezo โดยอัตโนมัติ</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1030" viewBox="0 0 1800 1030"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke" /></marker></defs><rect width="1800" height="1030" fill="white" />
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">สมดุลในราง: ปริมาณส่งเข้าเทียบกับปริมาณไหลออก</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">The rail is a pressure accumulator: draw the balance</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="22" fill="#596a75">แบบจำลองสมดุลการไหล | ไม่ใช่อัลกอริทึม ECU หรือเกณฑ์ calibration สำหรับตัดรหัส</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2" />
+<rect x="600" y="320" width="580" height="310" rx="12" fill="#f5f8fa" stroke="#c53838" stroke-width="3" />
+<text x="618" y="357" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">COMMON RAIL</text>
+<text x="618" y="392" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">effective storage / compliance</text>
+<text x="618" y="427" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">net inflow changes pressure</text>
+<polyline points="150,460 600,460" fill="none" stroke="#c53838" stroke-width="7" marker-end="url(#arr)" />
+<text x="95" y="390" font-family="Arial, Leelawadee UI, sans-serif" font-size="28" fill="#c53838">PUMP DELIVERY</text>
+<polyline points="1180,380 1660,380" fill="none" stroke="#c53838" stroke-width="6" marker-end="url(#arr)" />
+<text x="1250" y="330" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#c53838">INJECTED FUEL</text>
+<polyline points="1180,500 1660,500" fill="none" stroke="#16805e" stroke-width="6" marker-end="url(#arr)" />
+<text x="1250" y="455" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#16805e">CONTROL / LEAK-OFF</text>
+<polyline points="900,630 900,850 1650,850" fill="none" stroke="#16805e" stroke-width="6" marker-end="url(#arr)" />
+<text x="1060" y="810" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#16805e">RAIL RELIEF / DISCHARGE</text>
+<text x="80" y="980" font-family="Arial, Leelawadee UI, sans-serif" font-size="29" fill="#182b3b">Pressure may fall because supply falls OR outflow rises OR feedback is misleading.</text>
+</svg>

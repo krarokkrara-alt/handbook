@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke"/></marker></defs><rect width="1800" height="1250" fill="white"/>
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">วงป้อนกลับ: คำสั่ง SCV ไม่ได้พิสูจน์ว่าน้ำมันส่งได้จริง</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">Pressure control: one command, several possible causes</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="21" fill="#596a75">CONTROL LOOP | command is not proof of fuel delivery; measured pressure is not independent proof</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<rect x="70" y="230" width="270" height="140" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="88" y="267" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">TARGET PRESSURE</text>
+<text x="88" y="302" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">speed / load / temp</text>
+<rect x="440" y="230" width="290" height="140" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="458" y="267" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">ECU CONTROLLER</text>
+<text x="458" y="302" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">error = target - actual</text>
+<rect x="850" y="230" width="270" height="140" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="868" y="267" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">SCV DRIVER</text>
+<text x="868" y="302" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">current / duty</text>
+<rect x="1270" y="230" width="400" height="140" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="1288" y="267" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">PUMP + RAIL</text>
+<text x="1288" y="302" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">delivery versus outflow</text>
+<polyline points="340,300 440,300" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)"/>
+<polyline points="730,300 850,300" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)"/>
+<polyline points="1120,300 1270,300" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)"/>
+<rect x="1210" y="590" width="460" height="150" rx="12" fill="#f5f8fa" stroke="#147aa5" stroke-width="3"/>
+<text x="1228" y="627" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">RAIL PRESSURE SENSOR</text>
+<text x="1228" y="662" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">reference + signal + return</text>
+<polyline points="1470,370 1470,590" fill="none" stroke="#147aa5" stroke-width="4" marker-end="url(#arr)"/>
+<polyline points="1210,665 580,665 580,370" fill="none" stroke="#147aa5" stroke-width="4" marker-end="url(#arr)"/>
+<text x="770" y="640" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">ACTUAL FEEDBACK</text>
+<rect x="80" y="590" width="350" height="230" rx="12" fill="#f5f8fa" stroke="#ae6900" stroke-width="3"/>
+<text x="98" y="627" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">INDEPENDENT CHECKS</text>
+<text x="98" y="662" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">fuel supply / return</text>
+<text x="98" y="697" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">sensor wiring / ground</text>
+<text x="98" y="732" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">driver current / voltage</text>
+<polyline points="1670,300 1720,300 1720,850 1140,850" fill="none" stroke="#c53838" stroke-width="4" marker-end="url(#arr)"/>
+<text x="850" y="900" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#c53838">Outflow = injection + control return + leakage + rail relief</text>
+<polyline points="60,1040 1740,1040" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<text x="70" y="1080" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">Actual pressure low + corrective command: check fuel balance AND credibility of the feedback.</text>
+<text x="70" y="1115" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">SCV current present does not prove the valve moves or the pump displaces enough fuel.</text>
+<text x="70" y="1150" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">Do not infer SCV direction from a scanner duty label; confirm valve type and PID definition.</text>
+<text x="60" y="1220" font-family="Arial, Leelawadee UI, sans-serif" font-size="19" fill="#596a75">02_pressure_feedback | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT</text>
+</svg>

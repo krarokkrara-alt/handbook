@@ -1,0 +1,125 @@
+{
+  "updated_th": "2026-10-21",
+  "rule": "Document-qualified examples; do not label all Thai 1KD or2KD by engine code alone",
+  "required_vehicle_identifiers": [
+    "VIN",
+    "model/chassis code",
+    "production month/year",
+    "market",
+    "emission specification",
+    "transmission",
+    "ECM part number",
+    "calibration ID",
+    "supply-pump part number",
+    "rail/sensor and injector part numbers",
+    "harness connector IDs"
+  ],
+  "configurations": [
+    {
+      "id": "DR201E-1KD",
+      "engine": "1KD-FTV",
+      "document": "Toyota DR201E Hilux TASA Argentina",
+      "document_year": null,
+      "vehicle_year": null,
+      "hosting": "independent mirror",
+      "idle_MPa": [
+        30,
+        40
+      ],
+      "no_load_3000rpm_MPa": [
+        50,
+        70
+      ],
+      "P0093_monitor_min_rpm": 750,
+      "rail_sensor": "F9 3-wire VC/PR/E2",
+      "SCV_connector": "S8",
+      "SCV_type": "not assigned from engine code alone",
+      "rail_pressure_relief": "mechanical pressure limiter named in system diagram",
+      "source_ids": [
+        "T01",
+        "T02",
+        "T03",
+        "T04"
+      ],
+      "confidence": "document values high; Thai-vehicle applicability unconfirmed"
+    },
+    {
+      "id": "DR201E-2KD",
+      "engine": "2KD-FTV",
+      "document": "Toyota DR201E Hilux TASA Argentina",
+      "document_year": null,
+      "vehicle_year": null,
+      "hosting": "independent mirror",
+      "idle_MPa": [
+        25,
+        35
+      ],
+      "no_load_3000rpm_MPa": [
+        35,
+        55
+      ],
+      "P0093_monitor_min_rpm": 600,
+      "rail_sensor": "F9 3-wire VC/PR/E2",
+      "SCV_connector": "S8",
+      "SCV_type": "not assigned from engine code alone",
+      "rail_pressure_relief": "mechanical pressure limiter named in system diagram",
+      "source_ids": [
+        "T01",
+        "T02",
+        "T03",
+        "T04"
+      ],
+      "confidence": "document values high; Thai-vehicle applicability unconfirmed"
+    },
+    {
+      "id": "RM1151E-1KD-Aug2004",
+      "engine": "1KD-FTV",
+      "document": "Toyota RM1151E ECD From August2004",
+      "document_year": null,
+      "applicability_text": "From August2004; exact vehicle and market not yet verified",
+      "hosting": "independent mirror",
+      "idle_MPa": [
+        30,
+        40
+      ],
+      "no_load_3000rpm_MPa": [
+        50,
+        80
+      ],
+      "P0093_monitor_min_rpm": 500,
+      "rail_sensor": "multi-signal includingPR2/PCR2,E2S; not DR201E3-wire",
+      "rail_pressure_relief": "pressure discharge valve in trouble-area list; model must be checked",
+      "source_ids": [
+        "T05",
+        "T06"
+      ],
+      "confidence": "document values high; vehicle/model mapping pending"
+    },
+    {
+      "id": "DENSO-2004-IMV",
+      "engine": [
+        "1KD-FTV",
+        "2KD-FTV"
+      ],
+      "document": "DENSO Hilux/KijyangInnova/Innova July2004",
+      "source_url": "https://www.pumbaoverland.com/files/TOYOTA_Injection_manual_1KD_2KD.pdf",
+      "hosting": "independent mirror",
+      "status": "pending visual verification; do not take part numbers from garbled text layer"
+    },
+    {
+      "id": "DENSO-2009-config",
+      "engine": [
+        "1KD-FTV",
+        "2KD-FTV"
+      ],
+      "document": "DENSO Toyota1KD/2KD00400706E",
+      "source_url": "https://www.service-engine.com.ua/webroot/pdf/TOYOTA%201KD%202KD%20ENGINE.pdf",
+      "hosting": "independent mirror",
+      "status": "web cover and operation sections checked; circuit researcher verifies details",
+      "document_issue": "September2009",
+      "applicability_table": "August2009; listed vehicle configurations only",
+      "SCV_type": "normally closed in named configuration",
+      "rail_pressure_relief": "pressure discharge valve; not mechanical limiter-only system"
+    }
+  ]
+}

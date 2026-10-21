@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke"/></marker></defs><rect width="1800" height="1250" fill="white"/>
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">ขั้วกลับเซ็นเซอร์ไม่ดี ทำให้ค่าแรงดันที่อ่านคลาดเคลื่อนได้</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">A poor sensor return can make pressure look different</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="21" fill="#596a75">ELECTRICAL ERROR MODEL | Vread = Vsignal-to-local-return + Vreturn-offset</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<rect x="100" y="240" width="370" height="590" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="118" y="277" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">ECU</text>
+<text x="118" y="312" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">ADC reads relative</text>
+<text x="118" y="347" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">to ECU return</text>
+<rect x="1260" y="240" width="420" height="590" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="1278" y="277" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">SENSOR</text>
+<text x="1278" y="312" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">local pressure signal</text>
+<text x="1278" y="347" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">local sensor return</text>
+<polyline points="470,400 1260,400" fill="none" stroke="#182b3b" stroke-width="4"/>
+<text x="720" y="360" font-family="Arial, Leelawadee UI, sans-serif" font-size="27" fill="#182b3b">SIGNAL</text>
+<polyline points="470,700 750,700" fill="none" stroke="#182b3b" stroke-width="4"/>
+<polyline points="750,700 775,700" fill="none" stroke="#182b3b" stroke-width="4"/>
+<rect x="775" y="685" width="90" height="30" fill="white" stroke="#182b3b" stroke-width="3"/>
+<polyline points="865,700 890,700" fill="none" stroke="#182b3b" stroke-width="4"/>
+<text x="770" y="672" font-family="Arial, Leelawadee UI, sans-serif" font-size="22" fill="#182b3b">BAD TERMINAL / R</text>
+<polyline points="890,700 1260,700" fill="none" stroke="#182b3b" stroke-width="4"/>
+<circle cx="690" cy="700" r="12" fill="white" stroke="#ae6900" stroke-width="4"/>
+<text x="707" y="684" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#ae6900">ECU side</text>
+<circle cx="1050" cy="700" r="12" fill="white" stroke="#ae6900" stroke-width="4"/>
+<text x="1067" y="684" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#ae6900">sensor side</text>
+<polyline points="690,700 690,920 830,920" fill="none" stroke="#ae6900" stroke-width="3"/>
+<polyline points="910,920 1050,920 1050,700" fill="none" stroke="#ae6900" stroke-width="3"/>
+<circle cx="870" cy="920" r="40" fill="white" stroke="#ae6900" stroke-width="4"/>
+<text x="860" y="930" font-family="Arial, Leelawadee UI, sans-serif" font-size="27" fill="#ae6900">V</text>
+<text x="700" y="1000" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">DMM: return-to-return voltage drop</text>
+<text x="570" y="520" font-family="Arial, Leelawadee UI, sans-serif" font-size="27" fill="#182b3b">Sensor return is a circuit conductor,</text>
+<text x="570" y="565" font-family="Arial, Leelawadee UI, sans-serif" font-size="27" fill="#182b3b">not automatically the same as chassis.</text>
+<polyline points="60,1040 1740,1040" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<text x="70" y="1080" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">The direction and magnitude of error depend on the circuit and fault; use measured voltages.</text>
+<text x="70" y="1115" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">Check voltage drop while the fault occurs; a static continuity test may miss intermittent resistance.</text>
+<text x="70" y="1150" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">Do not bridge the sensor return to chassis as a repair. Restore the documented wiring / terminals.</text>
+<text x="60" y="1220" font-family="Arial, Leelawadee UI, sans-serif" font-size="19" fill="#596a75">08_ground_offset | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT</text>
+</svg>

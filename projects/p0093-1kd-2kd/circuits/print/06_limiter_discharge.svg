@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke" /></marker></defs><rect width="1800" height="1000" fill="white" />
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">แยกวาล์วจำกัดแรงดันกับวาล์วระบายที่สั่งด้วยไฟฟ้า</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">Rail return devices: mechanical relief is not commanded discharge</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="22" fill="#596a75">ภาพเปรียบเทียบสอง variant | limiter ทางกล กับ discharge valve สั่งไฟฟ้า | เลือกตามรางและเอกสารรถจริง</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2" />
+<rect x="100" y="230" width="690" height="600" rx="12" fill="#f5f8fa" stroke="#16805e" stroke-width="3" />
+<text x="118" y="267" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">VARIANT A: PRESSURE LIMITER</text>
+<rect x="980" y="230" width="690" height="600" rx="12" fill="#f5f8fa" stroke="#16805e" stroke-width="3" />
+<text x="998" y="267" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">VARIANT B: DISCHARGE VALVE</text>
+<polyline points="220,400 650,400" fill="none" stroke="#c53838" stroke-width="6" />
+<text x="220" y="360" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#c53838">RAIL</text>
+<polyline points="440,400 440,490" fill="none" stroke="#c53838" stroke-width="6" />
+<rect x="330" y="490" width="230" height="110" rx="12" fill="#f5f8fa" stroke="#16805e" stroke-width="3" />
+<text x="348" y="527" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">RAIL DEVICE</text>
+<polyline points="440,600 440,730" fill="none" stroke="#16805e" stroke-width="5" marker-end="url(#arr)" />
+<text x="250" y="780" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">RETURN TO TANK</text>
+<polyline points="1100,400 1530,400" fill="none" stroke="#c53838" stroke-width="6" />
+<text x="1100" y="360" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#c53838">RAIL</text>
+<polyline points="1320,400 1320,490" fill="none" stroke="#c53838" stroke-width="6" />
+<rect x="1210" y="490" width="230" height="110" rx="12" fill="#f5f8fa" stroke="#16805e" stroke-width="3" />
+<text x="1228" y="527" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">RAIL DEVICE</text>
+<polyline points="1320,600 1320,730" fill="none" stroke="#16805e" stroke-width="5" marker-end="url(#arr)" />
+<text x="1130" y="780" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">RETURN TO TANK</text>
+<text x="180" y="910" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">Spring / hydraulic force opens relief</text>
+<rect x="980" y="860" width="320" height="110" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3" />
+<text x="998" y="897" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">ECU -&gt; EDU</text>
+<text x="998" y="932" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">electrical actuation</text>
+<polyline points="1300,915 1570,915 1570,545 1440,545" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)" />
+</svg>

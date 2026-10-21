@@ -1,0 +1,15 @@
+{
+  "sha256": "b5afd95052ce11f09af1bb7659999f0b5d69e5b8c30145d2bc3bbcdb4a59afb4",
+  "zip_bad_entry": null,
+  "embedded_images": 16,
+  "drawing_count": 16,
+  "sections": 3,
+  "landscape_sections": 1,
+  "toc_fields": [
+    "TOC \\o \"1-2\" \\h \\z \\u"
+  ],
+  "external_links": 12,
+  "replacement_chars": 0,
+  "thai_chars": 64980,
+  "visual_approval": false
+}

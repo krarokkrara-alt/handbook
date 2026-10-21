@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1035" viewBox="0 0 1800 1035"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke" /></marker></defs><rect width="1800" height="1035" fill="white" />
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">P0093: ผังเลือกทางตรวจและพิสูจน์ผลหลังแก้ไข</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">Evidence-led workflow: establish variant -&gt; capture event -&gt; test -&gt; repair -&gt; verify</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="22" fill="#596a75">ผังวิธีคิดของบรรณาธิการ ไม่ใช่ขั้นตอน Toyota ทุกข้อ | เลือกทางตรวจตามหลักฐานและคู่มือรถจริง</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2" />
+<rect x="60" y="210" width="460" height="130" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3" />
+<text x="78" y="247" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">1. ยืนยันรถและระบบ</text>
+<text x="78" y="282" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">VIN / ECU / pump / rail variant</text>
+<rect x="670" y="210" width="470" height="130" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3" />
+<text x="688" y="247" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">2. เก็บก่อนลบโค้ด</text>
+<text x="688" y="282" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">freeze frame / DTC / pre-event</text>
+<rect x="1290" y="210" width="450" height="130" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3" />
+<text x="1308" y="247" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">3. รหัสร่วมและความปลอดภัย</text>
+<text x="1308" y="282" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">P0200? P1229? รั่วภายนอก?</text>
+<polyline points="520,275 670,275" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)" />
+<polyline points="1140,275 1290,275" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)" />
+<polyline points="1515,340 1515,410 900,410 900,470" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)" />
+<rect x="670" y="470" width="470" height="140" rx="12" fill="#f5f8fa" stroke="#ae6900" stroke-width="3" />
+<text x="688" y="507" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">4. แยกเหตุการณ์แรงดัน</text>
+<text x="688" y="542" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">ค่าที่อ่านเชื่อถือได้หรือไม่?</text>
+<rect x="60" y="690" width="460" height="150" rx="12" fill="#f5f8fa" stroke="#147aa5" stroke-width="3" />
+<text x="78" y="727" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">สัญญาณยังไม่น่าเชื่อถือ</text>
+<text x="78" y="762" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">reference / return / harness</text>
+<text x="78" y="797" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">แก้หลักฐานไฟฟ้าที่พบ</text>
+<rect x="670" y="690" width="470" height="150" rx="12" fill="#f5f8fa" stroke="#16805e" stroke-width="3" />
+<text x="688" y="727" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">แรงดันตกจริง: เข้า / ออก</text>
+<text x="688" y="762" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">supply / SCV / return / relief</text>
+<text x="688" y="797" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">ทดสอบเจาะจงตาม variant</text>
+<rect x="1290" y="690" width="450" height="150" rx="12" fill="#f5f8fa" stroke="#c53838" stroke-width="3" />
+<text x="1308" y="727" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">มี overshoot ก่อนตก</text>
+<text x="1308" y="762" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">ตรวจ overfeed / limiter</text>
+<text x="1308" y="797" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">และวาล์วระบายตามระบบ</text>
+<polyline points="670,540 290,540 290,690" fill="none" stroke="#147aa5" stroke-width="4" marker-end="url(#arr)" />
+<polyline points="900,610 900,690" fill="none" stroke="#16805e" stroke-width="4" marker-end="url(#arr)" />
+<polyline points="1140,540 1515,540 1515,690" fill="none" stroke="#c53838" stroke-width="4" marker-end="url(#arr)" />
+<polyline points="290,840 290,920 1515,920 1515,840" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="900,840 900,950" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)" />
+<circle cx="900" cy="920" r="7" fill="#182b3b" />
+<rect x="460" y="950" width="900" height="70" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3" />
+<text x="478" y="987" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">5. แก้ตามหลักฐาน -&gt; ทดสอบซ้ำเงื่อนไขเดิม -&gt; บันทึกผลยืนยัน</text>
+</svg>

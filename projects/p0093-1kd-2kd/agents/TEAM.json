@@ -1,0 +1,42 @@
+{
+  "book": "P0093 Toyota 1KD-FTV 2KD-FTV",
+  "timezone": "Asia/Bangkok",
+  "deadline": "2026-10-21T07:00:00+07:00",
+  "automation_id": "p0093-1kd-2kd-07",
+  "cadence": "hourly at minute 00 and 30, ending at the deadline",
+  "roles": [
+    {
+      "name": "p0093_oem_research",
+      "owns": [
+        "research/"
+      ]
+    },
+    {
+      "name": "p0093_circuit_author",
+      "owns": [
+        "circuits/"
+      ]
+    },
+    {
+      "name": "p0093_diagnostic_editor",
+      "owns": [
+        "manuscript/DIAGNOSTIC_WORKFLOW.md",
+        "manuscript/REPAIR_MATRIX.md"
+      ]
+    }
+  ],
+  "coordinator_owns": [
+    "STATUS.md",
+    "BOOK_PLAN.md",
+    "master manuscript",
+    "final artifacts"
+  ],
+  "user_requirements": [
+    "deep operating circuits",
+    "P0093 only",
+    "1KD and 2KD applicability separated",
+    "fault isolation",
+    "cause-confirmed repairs",
+    "post-repair verification"
+  ]
+}

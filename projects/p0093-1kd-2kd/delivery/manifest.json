@@ -1,0 +1,75 @@
+{
+  "edition": "2026-10-21",
+  "status": "delivered with incomplete final visual QA",
+  "book_visual_reviewed_pages": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+  ],
+  "course_final_visual_reviewed_pages": [],
+  "docx_visual_approved": false,
+  "source_archive_files": 123,
+  "files": [
+    {
+      "file": "P0093_1KD_2KD_Book.pdf",
+      "bytes": 4188692,
+      "sha256": "f5174053131447d35b81cfa8ccfcee0fa97f7831d4faed7737b746724fa19836",
+      "pages": 71
+    },
+    {
+      "file": "P0093_1KD_2KD_Course.pdf",
+      "bytes": 966761,
+      "sha256": "46a15e0d432a458ebc0f0de35574816e76551c0b72b14d07232e5e55525c7161",
+      "pages": 15
+    },
+    {
+      "file": "P0093_1KD_2KD_Editable_Source.docx",
+      "bytes": 1395571,
+      "sha256": "1949502037ade962180591b97cf8f29b32e2f36d636db04e0c600e0714d63053",
+      "pages": null
+    },
+    {
+      "file": "P0093_Editable_Sources.zip",
+      "bytes": 3536616,
+      "sha256": "cb36639019a9d2bd6d6921ae5471082a5b7d98528173cdac774005b79e7659aa",
+      "pages": null
+    },
+    {
+      "file": "QA_STATUS.md",
+      "bytes": 2219,
+      "sha256": "dea4983031161c9e0a8c2706dc1bc243cbfeefefea515d847bbd35a14cdca6ce",
+      "pages": null
+    },
+    {
+      "file": "READ_ME_TH.md",
+      "bytes": 7746,
+      "sha256": "959d167ef8349a9b2412444ab6141492faca1cf27c93d1a0c53d49fa609f74ea",
+      "pages": null
+    }
+  ]
+}

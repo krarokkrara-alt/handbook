@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="980" viewBox="0 0 1800 980"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke" /></marker></defs><rect width="1800" height="980" fill="white" />
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">ด้านดูด: จุดวัดอยู่ตรงไหน เปลี่ยนความหมายของค่าแรงดัน</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">Suction-side diagnosis: compare location, load and flow conditions</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="22" fill="#596a75">หลักการวัดด้านดูดเฉพาะระบบ vacuum-fed ที่ยืนยันแล้ว | ไม่มีเกณฑ์ vacuum สากล | ไม่ใช่การวัดรางแรงดันสูง</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2" />
+<rect x="80" y="350" width="240" height="150" rx="12" fill="#f5f8fa" stroke="#147aa5" stroke-width="3" />
+<text x="98" y="387" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">ถังน้ำมัน</text>
+<text x="98" y="422" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">pickup / vent</text>
+<rect x="750" y="350" width="260" height="150" rx="12" fill="#f5f8fa" stroke="#147aa5" stroke-width="3" />
+<text x="768" y="387" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">กรองน้ำมัน</text>
+<text x="768" y="422" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">FILTER</text>
+<rect x="1450" y="350" width="270" height="150" rx="12" fill="#f5f8fa" stroke="#147aa5" stroke-width="3" />
+<text x="1468" y="387" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">ปั๊มส่งเข้าราง</text>
+<text x="1468" y="422" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">SUPPLY PUMP</text>
+<polyline points="320,425 750,425" fill="none" stroke="#147aa5" stroke-width="6" marker-end="url(#arr)" />
+<polyline points="1010,425 1450,425" fill="none" stroke="#147aa5" stroke-width="6" marker-end="url(#arr)" />
+<circle cx="560" cy="425" r="7" fill="#182b3b" />
+<polyline points="560,425 560,300" fill="none" stroke="#147aa5" stroke-width="4" />
+<circle cx="560" cy="250" r="50" fill="white" stroke="#147aa5" stroke-width="4" />
+<text x="550" y="260" font-family="Arial, Leelawadee UI, sans-serif" font-size="28" fill="#147aa5">P</text>
+<text x="460" y="195" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">A: ก่อนกรอง</text>
+<circle cx="1210" cy="425" r="7" fill="#182b3b" />
+<polyline points="1210,425 1210,300" fill="none" stroke="#147aa5" stroke-width="4" />
+<circle cx="1210" cy="250" r="50" fill="white" stroke="#147aa5" stroke-width="4" />
+<text x="1200" y="260" font-family="Arial, Leelawadee UI, sans-serif" font-size="28" fill="#147aa5">P</text>
+<text x="1110" y="195" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">B: หลังกรอง</text>
+<rect x="170" y="650" width="1460" height="280" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3" />
+<text x="188" y="687" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">บันทึกตำแหน่ง A / B, รอบเครื่อง, โหลด, อุณหภูมิ และค่าแบบ gauge หรือ absolute ให้ครบ</text>
+<text x="188" y="722" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">เทียบก่อน–หลังกรองภายใต้สภาวะเดียวกัน: ความต่างความดันต้องตีความร่วมกับการไหล</text>
+<text x="188" y="757" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">อากาศเข้าด้านดูดอาจไม่มีน้ำมันเปียกภายนอก ตรวจท่อ ข้อต่อ ซีลกรอง และ primer</text>
+<text x="188" y="792" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">adapter / sight section ต้องรองรับดีเซลและสุญญากาศ ไม่สร้างจุดรั่วเพิ่ม</text>
+</svg>

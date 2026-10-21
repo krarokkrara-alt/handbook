@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke"/></marker></defs><rect width="1800" height="1250" fill="white"/>
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">P0093: ไล่เส้นทางน้ำมันทั้งแรงดันต่ำ แรงดันสูง และทางกลับ</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">P0093: follow fuel, not just the code</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="21" fill="#596a75">HYDRAULIC CIRCUIT | blue = low pressure / red = high pressure / green = return</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<rect x="70" y="310" width="190" height="120" rx="12" fill="#f5f8fa" stroke="#147aa5" stroke-width="3"/>
+<text x="88" y="347" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">FUEL TANK</text>
+<text x="88" y="382" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">pickup / vent</text>
+<rect x="340" y="310" width="210" height="120" rx="12" fill="#f5f8fa" stroke="#147aa5" stroke-width="3"/>
+<text x="358" y="347" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">FILTER</text>
+<text x="358" y="382" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">primer / seals</text>
+<rect x="650" y="280" width="240" height="180" rx="12" fill="#f5f8fa" stroke="#147aa5" stroke-width="3"/>
+<text x="668" y="317" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">SUPPLY PUMP</text>
+<text x="668" y="352" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">feed stage</text>
+<text x="668" y="387" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">SCV + plungers</text>
+<rect x="1010" y="300" width="260" height="130" rx="12" fill="#f5f8fa" stroke="#c53838" stroke-width="3"/>
+<text x="1028" y="337" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">COMMON RAIL</text>
+<text x="1028" y="372" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">pressure storage</text>
+<rect x="1400" y="300" width="280" height="130" rx="12" fill="#f5f8fa" stroke="#c53838" stroke-width="3"/>
+<text x="1418" y="337" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">INJECTOR x 4</text>
+<text x="1418" y="372" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">fuel to cylinder</text>
+<polyline points="260,370 340,370" fill="none" stroke="#147aa5" stroke-width="6" marker-end="url(#arr)"/>
+<polyline points="550,370 650,370" fill="none" stroke="#147aa5" stroke-width="6" marker-end="url(#arr)"/>
+<polyline points="890,370 1010,370" fill="none" stroke="#c53838" stroke-width="6" marker-end="url(#arr)"/>
+<polyline points="1270,370 1400,370" fill="none" stroke="#c53838" stroke-width="6" marker-end="url(#arr)"/>
+<polyline points="1540,430 1540,820 170,820 170,430" fill="none" stroke="#16805e" stroke-width="5" marker-end="url(#arr)"/>
+<text x="600" y="865" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">Injector control / leak-off return</text>
+<rect x="1010" y="570" width="400" height="125" rx="12" fill="#f5f8fa" stroke="#16805e" stroke-width="3"/>
+<text x="1028" y="607" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">RAIL RETURN DEVICE</text>
+<text x="1028" y="642" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">limiter OR discharge valve</text>
+<polyline points="1140,430 1140,570" fill="none" stroke="#c53838" stroke-width="5" marker-end="url(#arr)"/>
+<polyline points="1210,695 1210,820" fill="none" stroke="#16805e" stroke-width="5" marker-end="url(#arr)"/>
+<circle cx="1210" cy="820" r="7" fill="#182b3b"/>
+<polyline points="770,460 770,700 770,820" fill="none" stroke="#16805e" stroke-width="5" marker-end="url(#arr)"/>
+<circle cx="770" cy="820" r="7" fill="#182b3b"/>
+<text x="380" y="740" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#16805e">Pump overflow / case return</text>
+<circle cx="600" cy="370" r="12" fill="white" stroke="#ae6900" stroke-width="4"/>
+<text x="617" y="354" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#ae6900">A</text>
+<circle cx="950" cy="370" r="12" fill="white" stroke="#ae6900" stroke-width="4"/>
+<text x="967" y="354" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#ae6900">B</text>
+<circle cx="1340" cy="370" r="12" fill="white" stroke="#ae6900" stroke-width="4"/>
+<text x="1357" y="354" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#ae6900">C</text>
+<circle cx="1500" cy="820" r="12" fill="white" stroke="#ae6900" stroke-width="4"/>
+<text x="1517" y="804" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#ae6900">D</text>
+<polyline points="60,1040 1740,1040" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<text x="70" y="1080" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">A: restriction / air ingress can reduce pump filling without leaving an external wet leak.</text>
+<text x="70" y="1115" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">B / C: inspect high-pressure connections only with the approved depressurisation procedure.</text>
+<text x="70" y="1150" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">D: return flow is normal; excessive loss must be tested by the correct component procedure.</text>
+<text x="60" y="1220" font-family="Arial, Leelawadee UI, sans-serif" font-size="19" fill="#596a75">01_hydraulic_paths | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1030" viewBox="0 0 1800 1030"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke" /></marker></defs><rect width="1800" height="1030" fill="white" />
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">อ่านเหตุการณ์ก่อน ECU ตัด ไม่ตัดสินจากแรงดันหลังดับ</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">Read the seconds before fail-safe, not only the stalled engine</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="22" fill="#596a75">ตัวอย่างสมมติ NC application | กราฟสังเคราะห์ ไม่ใช่คลื่นวัดจริง ไม่มีค่า OEM และไม่แทนพฤติกรรม NO</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2" />
+<text x="65" y="290" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#182b3b">TARGET</text>
+<polyline points="350,350 1700,350" fill="none" stroke="#b5c4cc" stroke-width="2" />
+<polyline points="350,200 350,350" fill="none" stroke="#b5c4cc" stroke-width="2" />
+<text x="65" y="480" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#182b3b">ACTUAL</text>
+<polyline points="350,540 1700,540" fill="none" stroke="#b5c4cc" stroke-width="2" />
+<polyline points="350,390 350,540" fill="none" stroke="#b5c4cc" stroke-width="2" />
+<text x="65" y="670" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#182b3b">SCV CURRENT</text>
+<polyline points="350,730 1700,730" fill="none" stroke="#b5c4cc" stroke-width="2" />
+<polyline points="350,580 350,730" fill="none" stroke="#b5c4cc" stroke-width="2" />
+<text x="65" y="860" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#182b3b">INJECTION</text>
+<polyline points="350,920 1700,920" fill="none" stroke="#b5c4cc" stroke-width="2" />
+<polyline points="350,770 350,920" fill="none" stroke="#b5c4cc" stroke-width="2" />
+<polyline points="350,270 750,270 850,220 1700,220" fill="none" stroke="#147aa5" stroke-width="5" />
+<polyline points="350,460 750,460 850,425 1000,450 1120,490 1370,510 1440,530 1700,530" fill="none" stroke="#c53838" stroke-width="5" />
+<polyline points="350,650 750,650 850,620 1100,580 1370,580 1440,690 1700,690" fill="none" stroke="#16805e" stroke-width="5" />
+<polyline points="390,880 390,810 410,810 410,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="460,880 460,810 480,810 480,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="530,880 530,810 550,810 550,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="600,880 600,810 620,810 620,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="670,880 670,810 690,810 690,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="740,880 740,810 760,810 760,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="810,880 810,810 830,810 830,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="880,880 880,810 900,810 900,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="950,880 950,810 970,810 970,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="1020,880 1020,810 1040,810 1040,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="1090,880 1090,810 1110,810 1110,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="1160,880 1160,810 1180,810 1180,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="1230,880 1230,810 1250,810 1250,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="1300,880 1300,810 1320,810 1320,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="1370,880 1370,810 1390,810 1390,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="1400,880 1700,880" fill="none" stroke="#182b3b" stroke-width="3" />
+<polyline points="1400,180 1400,950" fill="none" stroke="#ae6900" stroke-width="3" stroke-dasharray="12 8" />
+<text x="1230" y="1005" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#ae6900">FAIL-SAFE / CUT-OFF</text>
+</svg>

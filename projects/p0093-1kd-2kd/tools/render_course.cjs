@@ -1,0 +1,3 @@
+const path=require('path');
+const {chromium}=require('C:/Users/Admin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const root=path.resolve(__dirname,'..','production');const b=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});const page=await b.newPage();await page.goto('file:///'+path.join(root,'course_guide.html').replaceAll('\\','/'));await page.evaluate(()=>document.fonts.ready);await page.pdf({path:path.join(root,'course_guide.pdf'),preferCSSPageSize:true,printBackground:true,tagged:true});await b.close()})();

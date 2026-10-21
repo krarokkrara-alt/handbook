@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke"/></marker></defs><rect width="1800" height="1250" fill="white"/>
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">ตัวอย่างเฉพาะ DR201E: สายเซ็นเซอร์รางถึง ECM</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">DR201E / Hilux TASA made for Argentina: verified circuit connections</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="21" fill="#596a75">MODEL-SPECIFIC EXAMPLE | source Toyota DR201E p.05-73 / 05-75 | confirm applicability before use</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<rect x="70" y="270" width="390" height="590" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="88" y="307" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">F9: RAIL SENSOR</text>
+<text x="88" y="342" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">VC: terminal 3</text>
+<text x="88" y="377" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">PR: terminal 2</text>
+<text x="88" y="412" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">E2: terminal 1</text>
+<rect x="1310" y="270" width="420" height="590" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="1328" y="307" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">ECM: E8 CONNECTOR</text>
+<text x="1328" y="342" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">VC: terminal 18</text>
+<text x="1328" y="377" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">PCR1: terminal 26</text>
+<text x="1328" y="412" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">E2: terminal 28</text>
+<polyline points="460,470 700,470" fill="none" stroke="#182b3b" stroke-width="4"/>
+<rect x="700" y="430" width="280" height="80" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="718" y="467" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">J6 junction E -&gt; E</text>
+<polyline points="980,470 1310,470" fill="none" stroke="#147aa5" stroke-width="4"/>
+<text x="490" y="420" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#147aa5">F9-3 / VC</text>
+<text x="1040" y="420" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#147aa5">E8-18 / VC</text>
+<polyline points="460,620 1310,620" fill="none" stroke="#182b3b" stroke-width="4"/>
+<text x="490" y="585" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#182b3b">F9-2 / PR</text>
+<text x="1030" y="585" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#182b3b">E8-26 / PCR1</text>
+<polyline points="460,770 700,770" fill="none" stroke="#16805e" stroke-width="4"/>
+<rect x="700" y="730" width="330" height="80" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="718" y="767" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">J7(B) -&gt; J/C -&gt; J8(B)</text>
+<polyline points="1030,770 1310,770" fill="none" stroke="#16805e" stroke-width="4"/>
+<text x="490" y="720" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#16805e">F9-1 / E2</text>
+<text x="1090" y="720" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#16805e">E8-28 / E2</text>
+<text x="100" y="950" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">Functional connection map only: connector face orientation and wire colours are not reproduced.</text>
+<polyline points="60,1040 1740,1040" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<text x="70" y="1080" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">ผังต่อสายวาดใหม่จากคู่มือ DR201E หน้า 05–73 ไม่ใช่ผังสากลของ 1KD / 2KD ทุกปี</text>
+<text x="70" y="1115" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">ชื่อขั้ว F9 / E8 เป็นรหัสเอกสารนี้ ก่อนใช้จริงต้องยืนยันรุ่น ECU และมุมมองขั้วปลั๊ก</text>
+<text x="70" y="1150" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">RM1151E มีวงจรเซ็นเซอร์หลายสายต่างออกไป ห้ามนำเลขขาภาพนี้ข้ามเอกสาร</text>
+<text x="60" y="1220" font-family="Arial, Leelawadee UI, sans-serif" font-size="19" fill="#596a75">11_dr201e_rail_connections | ผังวาดใหม่เฉพาะ DR201E / TASA Argentina | MODEL-SPECIFIC REDRAW</text>
+</svg>

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "scope": "Local source aliases used in DIAGNOSTIC_WORKFLOW.md, REPAIR_MATRIX.md and CASE_WORKBOOK.md",
+  "updated_local_date": "2026-10-21",
+  "instructions": "Normalize citations using canonical_source_id when present. A null ID requires the research editor to register a new source; this file does not modify the research ledger.",
+  "aliases": [
+    {
+      "local_alias": "T1",
+      "canonical_source_id": "T01",
+      "title": "Toyota Hilux Repair Manual Argentina DR201E P0093/78",
+      "url": "https://toyotamanuals.gitlab.io/hiluxoct2010/rm/dr201e/m_05_0084.pdf",
+      "pages": "05-84–05-88",
+      "origin": "Reproduced OEM document on third-party mirror",
+      "verified": "Full PDF text read; applicability limited to printed document heading"
+    },
+    {
+      "local_alias": "T2",
+      "canonical_source_id": "T05",
+      "title": "Toyota RM1151E ECD 1KD-FTV From August 2004 P0093/78",
+      "url": "https://toyotamanuals.gitlab.io/PZ471-Z00W0-CA/htmlweb/rm/rm1151e/m_05_0501.pdf",
+      "pages": "05-501–05-504",
+      "origin": "Reproduced OEM document on third-party mirror",
+      "verified": "Full PDF text read; vehicle market not established"
+    },
+    {
+      "local_alias": "D1",
+      "canonical_source_id": "D06",
+      "title": "DENSO Common Rail Suction Control Valve",
+      "url": "https://www.denso-am.eu/products/diesel-components/common-rail-suction-control-valve-scv",
+      "related_language_variant_source_id": "D02",
+      "origin": "Manufacturer official website",
+      "verified": "English page read; exact URL registered as D06; Italian D02 is a related language variant"
+    },
+    {
+      "local_alias": "D2",
+      "canonical_source_id": "D01",
+      "title": "DENSO Fourth generation common rail diesel diagnosis – suction control valve",
+      "url": "https://www.denso-am.eu/news/fourth-generation-common-rail-diesel-diagnosis-suction-control-valve",
+      "publication_date": "2023-05-11",
+      "origin": "Manufacturer official website",
+      "verified": "Full web article read; generation-four repair restrictions not generalized to all KD engines"
+    },
+    {
+      "local_alias": "D3",
+      "canonical_source_id": "D07",
+      "title": "DENSO Diesel Injector Replacement Warning Bulletin",
+      "url": "https://assets.denso-am.eu/production/attachments/Diesel-Injector-replacement-warning-Bulletin-English.pdf",
+      "pages": "1",
+      "origin": "Manufacturer official PDF",
+      "verified": "Full one-page PDF read. Register compensation code for coded injectors; consult OEM/DENSO tool to determine whether fuel-pump learning reset is necessary.",
+      "action": "Exact URL confirmed in research source_registry as D07"
+    },
+    {
+      "local_alias": "D4",
+      "canonical_source_id": "D03",
+      "title": "DENSO Common Rail Injector",
+      "url": "https://www.denso-am.eu/products/diesel-components/common-rail-injector",
+      "origin": "Manufacturer official website",
+      "verified": "Full web page read; does not provide KD-specific leak-off limits"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "delivered with incomplete final visual QA",
+  "pages": 70,
+  "pdf_sha256": "5b3771b92dc95549ccb0ac25c5a30864bf91b7503e27f1f5345c33ab6822a224",
+  "master_bytes": 225287,
+  "master_figures": 16,
+  "claims": 35,
+  "broken_local_links": [],
+  "pdf_renderer": "Chromium from shared semantic blocks",
+  "docx_render_limitation": "Word opened and repaginated prior draft but PDF export stalled; process stopped after >2 min. Latest DOCX contains TOC field and reduced forced page breaks; visual approval unavailable. Treat as editable companion, not pagination-certified.",
+  "qa_status": "Book final visually reviewed28/71; Course final0/15; see delivery/QA_STATUS.md",
+  "updated_at": "2026-10-21 04:07 +0700",
+  "reading_proof_sha256": "f5174053131447d35b81cfa8ccfcee0fa97f7831d4faed7737b746724fa19836",
+  "reading_proof_pages": 71
+}

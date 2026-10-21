@@ -1,0 +1,681 @@
+{
+  "version": "2026-10-21-print-r1",
+  "print_width_mm": 269,
+  "max_print_height_mm": 150,
+  "created": 16,
+  "external_caption_and_scope_required": true,
+  "diagrams": [
+    {
+      "id": "01",
+      "title_th": "เส้นทางน้ำมันครบวงจร",
+      "svg": "print/01_hydraulic_paths.svg",
+      "png": "print/01_hydraulic_paths.png",
+      "caption_th": "ภาพวาดใหม่แยกด้านดูดแรงดันต่ำ ท่อแรงดันสูง และน้ำมันไหลกลับ ไม่ใช่ผังติดตั้งรถเฉพาะคัน จุด A–D เป็นจุดอ้างอิงในภาพ ไม่ใช่ชื่อพอร์ต OEM",
+      "teaching_note_th": "ก่อนกล่าวหาว่าปั๊มเสีย ต้องรู้ว่าปั๊มได้รับน้ำมันพอหรือไม่ การรั่วด้านดูดอาจดูดอากาศเข้าโดยไม่เห็นน้ำมันเปียกด้านนอก ส่วน return เป็นทางเดินปกติ แต่ปริมาณมากเกินต้องพิสูจน์ตามขั้นตอนและสเปกรุ่นนั้น",
+      "sources": [
+        "https://www.denso-am.eu/products/diesel-components/common-rail-pump",
+        "https://www.denso-am.eu/products/diesel-components",
+        "https://www.pumbaoverland.com/files/TOYOTA_Injection_manual_1KD_2KD.pdf"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/01_hydraulic_paths.svg",
+      "print_png": "print/01_hydraulic_paths.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        930
+      ],
+      "canvas_px": [
+        1800,
+        930
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 269,
+      "expected_min_font_pt_at_fit": 9.32,
+      "source_ids": [],
+      "unregistered_source_urls": [
+        "https://www.denso-am.eu/products/diesel-components/common-rail-pump",
+        "https://www.denso-am.eu/products/diesel-components",
+        "https://www.pumbaoverland.com/files/TOYOTA_Injection_manual_1KD_2KD.pdf"
+      ],
+      "retained_scope_th": "ภาพหลักการ ไม่ใช่ผังขา OEM | ฟ้า = แรงดันต่ำ • แดง = แรงดันสูง • เขียว = น้ำมันกลับ",
+      "removed_below_drawing_text": [
+        "A: restriction / air ingress can reduce pump filling without leaving an external wet leak.",
+        "B / C: inspect high-pressure connections only with the approved depressurisation procedure.",
+        "D: return flow is normal; excessive loss must be tested by the correct component procedure.",
+        "01_hydraulic_paths | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "02",
+      "title_th": "วงป้อนกลับควบคุมแรงดัน",
+      "svg": "print/02_pressure_feedback.svg",
+      "png": "print/02_pressure_feedback.png",
+      "caption_th": "ECU เทียบแรงดันเป้าหมายกับค่าที่เซ็นเซอร์รายงาน แล้วปรับการเติมรางผ่าน SCV ภาพนี้เป็นวงควบคุมเชิงหน้าที่ ไม่ใช่อัลกอริทึมหรือ calibration ภายใน ECU Toyota",
+      "teaching_note_th": "คำสั่งเพิ่มแล้วแรงดันไม่ขึ้นไม่ได้พิสูจน์ว่าปั๊มเสียโดยลำพัง อาจเป็นการเติมไม่พอ การสูญเสียภายใน หรือข้อมูลป้อนกลับคลาดเคลื่อน ควรเก็บ target / actual / current พร้อมเงื่อนไขเดียวกัน",
+      "sources": [
+        "https://www.denso-am.eu/products/diesel-components/common-rail-suction-control-valve-scv",
+        "https://www.denso-am.eu/products/diesel-components/common-rail-pump",
+        "https://toyotamanuals.gitlab.io/PZ471-Z00W0-CA/htmlweb/rm/rm1151e/m_05_0501.pdf"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/02_pressure_feedback.svg",
+      "print_png": "print/02_pressure_feedback.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        960
+      ],
+      "canvas_px": [
+        1800,
+        960
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 269,
+      "expected_min_font_pt_at_fit": 9.32,
+      "source_ids": [
+        "D06",
+        "T05"
+      ],
+      "unregistered_source_urls": [
+        "https://www.denso-am.eu/products/diesel-components/common-rail-pump"
+      ],
+      "retained_scope_th": "วงป้อนกลับเชิงหน้าที่ | คำสั่งไม่พิสูจน์ปริมาณส่ง และ feedback ไม่ใช่การวัดอิสระ | ไม่ใช่อัลกอริทึม OEM",
+      "removed_below_drawing_text": [
+        "Actual pressure low + corrective command: check fuel balance AND credibility of the feedback.",
+        "SCV current present does not prove the valve moves or the pump displaces enough fuel.",
+        "Do not infer SCV direction from a scanner duty label; confirm valve type and PID definition.",
+        "02_pressure_feedback | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "03",
+      "title_th": "วงจรเซ็นเซอร์รางสามเส้น",
+      "svg": "print/03_sensor_electrical.svg",
+      "png": "print/03_sensor_electrical.png",
+      "caption_th": "ผังหลักการสามหน้าที่ reference / signal / sensor return พร้อมตำแหน่งเปรียบเทียบแรงดัน อิงตัวอย่างสามสาย DR201E และระบุความต่างจาก RM1151E หลายสาย ไม่กำหนดว่าเป็นปลั๊กสามขาทุก variant และไม่ให้หมายเลข cavity",
+      "teaching_note_th": "วัด reference เทียบ sensor return, signal เทียบ sensor return และตรวจ return เทียบขั้วกลับ ECU แยกกัน หาก reference ร่วมตกต้องตาม EWD ว่าอุปกรณ์ใดใช้ supply เดียวกัน ไม่ตัดสินเซ็นเซอร์จากแรงดันเทียบตัวถังอย่างเดียว",
+      "sources": [
+        "https://toyotamanuals.gitlab.io/hiluxoct2010/rm/dr201e/m_05_0070.pdf",
+        "https://toyotamanuals.gitlab.io/PZ471-Z00W0-CA/htmlweb/rm/rm1151e/m_05_0486.pdf"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/03_sensor_electrical.svg",
+      "print_png": "print/03_sensor_electrical.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        1030
+      ],
+      "canvas_px": [
+        1800,
+        1030
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 262.14,
+      "expected_min_font_pt_at_fit": 9.08,
+      "source_ids": [
+        "T02",
+        "T06"
+      ],
+      "unregistered_source_urls": [],
+      "retained_scope_th": "ภาพหลักการสามหน้าที่ | DR201E หน้า 05–73 / RM1151E หน้า 05–490 ต่างกัน | ยืนยันวงจรรถก่อนใช้",
+      "removed_below_drawing_text": [
+        "Measure reference-to-return and signal-to-return at the same operating condition.",
+        "A reference short may affect other sensors on the same supply; verify shared nets in the EWD.",
+        "Three functional nets shown, not a universal wire count: RM1151E uses a different sensor circuit.",
+        "03_sensor_electrical | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "04",
+      "title_th": "ตรวจวงขดลวด SCV ให้ครบสองขั้ว",
+      "svg": "print/04_scv_driver_measurement.svg",
+      "png": "print/04_scv_driver_measurement.png",
+      "caption_th": "ผังหลักการขดลวดและภาคขับ แสดง differential probe คร่อมสองขั้วกับ current clamp ที่สายเส้นเดียว ไม่สมมติว่าขั้วใดลงกราวด์ และไม่เปิดเผย topology OEM ที่ยังยืนยันไม่ได้",
+      "teaching_note_th": "มีแรงดันสวิตช์แต่ไม่มีกระแสควรตรวจขดลวด สาย ขั้วต่อ และการตั้งเครื่องมือก่อน มี current ไม่ได้แปลว่าวาล์วขยับได้ครบหรือปั๊มสร้างปริมาณน้ำมันได้พอ ขา scope แบบต่อ earth อาจลัดวงจรภาคขับ ต้องใช้การวัดที่เหมาะสม",
+      "sources": [
+        "https://www.denso-am.eu/products/diesel-components/common-rail-suction-control-valve-scv",
+        "https://www.denso-am.eu/news/fourth-generation-common-rail-diesel-diagnosis-suction-control-valve"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/04_scv_driver_measurement.svg",
+      "print_png": "print/04_scv_driver_measurement.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        920
+      ],
+      "canvas_px": [
+        1800,
+        920
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 269,
+      "expected_min_font_pt_at_fit": 9.32,
+      "source_ids": [
+        "D06",
+        "D01"
+      ],
+      "unregistered_source_urls": [],
+      "retained_scope_th": "ภาพหลักการวัดขดลวด | ไม่แสดง topology ภาคขับ และไม่ถือว่าขั้วใดเป็นกราวด์ตัวถัง",
+      "removed_below_drawing_text": [
+        "Voltage switching + no current: open coil, open harness, poor terminal, or test setup error.",
+        "Current rises + pressure response absent: valve movement and hydraulic delivery still need testing.",
+        "Use an isolated / differential setup of suitable rating; a grounded scope clip can short a driver output.",
+        "04_scv_driver_measurement | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "05",
+      "title_th": "เปรียบเทียบ SCV NC / NO",
+      "svg": "print/05_scv_nc_no.svg",
+      "png": "print/05_scv_nc_no.png",
+      "caption_th": "NC และ NO อ้างถึงสภาพเมื่อไม่จ่ายไฟ ภาพเปิด/ปิดเป็นภาพสอนหน้าที่ ไม่ใช่ภาพตัดขวางรูปร่างวาล์วจริง",
+      "teaching_note_th": "ห้ามใช้กฎถอดปลั๊กแล้วแรงดันขึ้นหรือลงแบบเดียวกับรถทุกคัน ต้องตรวจ pump / SCV part number และคู่มือของคันจริง ขนาด SV1 / SV2 เป็นอีกคุณลักษณะหนึ่ง ไม่ใช่คำแปลของ NC / NO",
+      "sources": [
+        "https://www.denso-am.eu/products/diesel-components/common-rail-suction-control-valve-scv",
+        "https://www.denso-am.eu/news/fourth-generation-common-rail-diesel-diagnosis-suction-control-valve",
+        "https://www.service-engine.com.ua/webroot/pdf/TOYOTA%201KD%202KD%20ENGINE.pdf"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/05_scv_nc_no.svg",
+      "print_png": "print/05_scv_nc_no.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        900
+      ],
+      "canvas_px": [
+        1800,
+        900
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 269,
+      "expected_min_font_pt_at_fit": 9.32,
+      "source_ids": [
+        "D06",
+        "D01",
+        "D05"
+      ],
+      "unregistered_source_urls": [],
+      "retained_scope_th": "ภาพหลักการสภาพไม่จ่ายไฟ | ห้ามใช้กฎถอดปลั๊กสากล ต้องยืนยันชนิด NC / NO ของคันจริง",
+      "removed_below_drawing_text": [
+        "DENSO HP3 / HP4 families include NC and NO applications. Identify the fitted pump / SCV first.",
+        "DENSO 00400706E (2009), section 2.2, describes NC SCV for its listed 1KD / 2KD applications.",
+        "This comparison explains rest state; it is NOT an instruction to unplug an SCV on a running engine.",
+        "05_scv_nc_no | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "06",
+      "title_th": "แยก limiter กับ discharge valve",
+      "svg": "print/06_limiter_discharge.svg",
+      "png": "print/06_limiter_discharge.png",
+      "caption_th": "เปรียบเทียบทางกลับที่ทำงานด้วยแรงไฮดรอลิกกับวาล์วระบายที่มีการสั่งไฟฟ้า ภาพแสดงสอง variant แยกกัน ไม่ได้ติดตั้งทั้งสองอย่างใน rail เดียวเสมอ",
+      "teaching_note_th": "limiter เปิดอาจเป็นผลจาก overpressure ก่อนหน้า จึงต้องดูเหตุการณ์ก่อนแรงดันตก ไม่เปลี่ยน limiter ทันทีทุกกรณี ส่วน discharge valve ต้องเพิ่มการตรวจคำสั่ง สายไฟ และ EDU ตามคู่มือรุ่นจริง",
+      "sources": [
+        "https://www.service-engine.com.ua/webroot/pdf/TOYOTA%201KD%202KD%20ENGINE.pdf",
+        "https://toyotamanuals.gitlab.io/PZ471-Z00W0-CA/htmlweb/rm/rm1151e/m_05_0501.pdf"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/06_limiter_discharge.svg",
+      "print_png": "print/06_limiter_discharge.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        1000
+      ],
+      "canvas_px": [
+        1800,
+        1000
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 269,
+      "expected_min_font_pt_at_fit": 9.32,
+      "source_ids": [
+        "D05",
+        "T05"
+      ],
+      "unregistered_source_urls": [],
+      "retained_scope_th": "ภาพเปรียบเทียบสอง variant | limiter ทางกล กับ discharge valve สั่งไฟฟ้า | เลือกตามรางและเอกสารรถจริง",
+      "removed_below_drawing_text": [
+        "A mechanically opened limiter may be a consequence of preceding overpressure, not the initial cause.",
+        "A commanded discharge valve adds wiring / EDU / command checks to the hydraulic return investigation.",
+        "DENSO 00400706E section 3.1 documents a variant change; confirm applicability, not engine name alone.",
+        "06_limiter_discharge | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "07",
+      "title_th": "การสั่งหัวฉีดและทาง return",
+      "svg": "print/07_injector_command_return.svg",
+      "png": "print/07_injector_command_return.png",
+      "caption_th": "แยกคำสั่ง ECU → EDU → ขดลวด ออกจากการเคลื่อนวาล์วควบคุม น้ำมันกลับ และเชื้อเพลิงออกหัวฉีด เป็นผังหน้าที่ ไม่ใช่วงจรภายใน EDU หรือสเปก pulse",
+      "teaching_note_th": "เมื่อพบ P0200 ร่วม ต้องเข้าทางตรวจวงจร EDU / injector ของรุ่นนั้น feedback ทางไฟฟ้าไม่ใช่มาตรวัดปริมาณฉีดหรือปริมาณรั่วกลับ และค่าชดเชยหัวฉีดปกติไม่ได้ตัดปัญหา leak-off ออกทั้งหมด",
+      "sources": [
+        "https://www.denso-am.eu/products/diesel-components",
+        "https://www.service-engine.com.ua/webroot/pdf/TOYOTA%201KD%202KD%20ENGINE.pdf",
+        "https://toyotamanuals.gitlab.io/PZ471-Z00W0-CA/htmlweb/rm/rm1151e/m_05_0501.pdf"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/07_injector_command_return.svg",
+      "print_png": "print/07_injector_command_return.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        930
+      ],
+      "canvas_px": [
+        1800,
+        930
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 269,
+      "expected_min_font_pt_at_fit": 9.32,
+      "source_ids": [
+        "D05",
+        "T05"
+      ],
+      "unregistered_source_urls": [
+        "https://www.denso-am.eu/products/diesel-components"
+      ],
+      "retained_scope_th": "ภาพหน้าที่ไฟฟ้าและน้ำมัน | การยืนยันกระแสไม่ใช่การวัดปริมาณฉีดหรือการรั่วกลับ | ไม่ใช่วงจรภายใน EDU",
+      "removed_below_drawing_text": [
+        "P0093 with P0200: follow the applicable EDU / injector electrical diagnosis before assuming fuel leakage.",
+        "Normal correction values or current pulses do not by themselves rule out excessive injector return.",
+        "Never apply battery voltage directly to an injector; drive and test equipment must match the injector type.",
+        "07_injector_command_return | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "08",
+      "title_th": "ความคลาดเคลื่อนจาก sensor return",
+      "svg": "print/08_ground_offset.svg",
+      "png": "print/08_ground_offset.png",
+      "caption_th": "แบบจำลองขั้วต่อมีความต้านทาน ทำให้ศักย์ไฟฟ้าของ return คนละจุดไม่เท่ากัน จึงต้องวัด voltage drop ขณะเกิดอาการ",
+      "teaching_note_th": "การวัดความต่อเนื่องตอนจอดอาจผ่านแต่ขณะสั่น/ร้อนไม่ผ่าน อย่าซ่อมด้วยการพ่วง sensor return ลงตัวถัง ต้องคืนสภาพขั้ว/สายตามผังจริง ทิศของ error ต้องพิจารณาจากวงจรและค่าที่วัด ไม่เหมาว่า ground เสียแล้วแรงดันอ่านสูงทุกกรณี",
+      "sources": [],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/08_ground_offset.svg",
+      "print_png": "print/08_ground_offset.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        1030
+      ],
+      "canvas_px": [
+        1800,
+        1030
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 262.14,
+      "expected_min_font_pt_at_fit": 9.08,
+      "source_ids": [],
+      "unregistered_source_urls": [],
+      "retained_scope_th": "แบบจำลองวงจรทั่วไป: Vread = Vsignal-to-local-return + Vreturn-offset | ไม่ใช่วงจรภายใน OEM",
+      "removed_below_drawing_text": [
+        "The direction and magnitude of error depend on the circuit and fault; use measured voltages.",
+        "Check voltage drop while the fault occurs; a static continuity test may miss intermittent resistance.",
+        "Do not bridge the sensor return to chassis as a repair. Restore the documented wiring / terminals.",
+        "08_ground_offset | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "09",
+      "title_th": "ลำดับก่อนเข้าสู่ fail-safe",
+      "svg": "print/09_pressure_event_sequence.svg",
+      "png": "print/09_pressure_event_sequence.png",
+      "caption_th": "ตัวอย่างกราฟสังเคราะห์ของ hypothetical NC application แสดง target / actual / SCV current / injection เพื่อฝึกอ่านลำดับเหตุการณ์ ไม่มีค่าจริง แกนเวลาไม่ใช่เวลาทริกเกอร์ของ ECU รูปร่างกระแสไม่ใช่สเปกผ่าน/ไม่ผ่านและไม่แทนการตอบสนองของ NO",
+      "teaching_note_th": "แรงดันต่ำหลัง ECU ตัดการฉีดไม่บอกต้นเหตุ ดูวินาทีก่อนโค้ดขึ้นและแยกเหตุออกจากผล การตอบสนอง current ในภาพไม่ควรคัดลอกใช้กับ NO application โดยไม่มีการแปลงทิศการควบคุม",
+      "sources": [
+        "https://toyotamanuals.gitlab.io/PZ471-Z00W0-CA/htmlweb/rm/rm1151e/m_05_0501.pdf"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/09_pressure_event_sequence.svg",
+      "print_png": "print/09_pressure_event_sequence.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        1030
+      ],
+      "canvas_px": [
+        1800,
+        1030
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 262.14,
+      "expected_min_font_pt_at_fit": 9.08,
+      "source_ids": [
+        "T05"
+      ],
+      "unregistered_source_urls": [],
+      "retained_scope_th": "ตัวอย่างสมมติ NC application | กราฟสังเคราะห์ ไม่ใช่คลื่นวัดจริง ไม่มีค่า OEM และไม่แทนพฤติกรรม NO",
+      "removed_below_drawing_text": [
+        "Example: target rises, actual fails to follow, correction rises, then injection is disabled.",
+        "Near-zero pressure AFTER cut-off does not identify the original failed component.",
+        "Synchronise rail target / actual, SCV command / current, RPM, voltage and DTC timing.",
+        "09_pressure_event_sequence | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "10",
+      "title_th": "สมดุลปริมาณเข้าออก rail",
+      "svg": "print/10_fuel_balance.svg",
+      "png": "print/10_fuel_balance.png",
+      "caption_th": "ภาพโมเดลอธิบายรางเป็นตัวสะสมแรงดัน: ปั๊มส่งเข้า, หัวฉีดจ่ายออก, return ภายใน และวาล์วระบาย ละการบีบอัด/อุณหภูมิ/คลื่นแรงดันเพื่ออ่านง่าย ไม่ใช่สมการวินิจฉัย ECU",
+      "teaching_note_th": "แรงดันตกมีได้จาก supply ลด outflow เพิ่ม หรือสัญญาณวัดผิด ชื่อโค้ดไม่ได้ระบุว่าต้องมีรูรั่วภายนอกขนาดใหญ่",
+      "sources": [
+        "https://www.denso-am.eu/products/diesel-components/common-rail-pump",
+        "https://www.denso-am.eu/products/diesel-components"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/10_fuel_balance.svg",
+      "print_png": "print/10_fuel_balance.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        1030
+      ],
+      "canvas_px": [
+        1800,
+        1030
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 262.14,
+      "expected_min_font_pt_at_fit": 9.08,
+      "source_ids": [],
+      "unregistered_source_urls": [
+        "https://www.denso-am.eu/products/diesel-components/common-rail-pump",
+        "https://www.denso-am.eu/products/diesel-components"
+      ],
+      "retained_scope_th": "แบบจำลองสมดุลการไหล | ไม่ใช่อัลกอริทึม ECU หรือเกณฑ์ calibration สำหรับตัดรหัส",
+      "removed_below_drawing_text": [
+        "A suction restriction, air ingress or weak pump lowers delivered volume; it is not external rail leakage.",
+        "Injector return / rail relief can lose pressure internally without a wet high-pressure pipe.",
+        "A P0093 code directs diagnosis; it does not determine which branch of this balance failed.",
+        "10_fuel_balance | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "11",
+      "title_th": "ตัวอย่างการต่อเซ็นเซอร์ราง DR201E",
+      "svg": "print/11_dr201e_rail_connections.svg",
+      "png": "print/11_dr201e_rail_connections.png",
+      "caption_th": "ผังต่อสายวาดใหม่จากเอกสาร Hilux 1KD/2KD TASA made for Argentina เท่านั้น: F9–3 VC ถึง E8–18 VC ผ่าน J6; F9–2 PR ถึง E8–26 PCR1; F9–1 E2 ถึง E8–28 E2 ผ่าน junction J7/J8 ไม่ใช่หมายเลขขารุ่นไทยทุกคัน",
+      "teaching_note_th": "วงจรนี้เป็นตัวอย่างที่ยืนยัน connector ID แล้ว แต่ยังต้องเทียบ application และมุมมองขั้วปลั๊กก่อนใช้จริง ไม่กำหนดซ้าย/ขวาหรือด้านสายจากภาพแผนผัง RM1151E มีตัวอย่างเซ็นเซอร์หลายสายต่างกันจึงไม่ย้ายเลขขาข้ามเอกสาร",
+      "sources": [
+        "https://toyotamanuals.gitlab.io/hiluxoct2010/rm/dr201e/m_05_0070.pdf"
+      ],
+      "scope": "verified connection redraw: Toyota DR201E Hilux TASA Argentina only; not universal pinout",
+      "print_svg": "print/11_dr201e_rail_connections.svg",
+      "print_png": "print/11_dr201e_rail_connections.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        1000
+      ],
+      "canvas_px": [
+        1800,
+        1000
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 269,
+      "expected_min_font_pt_at_fit": 9.32,
+      "source_ids": [
+        "T02"
+      ],
+      "unregistered_source_urls": [],
+      "retained_scope_th": "เฉพาะ DR201E / Hilux TASA Argentina | Toyota หน้า 05–73/75 | ยืนยัน application ก่อนใช้ ไม่แสดงมุมปลั๊ก",
+      "removed_below_drawing_text": [
+        "ผังต่อสายวาดใหม่จากคู่มือ DR201E หน้า 05–73 ไม่ใช่ผังสากลของ 1KD / 2KD ทุกปี",
+        "ชื่อขั้ว F9 / E8 เป็นรหัสเอกสารนี้ ก่อนใช้จริงต้องยืนยันรุ่น ECU และมุมมองขั้วปลั๊ก",
+        "RM1151E มีวงจรเซ็นเซอร์หลายสายต่างออกไป ห้ามนำเลขขาภาพนี้ข้ามเอกสาร",
+        "11_dr201e_rail_connections | ผังวาดใหม่เฉพาะ DR201E / TASA Argentina | MODEL-SPECIFIC REDRAW"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "12",
+      "title_th": "ตัวอย่างวงขดลวด SCV DR201E",
+      "svg": "print/12_dr201e_scv_connections.svg",
+      "png": "print/12_dr201e_scv_connections.png",
+      "caption_th": "ผังขดลวด SCV วาดใหม่จาก DR201E Hilux TASA Argentina: S8–1 ถึง E8–2 PCV+ และ S8–2 ถึง E8–1 PCV– เป็นข้อมูลเฉพาะชุดเอกสาร ไม่วาดภาคขับภายใน ECU ที่คู่มือไม่ได้ให้รายละเอียด",
+      "teaching_note_th": "PCV– เป็นชื่อวงจรไม่ใช่หลักฐานว่าเป็นกราวด์ตัวถัง การวัดคลื่นต้องใช้การวัดคร่อมที่เหมาะสมและ current clamp เส้นเดียว การทดสอบโอห์มหรือสายแบบดับเครื่องต้องแยกจากการวัดขณะระบบทำงานและใช้สเปกตรงรุ่น",
+      "sources": [
+        "https://toyotamanuals.gitlab.io/hiluxoct2010/rm/dr201e/m_05_0078.pdf"
+      ],
+      "scope": "verified connection redraw: Toyota DR201E Hilux TASA Argentina only; not universal pinout",
+      "print_svg": "print/12_dr201e_scv_connections.svg",
+      "print_png": "print/12_dr201e_scv_connections.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        1010
+      ],
+      "canvas_px": [
+        1800,
+        1010
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 267.33,
+      "expected_min_font_pt_at_fit": 9.26,
+      "source_ids": [
+        "T03"
+      ],
+      "unregistered_source_urls": [],
+      "retained_scope_th": "เฉพาะ DR201E / Hilux TASA Argentina | Toyota หน้า 05–80/82 | ไม่สมมติว่า PCV– เป็นกราวด์ตัวถัง",
+      "removed_below_drawing_text": [
+        "ผังวงขดลวดวาดใหม่ตาม DR201E หน้า 05–80 เฉพาะ application ของเอกสารนี้",
+        "ตรวจสายและขดลวดโดยแยกการทดสอบแบบดับเครื่องออกจากการวัดคลื่นขณะทำงาน",
+        "วัดแรงดันคร่อม PCV+ / PCV– ด้วยอุปกรณ์เหมาะสม ไม่สมมติว่า PCV– เป็นกราวด์ตัวถัง",
+        "12_dr201e_scv_connections | ผังวาดใหม่เฉพาะ DR201E / TASA Argentina | MODEL-SPECIFIC REDRAW"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "13",
+      "title_th": "แรงดันสูงก่อนแรงดันตก",
+      "svg": "print/13_overshoot_then_drop.svg",
+      "png": "print/13_overshoot_then_drop.png",
+      "caption_th": "เส้นทางหนึ่งที่ควรตรวจเมื่อ P1229 ร่วมกับ P0093 ในระบบที่มี mechanical limiter: ส่งน้ำมันมากเกิน แรงดันสูง เปิดทางระบาย แล้วแรงดันตก กราฟเป็นเส้นสังเคราะห์ไม่มีค่า OEM และไม่ใช่หลักฐานว่า limiter เปิดจริงในรถที่กำลังตรวจ",
+      "teaching_note_th": "ให้ผู้เรียนหาหลักฐานก่อนเวลาตัด ไม่สรุปจากแรงดันต่ำตอนจบ หากรถเป็น discharge valve สั่งไฟฟ้าต้องเปลี่ยนทางตรวจตามระบบ ไม่ใช้ภาพ limiter แทนทุก variant",
+      "sources": [
+        "https://www.denso-am.eu/news/fourth-generation-common-rail-diesel-diagnosis-suction-control-valve",
+        "https://toyotamanuals.gitlab.io/PZ471-Z00W0-CA/htmlweb/rm/rm1151e/m_05_0501.pdf"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/13_overshoot_then_drop.svg",
+      "print_png": "print/13_overshoot_then_drop.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        1020
+      ],
+      "canvas_px": [
+        1800,
+        1020
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 264.71,
+      "expected_min_font_pt_at_fit": 9.17,
+      "source_ids": [
+        "D01",
+        "T05"
+      ],
+      "unregistered_source_urls": [],
+      "retained_scope_th": "สมมติฐานทางวินิจฉัยสำหรับ mechanical limiter | ต้องพิสูจน์เหตุ ไม่ใช่ทุก P0093 | กราฟไม่มีค่า OEM",
+      "removed_below_drawing_text": [
+        "Toyota RM1151E หน้า 05–501 เตือนเส้นทาง P1229 ร่วม: แรงดันสูงเปิด limiter แล้วพบ P0093 ได้",
+        "อย่าเปลี่ยน limiter จากค่าแรงดันต่ำปลายเหตุอย่างเดียว ตรวจข้อมูลก่อนและหลังเหตุการณ์",
+        "ถ้าเป็นวาล์วระบายสั่งไฟฟ้า ให้ใช้ผัง variant นั้นและตรวจคำสั่ง ECU / EDU เพิ่ม",
+        "13_overshoot_then_drop | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "14",
+      "title_th": "จุดวัดแรงดันด้านดูด",
+      "svg": "print/14_suction_measurement.svg",
+      "png": "print/14_suction_measurement.png",
+      "caption_th": "แผนวัดก่อนและหลังกรองในระบบดูดน้ำมันที่ยืนยัน configuration แล้ว เป็นผังหลักการตำแหน่งวัด ไม่ใช่ชุด sight-block / stop-tap ของ Pico และไม่ให้เกณฑ์ vacuum ผ่านหรือไม่ผ่าน",
+      "teaching_note_th": "บันทึกตำแหน่งจริง ชนิดเกจ รอบ โหลด อุณหภูมิ และสภาวะเดียวกันก่อนเปรียบเทียบ ความดันต่างก่อน–หลังต้องตีความร่วมการไหล และการรั่วด้านดูดอาจนำอากาศเข้าโดยไม่เห็นน้ำมันภายนอก ภาพไม่สอนปิดท่อเพื่อทำให้เครื่องดับและไม่อนุญาตเกจแรงดันต่ำต่อเข้ารางแรงดันสูง",
+      "sources": [
+        "https://www.picoauto.com/library/automotive-guided-tests/pressure-transducers/wps500x-pressure-transducer/AGT-833-negative-priming-fuel-pressure-diesel/"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/14_suction_measurement.svg",
+      "print_png": "print/14_suction_measurement.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        980
+      ],
+      "canvas_px": [
+        1800,
+        980
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 269,
+      "expected_min_font_pt_at_fit": 9.32,
+      "source_ids": [],
+      "unregistered_source_urls": [
+        "https://www.picoauto.com/library/automotive-guided-tests/pressure-transducers/wps500x-pressure-transducer/AGT-833-negative-priming-fuel-pressure-diesel/"
+      ],
+      "retained_scope_th": "หลักการวัดด้านดูดเฉพาะระบบ vacuum-fed ที่ยืนยันแล้ว | ไม่มีเกณฑ์ vacuum สากล | ไม่ใช่การวัดรางแรงดันสูง",
+      "removed_below_drawing_text": [
+        "ภาพนี้เป็นการวัดด้านแรงดันต่ำ ไม่ต่อเกจชนิดนี้เข้าท่อ common rail แรงดันสูง",
+        "ใช้วิธีและเกณฑ์ของรุ่นจริง ห้ามสร้างค่า vacuum สากล และไม่ปิดท่อดูดเพื่อเร่งให้เครื่องดับ",
+        "Pico AGT-833 เป็นแหล่งหลักการ vacuum-fed supply; ภาพนี้ไม่คัดลอกชุดทดสอบเฉพาะเครื่องมือ",
+        "14_suction_measurement | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "15",
+      "title_th": "เงื่อนไขของการทดสอบน้ำมันกลับ",
+      "svg": "print/15_return_test_conditions.svg",
+      "png": "print/15_return_test_conditions.png",
+      "caption_th": "ผังเลือกวิธีทดสอบและเก็บเงื่อนไขน้ำมันกลับก่อนแปลผล ข้อจำกัด solenoid / low-return-pressure เป็นขอบเขตวิธี AGT-786 ไม่ใช่การประกาศว่า injector return ทุกแบบถอดลงภาชนะเปิดได้",
+      "teaching_note_th": "ไม่สร้างค่า mL กลางสำหรับทุกชุดหัวฉีด การเปรียบเทียบต้องเก็บ rail target / actual, รอบ, โหลด, อุณหภูมิ, เวลา และแรงดันทางกลับ การทดลองที่ทำให้แรงดันทางกลับซึ่งระบบต้องการหายไปอาจผิดวิธี ต้องเลือก manual / adapter ของ application จริง",
+      "sources": [
+        "https://www.picoauto.com/library/automotive-guided-tests/pres/wps500x-pressure-transducer/AGT-786-crd-injector-back-leakage/"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/15_return_test_conditions.svg",
+      "print_png": "print/15_return_test_conditions.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        1020
+      ],
+      "canvas_px": [
+        1800,
+        1020
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 264.71,
+      "expected_min_font_pt_at_fit": 9.17,
+      "source_ids": [
+        "P01"
+      ],
+      "unregistered_source_urls": [],
+      "retained_scope_th": "ผังเลือกวิธีทดสอบ | ต้องตรงชนิดหัวฉีดและแรงดันทางกลับ | ไม่ใช่วิธีถอด return ที่ใช้ได้ทุกระบบ",
+      "removed_below_drawing_text": [
+        "Pico AGT-786 จำกัดวิธีของตนไว้กับ solenoid / low-return-pressure system; ไม่ใช่สเปก Toyota ทุกคัน",
+        "ปริมาณกลับและ balance ขึ้นกับ rail pressure และสภาพระบบรวม จึงต้องเก็บบริบทขณะเกิดอาการ",
+        "ภาพเป็นแผนเลือกวิธีตรวจ ไม่ใช่คำสั่งต่อชุดทดสอบที่อนุญาตกับรถทุกแบบ",
+        "15_return_test_conditions | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    },
+    {
+      "id": "16",
+      "title_th": "ผังวินิจฉัยด้วยหลักฐาน",
+      "svg": "print/16_p0093_evidence_workflow.svg",
+      "png": "print/16_p0093_evidence_workflow.png",
+      "caption_th": "ผังภาพสรุปของผู้เขียนตั้งแต่ยืนยันระบบ เก็บ freeze frame / รหัสร่วม แยกความน่าเชื่อถือสัญญาณ แยกปริมาณเข้าออก และตรวจผลหลังซ่อม ไม่ใช่ผังขั้นตอน Toyota ที่ใช้แทน repair manual ทุกข้อ",
+      "teaching_note_th": "นำกรณีศึกษาให้ผู้เรียนเลือกหลักฐานก่อนเลือกอะไหล่ หากมี P0200 ต้องใช้ทาง EDU / injector ที่เกี่ยวข้อง และถ้ามี overshoot ก่อนตกให้พิสูจน์เหตุการระบาย หลังแก้ต้องทดสอบเงื่อนไขเดิมอย่างปลอดภัย ไม่จบที่ลบโค้ด",
+      "sources": [
+        "https://www.denso-am.eu/products/diesel-components/common-rail-suction-control-valve-scv",
+        "https://toyotamanuals.gitlab.io/PZ471-Z00W0-CA/htmlweb/rm/rm1151e/m_05_0501.pdf",
+        "https://toyotamanuals.gitlab.io/hiluxoct2010/rm/dr201e/m_05_0070.pdf",
+        "https://toyotamanuals.gitlab.io/hiluxoct2010/rm/dr201e/m_05_0078.pdf",
+        "https://www.picoauto.com/library/automotive-guided-tests/pres/wps500x-pressure-transducer/AGT-786-crd-injector-back-leakage/"
+      ],
+      "scope": "original educational concept; not universal OEM wiring; no inferred pinout",
+      "print_svg": "print/16_p0093_evidence_workflow.svg",
+      "print_png": "print/16_p0093_evidence_workflow.png",
+      "viewbox": [
+        0,
+        0,
+        1800,
+        1035
+      ],
+      "canvas_px": [
+        1800,
+        1035
+      ],
+      "min_main_font_px": 22,
+      "expected_width_mm_fit_269x150": 260.87,
+      "expected_min_font_pt_at_fit": 9.04,
+      "source_ids": [
+        "D06",
+        "T05",
+        "T02",
+        "T03",
+        "P01"
+      ],
+      "unregistered_source_urls": [],
+      "retained_scope_th": "ผังวิธีคิดของบรรณาธิการ ไม่ใช่ขั้นตอน Toyota ทุกข้อ | เลือกทางตรวจตามหลักฐานและคู่มือรถจริง",
+      "removed_below_drawing_text": [
+        "P0200 ร่วม: ใช้ทางตรวจวงจร EDU / หัวฉีดตามคู่มือ ไม่ข้ามไปเปลี่ยนปั๊ม",
+        "การอ่าน current / sensor ใช้เป็นหลักฐานประกอบ ไม่ใช่ข้อสรุปชิ้นส่วนเสียโดยลำพัง",
+        "ทดสอบซ้ำขณะร้อน / โหลดที่เคยเกิดอาการอย่างปลอดภัย ก่อนปิดงานด้วยการลบโค้ด",
+        "16_p0093_evidence_workflow | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT"
+      ],
+      "external_caption_required": true,
+      "review": "all 16 rendered print PNGs visually reviewed; bounds passed; final PDF fitting still requires QA; see PRINT_ASSETS.md"
+    }
+  ]
+}

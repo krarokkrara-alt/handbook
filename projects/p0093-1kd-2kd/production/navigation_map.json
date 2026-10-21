@@ -1,0 +1,140 @@
+[
+  {
+    "label": "ภาพ 01 เส้นทางน้ำมันครบวงจร",
+    "page": 2,
+    "kind": "plate",
+    "final_page": 3
+  },
+  {
+    "label": "ภาพ 02 วงป้อนกลับควบคุมแรงดัน",
+    "page": 3,
+    "kind": "plate",
+    "final_page": 4
+  },
+  {
+    "label": "ภาพ 03 วงจรเซ็นเซอร์รางสามเส้น",
+    "page": 4,
+    "kind": "plate",
+    "final_page": 5
+  },
+  {
+    "label": "ภาพ 04 ตรวจวงขดลวด SCV ให้ครบสองขั้ว",
+    "page": 5,
+    "kind": "plate",
+    "final_page": 6
+  },
+  {
+    "label": "ภาพ 05 เปรียบเทียบ SCV NC / NO",
+    "page": 6,
+    "kind": "plate",
+    "final_page": 7
+  },
+  {
+    "label": "ภาพ 06 แยก limiter กับ discharge valve",
+    "page": 7,
+    "kind": "plate",
+    "final_page": 8
+  },
+  {
+    "label": "ภาพ 07 การสั่งหัวฉีดและทาง return",
+    "page": 8,
+    "kind": "plate",
+    "final_page": 9
+  },
+  {
+    "label": "ภาพ 08 ความคลาดเคลื่อนจาก sensor return",
+    "page": 9,
+    "kind": "plate",
+    "final_page": 10
+  },
+  {
+    "label": "ภาพ 09 ลำดับก่อนเข้าสู่ fail-safe",
+    "page": 10,
+    "kind": "plate",
+    "final_page": 11
+  },
+  {
+    "label": "ภาพ 10 สมดุลปริมาณเข้าออก rail",
+    "page": 11,
+    "kind": "plate",
+    "final_page": 12
+  },
+  {
+    "label": "ภาพ 11 ตัวอย่างการต่อเซ็นเซอร์ราง DR201E",
+    "page": 12,
+    "kind": "plate",
+    "final_page": 13
+  },
+  {
+    "label": "ภาพ 12 ตัวอย่างวงขดลวด SCV DR201E",
+    "page": 13,
+    "kind": "plate",
+    "final_page": 14
+  },
+  {
+    "label": "ภาพ 13 แรงดันสูงก่อนแรงดันตก",
+    "page": 14,
+    "kind": "plate",
+    "final_page": 15
+  },
+  {
+    "label": "ภาพ 14 จุดวัดแรงดันด้านดูด",
+    "page": 15,
+    "kind": "plate",
+    "final_page": 16
+  },
+  {
+    "label": "ภาพ 15 เงื่อนไขของการทดสอบน้ำมันกลับ",
+    "page": 16,
+    "kind": "plate",
+    "final_page": 17
+  },
+  {
+    "label": "ภาพ 16 ผังวินิจฉัยด้วยหลักฐาน",
+    "page": 17,
+    "kind": "plate",
+    "final_page": 18
+  },
+  {
+    "label": "บทเรียนวงจรและลำดับการทำงาน",
+    "page": 20,
+    "kind": "section",
+    "final_page": 21
+  },
+  {
+    "label": "ภาคสอง วินิจฉัยจากหลักฐานไปถึงวิธีแก้",
+    "page": 27,
+    "kind": "section",
+    "final_page": 28
+  },
+  {
+    "label": "ภาคสาม ตารางแก้ปัญหาและการยืนยันผล",
+    "page": 33,
+    "kind": "section",
+    "final_page": 34
+  },
+  {
+    "label": "ภาคสี่ แบบฝึกกรณีจำลอง",
+    "page": 39,
+    "kind": "section",
+    "final_page": 40
+  },
+  {
+    "label": "ภาคห้า แบบบันทึกผลวัดและส่งมอบ",
+    "page": 51,
+    "kind": "section",
+    "final_page": 52
+  },
+  {
+    "label": "ภาคผนวก แหล่งข้อมูลและขอบเขตที่ต้องยืนยัน",
+    "page": 58,
+    "kind": "section",
+    "final_page": 59
+  },
+  {
+    "label": "ตารางอ้างอิงที่แยกตามเอกสาร",
+    "page": 62,
+    "kind": "section",
+    "final_page": 63
+  }
+]

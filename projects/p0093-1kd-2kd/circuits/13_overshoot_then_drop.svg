@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke"/></marker></defs><rect width="1800" height="1250" fill="white"/>
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">แรงดันตกอาจเริ่มจากแรงดันสูง: อ่าน P1229 ร่วมกับ P0093</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">Possible sequence: overfeed -&gt; overshoot -&gt; relief opens -&gt; pressure falls</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="21" fill="#596a75">DIAGNOSTIC WORKFLOW EXAMPLE | limiter configuration only; a causal hypothesis to prove, not every P0093</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<rect x="60" y="260" width="330" height="150" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="78" y="297" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">1. ส่งน้ำมันมากเกิน</text>
+<text x="78" y="332" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">SCV / control issue</text>
+<rect x="510" y="260" width="330" height="150" rx="12" fill="#f5f8fa" stroke="#c53838" stroke-width="3"/>
+<text x="528" y="297" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">2. แรงดันสูงเกิน</text>
+<text x="528" y="332" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">pressure overshoot</text>
+<rect x="960" y="260" width="330" height="150" rx="12" fill="#f5f8fa" stroke="#16805e" stroke-width="3"/>
+<text x="978" y="297" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">3. limiter เปิด</text>
+<text x="978" y="332" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#16805e">flow to return</text>
+<rect x="1410" y="260" width="330" height="150" rx="12" fill="#f5f8fa" stroke="#ae6900" stroke-width="3"/>
+<text x="1428" y="297" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">4. แรงดันตก</text>
+<text x="1428" y="332" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">P0093 may follow</text>
+<polyline points="390,335 510,335" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)"/>
+<polyline points="840,335 960,335" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)"/>
+<polyline points="1290,335 1410,335" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)"/>
+<text x="90" y="520" font-family="Arial, Leelawadee UI, sans-serif" font-size="28" fill="#182b3b">ตัวอย่างกราฟสังเคราะห์ — ไม่มีค่าความดันหรือเวลา OEM</text>
+<polyline points="170,860 1650,860" fill="none" stroke="#182b3b" stroke-width="3" marker-end="url(#arr)"/>
+<polyline points="170,860 170,580" fill="none" stroke="#182b3b" stroke-width="3" marker-end="url(#arr)"/>
+<text x="75" y="610" font-family="Arial, Leelawadee UI, sans-serif" font-size="22" fill="#182b3b">pressure</text>
+<text x="1560" y="910" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#182b3b">time</text>
+<polyline points="170,740 1650,740" fill="none" stroke="#147aa5" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="1450" y="715" font-family="Arial, Leelawadee UI, sans-serif" font-size="22" fill="#147aa5">target (example)</text>
+<polyline points="170,755 420,755 620,705 800,625 950,620 1070,780 1240,820 1650,820" fill="none" stroke="#c53838" stroke-width="5"/>
+<polyline points="990,560 990,930" fill="none" stroke="#16805e" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="790" y="970" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#16805e">ตรวจว่า limiter เปิดหลังช่วงแรงดันสูงจริงหรือไม่</text>
+<polyline points="60,1040 1740,1040" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<text x="70" y="1080" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">Toyota RM1151E หน้า 05–501 เตือนเส้นทาง P1229 ร่วม: แรงดันสูงเปิด limiter แล้วพบ P0093 ได้</text>
+<text x="70" y="1115" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">อย่าเปลี่ยน limiter จากค่าแรงดันต่ำปลายเหตุอย่างเดียว ตรวจข้อมูลก่อนและหลังเหตุการณ์</text>
+<text x="70" y="1150" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">ถ้าเป็นวาล์วระบายสั่งไฟฟ้า ให้ใช้ผัง variant นั้นและตรวจคำสั่ง ECU / EDU เพิ่ม</text>
+<text x="60" y="1220" font-family="Arial, Leelawadee UI, sans-serif" font-size="19" fill="#596a75">13_overshoot_then_drop | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT</text>
+</svg>

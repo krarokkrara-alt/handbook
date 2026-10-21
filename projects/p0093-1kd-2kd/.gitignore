@@ -1,0 +1,12 @@
+research/*.pdf
+research/*.tmp
+__pycache__/
+research/*_evidence.png
+production/*
+!production/reviews/
+production/reviews/*
+!production/reviews/*.md
+!production/docx_source_check.json
+!production/prototype_status.json
+!production/course_page_map.json
+!production/navigation_map.json

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke" /></marker></defs><rect width="1800" height="900" fill="white" />
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">SCV แบบ NC / NO: สภาพไม่จ่ายไฟต่างกัน</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">Two SCV rest states: never use one unplug rule for both</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="22" fill="#596a75">ภาพหลักการสภาพไม่จ่ายไฟ | ห้ามใช้กฎถอดปลั๊กสากล ต้องยืนยันชนิด NC / NO ของคันจริง</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2" />
+<rect x="100" y="240" width="710" height="600" rx="12" fill="#f5f8fa" stroke="#147aa5" stroke-width="3" />
+<text x="118" y="277" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">NORMALLY CLOSED (NC)</text>
+<polyline points="170,490 740,490" fill="none" stroke="#147aa5" stroke-width="7" marker-end="url(#arr)" />
+<rect x="410" y="420" width="70" height="140" fill="#c53838" />
+<text x="230" y="640" font-family="Arial, Leelawadee UI, sans-serif" font-size="28" fill="#c53838">Spring holds passage CLOSED</text>
+<text x="195" y="720" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#182b3b">No electrical command: intake restricted</text>
+<rect x="940" y="240" width="710" height="600" rx="12" fill="#f5f8fa" stroke="#147aa5" stroke-width="3" />
+<text x="958" y="277" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#147aa5">NORMALLY OPEN (NO)</text>
+<polyline points="1010,490 1580,490" fill="none" stroke="#147aa5" stroke-width="7" marker-end="url(#arr)" />
+<rect x="1250" y="340" width="70" height="100" fill="#16805e" />
+<text x="1070" y="640" font-family="Arial, Leelawadee UI, sans-serif" font-size="28" fill="#16805e">Spring holds passage OPEN</text>
+<text x="1020" y="720" font-family="Arial, Leelawadee UI, sans-serif" font-size="24" fill="#182b3b">No electrical command: intake can be high</text>
+</svg>

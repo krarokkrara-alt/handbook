@@ -1,0 +1,62 @@
+[
+  {
+    "label": "ภาพ 01",
+    "base_page": 2,
+    "course_page": 3
+  },
+  {
+    "label": "ภาพ 02",
+    "base_page": 3,
+    "course_page": 4
+  },
+  {
+    "label": "ภาพ 03",
+    "base_page": 4,
+    "course_page": 5
+  },
+  {
+    "label": "ภาพ 04",
+    "base_page": 5,
+    "course_page": 6
+  },
+  {
+    "label": "ภาพ 05",
+    "base_page": 6,
+    "course_page": 7
+  },
+  {
+    "label": "ภาพ 16",
+    "base_page": 17,
+    "course_page": 8
+  },
+  {
+    "label": "แบบ01 — ยืนยันรถ ชุดอุปกรณ์ และแหล่งข้อมูล",
+    "base_page": 52,
+    "course_page": 9
+  },
+  {
+    "label": "แบบ02 — รักษา DTC, freeze frame และลำดับเหตุการณ์",
+    "base_page": 53,
+    "course_page": 10
+  },
+  {
+    "label": "แบบ03 — ผลวัดที่มีเกณฑ์และเงื่อนไขกำกับ",
+    "base_page": 54,
+    "course_page": 11
+  },
+  {
+    "label": "แบบ04 — บัตรเลือกการทดสอบแยกสาเหตุ",
+    "base_page": 55,
+    "course_page": 12
+  },
+  {
+    "label": "แบบ05 — วิธีแก้และเปรียบเทียบก่อน–หลัง",
+    "base_page": 56,
+    "course_page": 13
+  },
+  {
+    "label": "แบบ06 — ส่งมอบและอธิบายสถานะอย่างตรงหลักฐาน",
+    "base_page": 57,
+    "course_page": 14
+  }
+]

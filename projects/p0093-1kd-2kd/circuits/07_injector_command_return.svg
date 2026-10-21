@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="context-stroke"/></marker></defs><rect width="1800" height="1250" fill="white"/>
+<text x="60" y="55" font-family="Arial, Leelawadee UI, sans-serif" font-size="32" fill="#182b3b">หัวฉีด: ตรวจทั้งการสั่งไฟฟ้าและน้ำมันไหลกลับ</text>
+<text x="60" y="100" font-family="Arial, Leelawadee UI, sans-serif" font-size="26" fill="#182b3b">Injection has an electrical path AND a fuel control path</text>
+<text x="60" y="140" font-family="Arial, Leelawadee UI, sans-serif" font-size="21" fill="#596a75">COMBINED PRINCIPLE | current confirmation is not a measurement of nozzle delivery or return leakage</text>
+<polyline points="60,165 1740,165" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<rect x="80" y="250" width="300" height="180" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="98" y="287" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">ENGINE ECU</text>
+<text x="98" y="322" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">injection request</text>
+<text x="98" y="357" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">timing / duration</text>
+<rect x="590" y="250" width="370" height="230" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="608" y="287" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">EDU</text>
+<text x="608" y="322" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">boost + current drive</text>
+<text x="608" y="357" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">diagnostic feedback</text>
+<rect x="1260" y="250" width="400" height="230" rx="12" fill="#f5f8fa" stroke="#182b3b" stroke-width="3"/>
+<text x="1278" y="287" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">INJECTOR SOLENOID</text>
+<text x="1278" y="322" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#182b3b">control valve movement</text>
+<polyline points="380,320 590,320" fill="none" stroke="#182b3b" stroke-width="4" marker-end="url(#arr)"/>
+<polyline points="590,400 380,400" fill="none" stroke="#147aa5" stroke-width="4" marker-end="url(#arr)"/>
+<text x="390" y="450" font-family="Arial, Leelawadee UI, sans-serif" font-size="22" fill="#147aa5">feedback</text>
+<polyline points="960,315 1260,315" fill="none" stroke="#182b3b" stroke-width="5" marker-end="url(#arr)"/>
+<polyline points="1260,420 960,420" fill="none" stroke="#182b3b" stroke-width="5"/>
+<text x="980" y="255" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">two-terminal drive</text>
+<rect x="1080" y="650" width="610" height="220" rx="12" fill="#f5f8fa" stroke="#c53838" stroke-width="3"/>
+<text x="1098" y="687" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">RAIL -&gt; CONTROL CHAMBER</text>
+<text x="1098" y="722" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">control valve -&gt; return</text>
+<text x="1098" y="757" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#c53838">needle lift -&gt; nozzle -&gt; cylinder</text>
+<polyline points="1460,480 1460,650" fill="none" stroke="#182b3b" stroke-width="3" marker-end="url(#arr)" stroke-dasharray="12 8"/>
+<rect x="80" y="650" width="690" height="220" rx="12" fill="#f5f8fa" stroke="#ae6900" stroke-width="3"/>
+<text x="98" y="687" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">TWO DIFFERENT QUESTIONS</text>
+<text x="98" y="722" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">Is electrical actuation correct?</text>
+<text x="98" y="757" font-family="Arial, Leelawadee UI, sans-serif" font-size="25" fill="#ae6900">Is fuel delivery / internal leakage correct?</text>
+<polyline points="60,1040 1740,1040" fill="none" stroke="#cad6dc" stroke-width="2"/>
+<text x="70" y="1080" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">P0093 with P0200: follow the applicable EDU / injector electrical diagnosis before assuming fuel leakage.</text>
+<text x="70" y="1115" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">Normal correction values or current pulses do not by themselves rule out excessive injector return.</text>
+<text x="70" y="1150" font-family="Arial, Leelawadee UI, sans-serif" font-size="23" fill="#182b3b">Never apply battery voltage directly to an injector; drive and test equipment must match the injector type.</text>
+<text x="60" y="1220" font-family="Arial, Leelawadee UI, sans-serif" font-size="19" fill="#596a75">07_injector_command_return | ภาพหลักการวาดใหม่ ไม่ใช่ผังขา OEM | EDUCATIONAL, NOT OEM PINOUT</text>
+</svg>
