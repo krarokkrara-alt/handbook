@@ -1,0 +1,17 @@
+{
+  "artifact": "output/ECU_Components_Course_Handout.pdf",
+  "pages": 26,
+  "sha256": "1ead2749f7611479646d9f3ed16fdd9c3a2221585013b092ac11ea95ef968209",
+  "real_component_photo_count": 12,
+  "additional_ecu_board_photos": "Reused viewports from unchanged user originals in parent project",
+  "ai_generated_component_photos": 0,
+  "missing_image_count": 0,
+  "visual_review": {
+    "pages_1_13": "review-technical-final.md",
+    "pages_14_26": "review-photo-final.md",
+    "initial_review_sha256": "0c6f50cfa70aca58736a89a58fd8a5728570bb24e129e4d94353932f8fa14d54",
+    "revision": "Only page 11 changed: NPN emitter arrow corrected. All other rendered page PNG hashes are identical to reviewed revision. Page 11 rechecked in technical review."
+  },
+  "hardware_testing": false,
+  "scope": "Basic component education; no verified pinout or actual ECU voltage specification"
+}

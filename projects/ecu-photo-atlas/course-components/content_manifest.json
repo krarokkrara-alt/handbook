@@ -1,0 +1,98 @@
+{
+  "planned_pages": 26,
+  "titles": [
+    "รู้จักอุปกรณ์บน ECU",
+    "อ่านตัวอักษรและหน่วยให้เป็น",
+    "R ตัวต้านทานแบบแท่ง",
+    "R แบบ SMD และการอ่านรหัส",
+    "Shunt ตัวต้านทานวัดกระแส",
+    "L ตัวเหนี่ยวนำและ ferrite bead",
+    "C เซรามิกและ MLCC",
+    "C อิเล็กโทรไลต์และขั้ว",
+    "D ไดโอด และรู้จัก TVS",
+    "LED ไดโอดเปล่งแสง",
+    "Q ทรานซิสเตอร์ BJT",
+    "Q MOSFET และขา G D S",
+    "IC หน้าตาเหมือนกัน หน้าที่ต่างกัน",
+    "X Y คริสตัลและเรโซเนเตอร์",
+    "CN J ปลั๊ก ลายทองแดง และ via",
+    "F ฟิวส์ กับ R0 และ FB",
+    "GND และจุดอ้างอิงของการวัด",
+    "อ่าน datasheet และแพ็กเกจก่อนเลือกอะไหล่",
+    "เลือกโหมดวัดให้ตรงคำถาม",
+    "เชื่อม R และ C เป็นวงจรอ่านง่าย",
+    "แบบฝึก 1 แยกสิ่งที่เห็นจากสิ่งที่เดา",
+    "แบบฝึก 2 ใบบันทึกการวัดบนบอร์ดฝึก",
+    "แนวคำตอบและเกณฑ์ตรวจผู้เรียน",
+    "เอกสารอ้างอิงและขอบเขต",
+    "เครดิตภาพถ่ายจริง 1",
+    "เครดิตภาพถ่ายจริง 2"
+  ],
+  "used_photo_ids": [
+    "bjt",
+    "ceramic",
+    "crystal",
+    "diode",
+    "electrolytic",
+    "fuse_photo",
+    "ic",
+    "inductor",
+    "led",
+    "mosfet",
+    "resistors",
+    "smd_resistor"
+  ],
+  "technical_references": [
+    [
+      "Fluke Resistance",
+      "https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-measure-resistance",
+      "หลักการวัด Ω และแยกพลังงาน"
+    ],
+    [
+      "Fluke Diode Test",
+      "https://www.fluke.com/en-ph/learn/blog/digital-multimeters/how-to-test-diodes",
+      "ข้อจำกัด diode mode"
+    ],
+    [
+      "Vishay Color Code",
+      "https://www.vishay.com/docs/20143/colorcod.pdf",
+      "สี ตัวคูณ และ tolerance"
+    ],
+    [
+      "State of the Art Part Marking",
+      "https://www.resistor.com/resources-marking.html",
+      "ระบบ marking ตัวต้านทาน"
+    ],
+    [
+      "Vishay Dale Notation",
+      "https://www.vishay.com/files/vishaysalesnet/PDFDocuments/Vishay%20Dale%20Wirewound%20Resistors.pdf",
+      "ตัวอย่าง R แทนทศนิยมตามรุ่น"
+    ],
+    [
+      "Murata DC Bias",
+      "https://www.murata.com/en-us/support/faqs/capacitor/ceramiccapacitor/char/0005",
+      "ความจุเซรามิกไดอิเล็กทริกสูงบางชนิด"
+    ],
+    [
+      "TI Ferrite",
+      "https://www.ti.com/document-viewer/lit/html/sluaai2",
+      "หลักการ ferrite ตามความถี่"
+    ],
+    [
+      "ROHM MOSFET Basics",
+      "https://techweb.rohm.com/product/transistors-diodes/transistors/5277/",
+      "V_GS(th) และการขับเกต"
+    ],
+    [
+      "Vishay IRF630",
+      "https://www.vishay.com/docs/91031/irf630.pdf",
+      "ตัวอย่างเบอร์ในภาพ ไม่ใช่อะไหล่ ECU ที่ยืนยัน"
+    ],
+    [
+      "Tektronix Probes",
+      "https://www.tek.com/en/documents/whitepaper/abcs-probes-primer",
+      "จุดอ้างอิงและผลโหลดของโพรบ"
+    ]
+  ],
+  "actual_ecu_test_specification": false
+}
