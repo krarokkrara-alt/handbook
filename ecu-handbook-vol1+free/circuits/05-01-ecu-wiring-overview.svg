@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" font-family="Tahoma, 'Noto Sans Thai', sans-serif" font-size="13">
+  <rect width="960" height="660" fill="#ffffff"/>
+  <defs>
+    <marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f5fbf"/></marker>
+  </defs>
+
+  <text x="480" y="30" text-anchor="middle" font-size="19" font-weight="bold">วงจร 5.1 สายที่ต้องต่อให้ ECU ทำงาน ตั้งแต่ไฟเลี้ยงถึงหัวฉีดและคอยล์</text>
+  <text x="480" y="52" text-anchor="middle" fill="#a32c2c">ผังหลักการ ชื่อขาเป็นตัวอย่างแบบ Toyota · เลขขาและชื่อจริงต้องดูผังไฟของรุ่น</text>
+
+  <!-- left: power inputs -->
+  <text x="30" y="88" font-weight="bold" font-size="14">① ไฟเลี้ยงและกราวด์</text>
+  <rect x="30" y="100" width="130" height="40" rx="5" fill="#fdeeee" stroke="#c0392b"/>
+  <text x="95" y="118" text-anchor="middle">แบตเตอรี่ +12 V</text>
+  <text x="95" y="133" text-anchor="middle" font-size="11">ผ่านฟิวส์</text>
+  <line x1="160" y1="120" x2="268" y2="120" stroke="#c0392b" stroke-width="2" marker-end="url(#r)"/>
+  <text x="214" y="112" text-anchor="middle" font-size="11" fill="#c0392b">BATT (ไฟตลอด)</text>
+
+  <rect x="30" y="160" width="130" height="40" rx="5" fill="#fdeeee" stroke="#c0392b"/>
+  <text x="95" y="178" text-anchor="middle">สวิตช์กุญแจ ON</text>
+  <text x="95" y="193" text-anchor="middle" font-size="11">สัญญาณปลุก</text>
+  <line x1="160" y1="180" x2="268" y2="180" stroke="#c0392b" stroke-width="2" marker-end="url(#r)"/>
+  <text x="214" y="172" text-anchor="middle" font-size="11" fill="#c0392b">IGSW</text>
+
+  <rect x="30" y="220" width="130" height="50" rx="5" fill="#fdeeee" stroke="#c0392b"/>
+  <text x="95" y="240" text-anchor="middle">รีเลย์หลัก (EFI)</text>
+  <text x="95" y="256" text-anchor="middle" font-size="11">ECU สั่งผ่านขา MREL</text>
+  <line x1="160" y1="245" x2="268" y2="245" stroke="#c0392b" stroke-width="2.5" marker-end="url(#r)"/>
+  <text x="214" y="237" text-anchor="middle" font-size="11" fill="#c0392b">+B (ไฟเลี้ยงหลัก)</text>
+  <line x1="268" y1="262" x2="160" y2="262" stroke="#555" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#k)"/>
+  <text x="214" y="277" text-anchor="middle" font-size="11" fill="#555">MREL สั่งรีเลย์</text>
+
+  <rect x="30" y="300" width="130" height="40" rx="5" fill="#f2f2f2" stroke="#222"/>
+  <text x="95" y="318" text-anchor="middle">กราวด์ตัวถัง/เครื่อง</text>
+  <text x="95" y="333" text-anchor="middle" font-size="11">หลายขา</text>
+  <line x1="268" y1="320" x2="160" y2="320" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+  <text x="214" y="312" text-anchor="middle" font-size="11">E1 / E01 / E02</text>
+
+  <!-- ECU box -->
+  <rect x="270" y="70" width="420" height="560" rx="10" fill="#eef4fc" stroke="#256abf" stroke-width="2"/>
+  <text x="290" y="94" font-weight="bold" font-size="15">ภายในกล่อง ECU</text>
+
+  <!-- Power IC -->
+  <rect x="290" y="110" width="150" height="150" rx="6" fill="#fff6d6" stroke="#b77700" stroke-width="2"/>
+  <text x="365" y="135" text-anchor="middle" font-weight="bold">Power IC</text>
+  <text x="365" y="155" text-anchor="middle" font-size="11">ภาคจ่ายไฟ</text>
+  <text x="300" y="182" font-size="11">• ตื่นเมื่อมี IGSW</text>
+  <text x="300" y="200" font-size="11">• สั่งรีเลย์หลัก</text>
+  <text x="300" y="218" font-size="11">• แปลง +B เป็น 5 V</text>
+  <text x="300" y="236" font-size="11">• สร้างสัญญาณ Reset</text>
+  <text x="300" y="252" font-size="11">• เฝ้า Watchdog</text>
+
+  <!-- MCU -->
+  <rect x="480" y="110" width="190" height="200" rx="6" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <text x="575" y="138" text-anchor="middle" font-weight="bold" font-size="15">MCU / CPU</text>
+  <text x="490" y="165" font-size="11">ต้องมีครบ 4 อย่าง</text>
+  <text x="490" y="185" font-size="11">1. ไฟเลี้ยง 5 V (หรือต่ำกว่า)</text>
+  <text x="490" y="203" font-size="11">2. Reset ปล่อยแล้ว</text>
+  <text x="490" y="221" font-size="11">3. Clock จากคริสตัล</text>
+  <text x="490" y="239" font-size="11">4. โปรแกรมและข้อมูล</text>
+  <text x="502" y="255" font-size="11">ใน Flash / EEPROM</text>
+  <rect x="610" y="270" width="40" height="22" rx="3" fill="#f2f2f2" stroke="#222"/>
+  <text x="630" y="286" text-anchor="middle" font-size="10">XTAL</text>
+  <line x1="440" y1="170" x2="478" y2="170" stroke="#c0392b" stroke-width="2" marker-end="url(#r)"/>
+  <text x="459" y="163" text-anchor="middle" font-size="10" fill="#c0392b">5 V</text>
+  <line x1="440" y1="230" x2="478" y2="230" stroke="#555" stroke-width="1.5" marker-end="url(#k)"/>
+  <text x="459" y="223" text-anchor="middle" font-size="10">RST</text>
+
+  <!-- sensor supply -->
+  <line x1="365" y1="260" x2="365" y2="350" stroke="#c0392b" stroke-width="1.5"/>
+  <line x1="365" y1="350" x2="200" y2="350" stroke="#c0392b" stroke-width="1.5"/>
+  <line x1="200" y1="350" x2="200" y2="390" stroke="#c0392b" stroke-width="1.5" marker-end="url(#r)"/>
+  <text x="375" y="346" font-size="11" fill="#c0392b">VC 5 V เลี้ยงเซนเซอร์</text>
+
+  <!-- inputs block -->
+  <rect x="290" y="365" width="150" height="160" rx="6" fill="#ffffff" stroke="#1f5fbf"/>
+  <text x="365" y="388" text-anchor="middle" font-weight="bold" fill="#1f5fbf">วงจรรับสัญญาณ</text>
+  <text x="300" y="410" font-size="11">กรอง RC + Clamp</text>
+  <text x="300" y="428" font-size="11">ADC รับแรงดัน</text>
+  <text x="300" y="446" font-size="11">วงจรปรับรูปคลื่น</text>
+  <text x="300" y="462" font-size="11">สำหรับ CKP / CMP</text>
+  <text x="300" y="484" font-size="11">CAN / K-line</text>
+  <text x="300" y="502" font-size="11">วัดแรงดัน +B</text>
+  <line x1="440" y1="430" x2="575" y2="430" stroke="#1f5fbf" stroke-width="2"/>
+  <line x1="575" y1="430" x2="575" y2="312" stroke="#1f5fbf" stroke-width="2" marker-end="url(#b)"/>
+
+  <!-- outputs -->
+  <rect x="480" y="450" width="190" height="70" rx="6" fill="#ffffff" stroke="#222"/>
+  <text x="575" y="472" text-anchor="middle" font-weight="bold">ภาคขับขาออก</text>
+  <text x="490" y="492" font-size="11">หัวฉีด: สับลงกราวด์ (8.2, 8.3)</text>
+  <text x="490" y="510" font-size="11">คอยล์: ส่งพัลส์ IGT (8.1)</text>
+  <line x1="630" y1="312" x2="630" y2="448" stroke="#222" stroke-width="2" marker-end="url(#k)"/>
+
+  <line x1="575" y1="520" x2="575" y2="538" stroke="#222" stroke-width="2" marker-end="url(#k)"/>
+  <rect x="480" y="540" width="190" height="70" rx="6" fill="#ffffff" stroke="#222"/>
+  <text x="575" y="562" text-anchor="middle" font-weight="bold">รีเลย์และอุปกรณ์อื่น</text>
+  <text x="490" y="582" font-size="11">ปั๊มน้ำมัน, พัดลม, ลิ้นปีกผีเสื้อ</text>
+  <text x="490" y="598" font-size="11">วาล์ว, โซลินอยด์เกียร์</text>
+
+  <!-- left: sensors -->
+  <text x="30" y="380" font-weight="bold" font-size="14">② สัญญาณเข้า MCU</text>
+  <rect x="30" y="392" width="200" height="215" rx="6" fill="#ffffff" stroke="#1f5fbf"/>
+  <text x="40" y="414" font-size="12" font-weight="bold">จำเป็นต่อการติดเครื่อง</text>
+  <text x="40" y="433" font-size="11">• CKP (NE) รอบและมุมข้อเหวี่ยง</text>
+  <text x="40" y="450" font-size="11">• CMP (G) แยกจังหวะสูบ</text>
+  <text x="40" y="467" font-size="11">• สัญญาณ Immo ผ่าน (2.1)</text>
+  <text x="40" y="490" font-size="12" font-weight="bold">ใช้คำนวณปริมาณและจังหวะ</text>
+  <text x="40" y="509" font-size="11">• MAP หรือ MAF ภาระเครื่อง</text>
+  <text x="40" y="526" font-size="11">• TPS / APP มุมลิ้นและคันเร่ง</text>
+  <text x="40" y="543" font-size="11">• ECT, IAT อุณหภูมิ</text>
+  <text x="40" y="560" font-size="11">• O2 / A/F ไอเสีย</text>
+  <text x="40" y="577" font-size="11">• Knock, STA, สวิตช์ต่างๆ</text>
+  <text x="40" y="597" font-size="10" fill="#555">กราวด์เซนเซอร์ (E2) กลับเข้ากล่อง</text>
+  <line x1="230" y1="470" x2="288" y2="470" stroke="#1f5fbf" stroke-width="2" marker-end="url(#b)"/>
+
+  <!-- right: actuators -->
+  <text x="710" y="440" font-weight="bold" font-size="14">③ อุปกรณ์ที่ถูกสั่ง</text>
+  <rect x="710" y="452" width="220" height="60" rx="6" fill="#fff" stroke="#222"/>
+  <text x="720" y="474" font-size="12" font-weight="bold">หัวฉีด</text>
+  <text x="720" y="492" font-size="11">+B จากรีเลย์ → หัวฉีด → ขา ECU</text>
+  <text x="720" y="506" font-size="11">ECU สับลงกราวด์</text>
+  <line x1="670" y1="482" x2="708" y2="482" stroke="#222" stroke-width="2" marker-end="url(#k)"/>
+
+  <rect x="710" y="530" width="220" height="60" rx="6" fill="#fff" stroke="#222"/>
+  <text x="720" y="552" font-size="12" font-weight="bold">คอยล์ (Igniter ในตัว)</text>
+  <text x="720" y="570" font-size="11">+B จากสวิตช์กุญแจ + GND</text>
+  <text x="720" y="584" font-size="11">IGT จาก ECU · IGF กลับ (บางรุ่น)</text>
+  <line x1="670" y1="500" x2="690" y2="500" stroke="#222" stroke-width="2"/>
+  <line x1="690" y1="500" x2="690" y2="560" stroke="#222" stroke-width="2"/>
+  <line x1="690" y1="560" x2="708" y2="560" stroke="#222" stroke-width="2" marker-end="url(#k)"/>
+
+  <rect x="710" y="110" width="220" height="140" rx="6" fill="#fff7e0" stroke="#b77700"/>
+  <text x="720" y="132" font-size="12" font-weight="bold">ลำดับตอนบิดกุญแจ</text>
+  <text x="720" y="152" font-size="11">1. BATT มีอยู่แล้ว (หน่วยความจำ)</text>
+  <text x="720" y="170" font-size="11">2. ON → IGSW ปลุก Power IC</text>
+  <text x="720" y="188" font-size="11">3. ECU สั่งรีเลย์หลัก → +B เข้า</text>
+  <text x="720" y="206" font-size="11">4. 5 V ขึ้น → Reset ปล่อย</text>
+  <text x="720" y="224" font-size="11">5. MCU รันโปรแกรม ตรวจ Immo</text>
+  <text x="720" y="242" font-size="11">6. สตาร์ท → มี CKP → ฉีด/จุด</text>
+</svg>
