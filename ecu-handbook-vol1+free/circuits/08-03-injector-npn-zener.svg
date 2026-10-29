@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Tahoma, 'Noto Sans Thai', sans-serif" font-size="14">
+  <rect width="960" height="560" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+  </defs>
+
+  <text x="480" y="32" text-anchor="middle" font-size="20" font-weight="bold">วงจร 8.3 ทรานซิสเตอร์ NPN ที่มีซีเนอร์ C-B ในตัว ขับหัวฉีด 1 ช่อง</text>
+  <text x="480" y="56" text-anchor="middle" fill="#a32c2c">ผังหลักการ ไม่ใช่ผังขาของ 2SC5664 หรือวงจรจริงของบอร์ดใด · ไม่ได้วาดไดโอด Dumper ในชิป</text>
+
+  <!-- supply -->
+  <circle cx="560" cy="90" r="4" fill="#c0392b"/>
+  <line x1="560" y1="90" x2="560" y2="120" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="575" y="96" font-size="13" fill="#c0392b">+12 V ผ่านฟิวส์และรีเลย์ (เช่น EFI หรือ IG2 ตามผังไฟของรุ่น)</text>
+
+  <!-- injector -->
+  <rect x="520" y="120" width="80" height="100" rx="6" fill="#fff" stroke="#222"/>
+  <path d="M560 132 q14 8 0 16 q14 8 0 16 q14 8 0 16 q14 8 0 16 q14 8 0 16" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="620" y="165" font-size="15" font-weight="bold">หัวฉีด</text>
+  <text x="620" y="185" font-size="12" fill="#555">ขดลวดโซลินอยด์ (1 สูบ)</text>
+  <text x="440" y="165" text-anchor="end" font-size="12" fill="#a32c2c">ห้ามใส่ไดโอดคร่อมหัวฉีด</text>
+  <text x="440" y="181" text-anchor="end" font-size="12" fill="#a32c2c">หัวฉีดจะปิดช้า น้ำมันผิด</text>
+
+  <!-- connector pin -->
+  <line x1="560" y1="220" x2="560" y2="300" stroke="#222" stroke-width="2.5"/>
+  <circle cx="560" cy="240" r="5" fill="#222"/>
+  <text x="575" y="245" font-weight="bold">ขาขั้วต่อ ECU ของหัวฉีด</text>
+  <text x="575" y="263" font-size="12" fill="#555">ไล่ไปหาขา C ของชิปด้วยการวัดความต่อเนื่อง</text>
+
+  <!-- ECU -->
+  <rect x="40" y="280" width="880" height="235" rx="10" fill="#eef4fc" stroke="#256abf" stroke-width="2"/>
+  <text x="60" y="305" font-weight="bold" font-size="16">ภายในกล่อง ECU</text>
+
+  <rect x="70" y="370" width="120" height="70" rx="6" fill="#fff" stroke="#222"/>
+  <text x="130" y="400" text-anchor="middle">MCU</text>
+  <text x="130" y="420" text-anchor="middle" font-size="12">พัลส์ฉีดน้ำมัน</text>
+
+  <!-- package box -->
+  <rect x="400" y="315" width="300" height="185" rx="8" fill="#fff6d6" stroke="#b77700" stroke-dasharray="6 4"/>
+  <text x="412" y="476" font-size="13" font-weight="bold">2SC5664</text><text x="412" y="492" font-size="11">1 ตัว/ช่อง (ยังไม่ยืนยัน)</text>
+
+  <!-- base resistor -->
+  <line x1="190" y1="405" x2="250" y2="405" stroke="#222" stroke-width="2"/>
+  <rect x="250" y="395" width="60" height="20" fill="#fff" stroke="#222" stroke-width="2"/>
+  <text x="280" y="388" text-anchor="middle" font-size="12">R</text>
+  <line x1="310" y1="405" x2="512" y2="405" stroke="#222" stroke-width="2"/>
+
+
+  <!-- NPN -->
+  <line x1="515" y1="375" x2="515" y2="435" stroke="#222" stroke-width="3"/>
+  <line x1="515" y1="390" x2="560" y2="360" stroke="#222" stroke-width="2.5"/>
+  <line x1="515" y1="420" x2="560" y2="450" stroke="#222" stroke-width="2.5" marker-end="url(#a)"/>
+  <line x1="560" y1="300" x2="560" y2="360" stroke="#222" stroke-width="2.5"/>
+  <line x1="560" y1="450" x2="560" y2="525" stroke="#222" stroke-width="2.5"/>
+  <text x="572" y="352" font-size="13" font-weight="bold">C</text>
+  <text x="497" y="425" font-size="13" font-weight="bold">B</text>
+  <text x="572" y="462" font-size="13" font-weight="bold">E</text>
+  <text x="600" y="400" font-size="13">NPN สับปลาย</text>
+  <text x="600" y="418" font-size="13">หัวฉีดลงกราวด์</text>
+
+  <!-- zener C-B -->
+  <line x1="560" y1="330" x2="460" y2="330" stroke="#a32c2c" stroke-width="2"/>
+  <line x1="460" y1="330" x2="460" y2="405" stroke="#a32c2c" stroke-width="2"/>
+  <polygon points="450,378 470,378 460,360" fill="#fff" stroke="#a32c2c" stroke-width="2"/>
+  <polyline points="447,362 451,360 469,360 473,358" fill="none" stroke="#a32c2c" stroke-width="2"/>
+  <circle cx="460" cy="405" r="3.5" fill="#222"/>
+  <text x="440" y="352" text-anchor="end" font-size="12" fill="#a32c2c">ซีเนอร์ C-B ในตัว</text>
+  <text x="440" y="368" text-anchor="end" font-size="11" fill="#a32c2c">จำกัดยอดแรงดันที่ขา C</text>
+
+  <!-- GND -->
+  <line x1="540" y1="525" x2="580" y2="525" stroke="#222" stroke-width="2.5"/>
+  <line x1="547" y1="532" x2="573" y2="532" stroke="#222" stroke-width="2"/>
+  <line x1="554" y1="539" x2="566" y2="539" stroke="#222" stroke-width="2"/>
+  <text x="590" y="530" font-size="13">GND กำลัง</text>
+
+  <rect x="725" y="320" width="180" height="170" rx="6" fill="#fff" stroke="#888"/>
+  <text x="740" y="345" font-size="13" font-weight="bold">ตอนตัดกระแสหัวฉีด</text>
+  <text x="740" y="368" font-size="12">1. แรงดันที่ C พุ่งขึ้น</text>
+  <text x="740" y="388" font-size="12">2. ถึงแรงดันซีเนอร์</text>
+  <text x="740" y="406" font-size="12">   ซีเนอร์นำกระแสเข้า B</text>
+  <text x="740" y="426" font-size="12">3. ทรานซิสเตอร์นำบางส่วน</text>
+  <text x="740" y="444" font-size="12">   ดูดพลังงานขดลวด</text>
+  <text x="740" y="470" font-size="11" fill="#555">ยอดอาจสูงประมาณร้อยโวลต์</text>
+  <text x="740" y="484" font-size="11" fill="#555">(อนุมานจาก VCBO 115±15 V)</text>
+</svg>
