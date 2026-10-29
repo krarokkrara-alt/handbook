@@ -87,12 +87,17 @@ hr { border: none; border-top: 1px solid #ccc; margin: 14px 0; }
 .new-page { break-before: page; }
 p:has(> img[src$="author-photo.jpg"]) + p { text-align: center; }
 .cover-img { max-height: none; width: 100%; margin: 0 0 12px; }
+/* ลายน้ำ Mytech ทุกหน้า (position: fixed ซ้ำทุกหน้าตอนพิมพ์) */
+.watermark { position: fixed; top: 45%; left: 0; right: 0; text-align: center; transform: rotate(-30deg);
+  font: bold 96pt "Leelawadee UI", Tahoma, sans-serif; color: #0d3b66; opacity: 0.06; z-index: 0; pointer-events: none; }
+@media screen { .watermark { display: none; } }
 .toc .note { font-size: 9.5pt; color: #8a5a00; margin: -4px 0 10px; }
 .toc ul { list-style: none; padding: 0; }
 .toc li.d1 { font-weight: bold; margin-top: 8px; }
 .toc li.d2 { margin-left: 18px; }
 .toc a { color: #111; text-decoration: none; }
 </style></head><body>
+<div class="watermark">Mytech</div>
 <!--COVER-->
 <div class="toc"><h1>สารบัญ</h1>
 <p class="note">ฉบับร่างรวมเล่ม ${today} · มีบทที่ ${present.join(', ')} · บทที่ยังไม่มี: ${missing.join(', ') || '-'} · หนังสือแจกฟรี ห้ามจำหน่าย</p>

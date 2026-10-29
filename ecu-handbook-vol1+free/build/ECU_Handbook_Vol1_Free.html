@@ -26,12 +26,17 @@ hr { border: none; border-top: 1px solid #ccc; margin: 14px 0; }
 .new-page { break-before: page; }
 p:has(> img[src$="author-photo.jpg"]) + p { text-align: center; }
 .cover-img { max-height: none; width: 100%; margin: 0 0 12px; }
+/* ลายน้ำ Mytech ทุกหน้า (position: fixed ซ้ำทุกหน้าตอนพิมพ์) */
+.watermark { position: fixed; top: 45%; left: 0; right: 0; text-align: center; transform: rotate(-30deg);
+  font: bold 96pt "Leelawadee UI", Tahoma, sans-serif; color: #0d3b66; opacity: 0.06; z-index: 0; pointer-events: none; }
+@media screen { .watermark { display: none; } }
 .toc .note { font-size: 9.5pt; color: #8a5a00; margin: -4px 0 10px; }
 .toc ul { list-style: none; padding: 0; }
 .toc li.d1 { font-weight: bold; margin-top: 8px; }
 .toc li.d2 { margin-left: 18px; }
 .toc a { color: #111; text-decoration: none; }
 </style></head><body>
+<div class="watermark">Mytech</div>
 <img class="cover-img" src="images/cover.webp" alt="ปก ECU HANDBOOK แจกฟรี เล่ม 1">
 <div class="toc"><h1>สารบัญ</h1>
 <p class="note">ฉบับร่างรวมเล่ม 2026-10-29 · มีบทที่ 2, 6, 7, 8 · บทที่ยังไม่มี: 1, 3, 4, 5, 9 · หนังสือแจกฟรี ห้ามจำหน่าย</p>
@@ -100,12 +105,18 @@ p:has(> img[src$="author-photo.jpg"]) + p { text-align: center; }
 <p><img src="images/author-photo.jpg" alt="Supunya Pharaphong (Mytech) ผู้เขียน"></p>
 <p><em>ภาพผู้เขียนจากงานในอดีต</em></p>
 <p><strong>Supunya Pharaphong</strong> ผู้เขียนในนาม <strong>Mytech</strong> เคยศึกษาที่มหาวิทยาลัยขอนแก่น ปัจจุบันอยู่ในพื้นที่อุดรธานีและจังหวัดใกล้เคียง ใช้คำแนะนำตัวว่า &quot;Service Lamborghini&quot;</p>
-<p><strong>ติดต่อผู้เขียน:</strong> โทร 083-027-3860</p>
+<p><strong>ติดต่อผู้เขียนและสอบถามคอร์สเรียน:</strong> โทร 083-027-3860 · LINE @pukcar</p>
 <p><strong>เข้ากลุ่มรับข้อมูลและหนังสือฟรี:</strong> สแกน QR นี้เพื่อเข้ากลุ่มแจกข้อมูลและหนังสือฟรีของ Mytech</p>
 <p><img src="images/group-qr.png" alt="QR เข้ากลุ่มแจกข้อมูลและหนังสือฟรีของ Mytech"></p>
 <p>ประสบการณ์ของผู้เขียนอยู่ในสองสายหลักที่มาบรรจบกันในงาน ECU คือ<strong>งานซ่อมรถยนต์</strong>ที่ลงมือเองและบริหารอู่ และ<strong>งานอิเล็กทรอนิกส์</strong>ทั้งการทดสอบแผงวงจร เครื่องโปรแกรมชิป ระบบอัตโนมัติ และเครื่องมือวัด รายละเอียดแต่ละด้านมีดังนี้</p>
+<h3>งานปัจจุบัน: ออกแบบเครื่องทดสอบและสอนช่าง</h3>
+<p>ปัจจุบันผู้เขียนเป็น <strong>Partner ของ My Tech Technologies</strong> ที่สมุทรสาคร ทำงานสองด้าน</p>
+<ul>
+<li><strong>ออกแบบระบบและเครื่องทดสอบ</strong> สำหรับกล่อง ECU, BCM, ABS และอุปกรณ์อื่นในรถยนต์</li>
+<li><strong>เปิดคอร์สและเป็นวิทยากร</strong> สอนระบบสายไฟ (Wiring) ในรถยนต์ ระบบเครื่องยนต์สันดาปและระบบไฟฟ้า รวมถึงคอร์ส ECU และการย้ายชิปต่างๆ</li>
+</ul>
 <h3>งานซ่อมรถและธุรกิจบริการ</h3>
-<p>ปัจจุบันผู้เขียนเป็น <strong>General Manager ของ Authority car service</strong> (เต็มเวลา ตั้งแต่ เม.ย. 2026) ดูแลรายได้และประสิทธิภาพการทำงาน วางกลยุทธ์ธุรกิจ นำทีมหัวหน้าแผนก คุมงบประมาณ KPI สต็อกอะไหล่และต้นทุน และเป็นตัวแทนธุรกิจในการติดต่อลูกค้า คู่ค้า และตัวแทนผู้ผลิต</p>
+<p>นอกจากงานที่ My Tech Technologies ผู้เขียนยังเป็น <strong>General Manager ของ Authority car service</strong> (ตั้งแต่ เม.ย. 2026) ดูแลรายได้และประสิทธิภาพการทำงาน วางกลยุทธ์ธุรกิจ นำทีมหัวหน้าแผนก คุมงบประมาณ KPI สต็อกอะไหล่และต้นทุน และเป็นตัวแทนธุรกิจในการติดต่อลูกค้า คู่ค้า และตัวแทนผู้ผลิต</p>
 <p>อู่ที่ผู้เขียนบริหารรับงานดังนี้</p>
 <ul>
 <li>ซ่อมรถญี่ปุ่นและรถยุโรป</li>
@@ -136,6 +147,12 @@ p:has(> img[src$="author-photo.jpg"]) + p { text-align: center; }
 </tr>
 </thead>
 <tbody><tr>
+<td>ปัจจุบัน</td>
+<td>Partner</td>
+<td>My Tech Technologies สมุทรสาคร</td>
+<td>ออกแบบเครื่องทดสอบ ECU, BCM, ABS และอุปกรณ์ในรถยนต์ เปิดคอร์สสอน Wiring, ECU และการย้ายชิป</td>
+</tr>
+<tr>
 <td>เม.ย. 2026 – ปัจจุบัน</td>
 <td>General Manager</td>
 <td>Authority car service</td>
