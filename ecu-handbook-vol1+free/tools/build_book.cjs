@@ -8,10 +8,12 @@ const NODE_MODULES = 'C:/Users/Admin/.cache/codex-runtimes/codex-primary-runtime
 const CHROME = 'C:/Program Files/Google/Chrome/Application/chrome.exe';
 const { marked } = require(path.join(NODE_MODULES, 'marked'));
 const { chromium } = require(path.join(NODE_MODULES, 'playwright'));
+const { PDFDocument } = require(path.join(NODE_MODULES, 'pdf-lib'));
 
 const BOOK = path.resolve(__dirname, '..');
 const OUT = path.join(BOOK, 'build');
 const NAME = 'ECU_Handbook_Vol1_Free';
+const COVER = 'images/cover.webp';
 // หัวข้อที่ต้องขึ้นหน้าใหม่เสมอ (นอกเหนือจากต้นบท)
 const NEW_PAGE_HEADINGS = ['เกี่ยวกับผู้เขียน'];
 
@@ -84,24 +86,17 @@ hr { border: none; border-top: 1px solid #ccc; margin: 14px 0; }
 .chapter { break-before: page; }
 .new-page { break-before: page; }
 p:has(> img[src$="author-photo.jpg"]) + p { text-align: center; }
-.cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; }
-.cover .t1 { font-size: 30pt; font-weight: bold; color: #0d3b66; }
-.cover .t2 { font-size: 16pt; margin-top: 8px; }
-.cover .t3 { font-size: 13pt; margin-top: 30px; }
-.cover .note { font-size: 10pt; color: #8a5a00; margin-top: 40px; }
-.toc { break-before: page; }
+.cover-img { max-height: none; width: 100%; margin: 0 0 12px; }
+.toc .note { font-size: 9.5pt; color: #8a5a00; margin: -4px 0 10px; }
 .toc ul { list-style: none; padding: 0; }
 .toc li.d1 { font-weight: bold; margin-top: 8px; }
 .toc li.d2 { margin-left: 18px; }
 .toc a { color: #111; text-decoration: none; }
 </style></head><body>
-<div class="cover">
-  <div class="t1">ECU HANDBOOK แจกฟรี เล่ม 1</div>
-  <div class="t2">คู่มือซ่อม ECU รถยนต์ จากพื้นฐานสู่ขั้นสูง</div>
-  <div class="t3">Mytech</div>
-  <div class="note">ฉบับร่างรวมเล่ม ${today}<br>มีบทที่ ${present.join(', ')} · บทที่ยังไม่มี: ${missing.join(', ') || '-'}<br>หนังสือแจกฟรี ห้ามจำหน่าย</div>
-</div>
-<div class="toc"><h1>สารบัญ</h1><ul>${tocHtml}</ul></div>
+<!--COVER-->
+<div class="toc"><h1>สารบัญ</h1>
+<p class="note">ฉบับร่างรวมเล่ม ${today} · มีบทที่ ${present.join(', ')} · บทที่ยังไม่มี: ${missing.join(', ') || '-'} · หนังสือแจกฟรี ห้ามจำหน่าย</p>
+<ul>${tocHtml}</ul></div>
 ${body}
 </body></html>`;
 
@@ -116,8 +111,7 @@ fs.writeFileSync(htmlPath, html, 'utf8');
   await page.evaluate(() => document.fonts.ready);
   const broken = await page.evaluate(() =>
     [...document.images].filter(i => !i.complete || i.naturalWidth === 0).map(i => i.getAttribute('src')));
-  await page.pdf({
-    path: path.join(OUT, `${NAME}.pdf`),
+  const contentPdf = await page.pdf({
     format: 'A4',
     printBackground: true,
     displayHeaderFooter: true,
@@ -125,10 +119,31 @@ fs.writeFileSync(htmlPath, html, 'utf8');
     footerTemplate: '<div style="width:100%;font-size:8pt;color:#666;text-align:center;font-family:Tahoma">ECU HANDBOOK แจกฟรี เล่ม 1 · หน้า <span class="pageNumber"></span> / <span class="totalPages"></span></div>',
     margin: { top: '18mm', bottom: '20mm', left: '16mm', right: '16mm' },
   });
+
+  // หน้าปกเต็มหน้า A4 ไม่มีขอบและไม่มีเลขหน้า แล้วนำไปต่อหน้าเนื้อหา (เลขหน้านับจากสารบัญ)
+  const coverHtml = path.join(BOOK, '_cover.html');
+  fs.writeFileSync(coverHtml, `<!doctype html><html><head><meta charset="utf-8"><style>
+@page { size: A4; margin: 0; } html, body { margin: 0; }
+img { display: block; width: 210mm; height: 297mm; object-fit: cover; }
+</style></head><body><img src="${COVER}"></body></html>`, 'utf8');
+  await page.goto('file:///' + coverHtml.replaceAll('\\', '/'), { waitUntil: 'load' });
+  const coverPdf = await page.pdf({ format: 'A4', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
   await browser.close();
-  // ย้าย HTML ไปไว้ใน build หลังพิมพ์ (ต้องอยู่ในโฟลเดอร์หนังสือตอนพิมพ์ เพื่อให้ path รูปถูก) และเติม base ให้รูปยังเปิดได้
-  fs.writeFileSync(path.join(OUT, `${NAME}.html`), html.replace('<head>', '<head><base href="../">'), 'utf8');
+  fs.unlinkSync(coverHtml);
+
+  const book = await PDFDocument.create();
+  for (const bytes of [coverPdf, contentPdf]) {
+    const src = await PDFDocument.load(bytes);
+    for (const p of await book.copyPages(src, src.getPageIndices())) book.addPage(p);
+  }
+  fs.writeFileSync(path.join(OUT, `${NAME}.pdf`), await book.save());
+
+  // ย้าย HTML ไปไว้ใน build หลังพิมพ์ (ต้องอยู่ในโฟลเดอร์หนังสือตอนพิมพ์ เพื่อให้ path รูปถูก) เติม base ให้รูปยังเปิดได้ และใส่ปกไว้บนสุด
+  const viewHtml = html.replace('<head>', '<head><base href="../">')
+    .replace('<!--COVER-->', `<img class="cover-img" src="${COVER}" alt="ปก ECU HANDBOOK แจกฟรี เล่ม 1">`);
+  fs.writeFileSync(path.join(OUT, `${NAME}.html`), viewHtml, 'utf8');
   fs.unlinkSync(htmlPath);
+  console.log('pages:', book.getPageCount());
   console.log('chapters:', chapters.join(', '));
   console.log('broken images:', broken.length ? broken.join(', ') : 'none');
   console.log('pdf:', path.join(OUT, `${NAME}.pdf`));

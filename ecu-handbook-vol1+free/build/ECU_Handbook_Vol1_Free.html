@@ -25,24 +25,17 @@ hr { border: none; border-top: 1px solid #ccc; margin: 14px 0; }
 .chapter { break-before: page; }
 .new-page { break-before: page; }
 p:has(> img[src$="author-photo.jpg"]) + p { text-align: center; }
-.cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; }
-.cover .t1 { font-size: 30pt; font-weight: bold; color: #0d3b66; }
-.cover .t2 { font-size: 16pt; margin-top: 8px; }
-.cover .t3 { font-size: 13pt; margin-top: 30px; }
-.cover .note { font-size: 10pt; color: #8a5a00; margin-top: 40px; }
-.toc { break-before: page; }
+.cover-img { max-height: none; width: 100%; margin: 0 0 12px; }
+.toc .note { font-size: 9.5pt; color: #8a5a00; margin: -4px 0 10px; }
 .toc ul { list-style: none; padding: 0; }
 .toc li.d1 { font-weight: bold; margin-top: 8px; }
 .toc li.d2 { margin-left: 18px; }
 .toc a { color: #111; text-decoration: none; }
 </style></head><body>
-<div class="cover">
-  <div class="t1">ECU HANDBOOK แจกฟรี เล่ม 1</div>
-  <div class="t2">คู่มือซ่อม ECU รถยนต์ จากพื้นฐานสู่ขั้นสูง</div>
-  <div class="t3">Mytech</div>
-  <div class="note">ฉบับร่างรวมเล่ม 2026-10-29<br>มีบทที่ 2, 6, 7, 8 · บทที่ยังไม่มี: 1, 3, 4, 5, 9<br>หนังสือแจกฟรี ห้ามจำหน่าย</div>
-</div>
-<div class="toc"><h1>สารบัญ</h1><ul><li class="d1"><a href="#s1">เกี่ยวกับหนังสือและผู้เขียน</a></li>
+<img class="cover-img" src="images/cover.webp" alt="ปก ECU HANDBOOK แจกฟรี เล่ม 1">
+<div class="toc"><h1>สารบัญ</h1>
+<p class="note">ฉบับร่างรวมเล่ม 2026-10-29 · มีบทที่ 2, 6, 7, 8 · บทที่ยังไม่มี: 1, 3, 4, 5, 9 · หนังสือแจกฟรี ห้ามจำหน่าย</p>
+<ul><li class="d1"><a href="#s1">เกี่ยวกับหนังสือและผู้เขียน</a></li>
 <li class="d2"><a href="#s2">เกี่ยวกับหนังสือเล่มนี้</a></li>
 <li class="d2"><a href="#s3">เกี่ยวกับผู้เขียน</a></li>
 <li class="d2"><a href="#s4">กิตติกรรมประกาศ</a></li>
@@ -191,6 +184,7 @@ p:has(> img[src$="author-photo.jpg"]) + p { text-align: center; }
 <ul>
 <li><strong>คุณอัครเดช อ่อนประทุม</strong> ที่ช่วยถ่ายรูปและตัดต่อภาพ ภาพงานจริงในหนังสือส่วนใหญ่มาจากความตั้งใจของท่าน</li>
 <li><strong>คุณธเนศ เพชรสด</strong> ที่ให้การสนับสนุน เป็นเจ้าของสถานที่ และเป็นนายทุนของหนังสือเล่มนี้</li>
+<li><strong>ChatGPT และ Claude</strong> ผู้ช่วย AI ที่ช่วยงานในการจัดทำหนังสือครั้งนี้</li>
 </ul>
 <hr>
 <h2 id="s5">แหล่งข้อมูลอ้างอิง</h2>
