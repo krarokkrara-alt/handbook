@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" font-family="Tahoma, 'Noto Sans Thai', sans-serif" font-size="12">
-  <rect width="960" height="720" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 760" font-family="Tahoma, 'Noto Sans Thai', sans-serif" font-size="12">
+  <rect width="960" height="760" fill="#ffffff"/>
   <defs>
     <marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
     <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
@@ -7,50 +7,55 @@
     <marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker>
   </defs>
 
-  <text x="480" y="28" text-anchor="middle" font-size="18" font-weight="bold">วงจร 5.2 การต่อสายกล่อง KEFICO E91B (39127-2B530) ตามหน้าที่</text>
-  <text x="480" y="64" text-anchor="middle" fill="#555" font-size="11">รายการอุปกรณ์เป็นตัวอย่างของเครื่องเบนซินทั่วไป ยังไม่ได้ยืนยันกับผังไฟของรุ่นนี้ รถจริงอาจมีหรือไม่มีบางรายการ</text>
-  <text x="480" y="47" text-anchor="middle" fill="#a32c2c" font-size="12">ผังหลักการ · ช่อง "ขา ____" ว่างไว้ให้กรอกหลังยืนยันจากผังไฟ Hyundai หรือการวัดจริง · ห้ามใช้เลขขาจากภาพผังขาที่แชร์กันทั่วไป</text>
+  <text x="480" y="26" text-anchor="middle" font-size="18" font-weight="bold">วงจร 5.2 การต่อสายกล่อง ECM Hyundai Gamma 1.4/1.6 MPI (Accent RB)</text>
+  <text x="480" y="46" text-anchor="middle" fill="#a32c2c" font-size="12">เลขขาจากตาราง ECM Terminal ในคู่มือซ่อม Hyundai/Kia ขั้วต่อ EGG-K 94 ขา (เทียบ 2 แหล่งตรงกัน)</text>
+  <text x="480" y="63" text-anchor="middle" fill="#555" font-size="11">กล่อง KEFICO E91B / MEG17.9.12 มีปลั๊ก 2 ตัว (ปลั๊กตัวที่ 2 ยังไม่มีข้อมูล) · กรอบเขียวขีดเส้นใต้ = ตรงกับเอกสารเครื่องมือของ MEG17.9.12 · ขาอื่นวัดยืนยันก่อนใช้</text>
 
   <!-- ECU -->
-  <rect x="360" y="76" width="240" height="620" rx="10" fill="#eef4fc" stroke="#256abf" stroke-width="2"/>
-  <text x="480" y="98" text-anchor="middle" font-weight="bold" font-size="15">ECU KEFICO E91B</text>
-  <text x="480" y="116" text-anchor="middle" font-size="11">MEG17.9.12 · ปลั๊ก A และ B</text>
+  <rect x="360" y="80" width="240" height="640" rx="10" fill="#eef4fc" stroke="#256abf" stroke-width="2"/>
+  <text x="480" y="106" text-anchor="middle" font-weight="bold" font-size="15">ECM ขั้วต่อ EGG-K</text>
+  <text x="480" y="124" text-anchor="middle" font-size="11">94 ขา (ฝั่งเครื่องยนต์)</text>
   <rect x="395" y="300" width="170" height="80" rx="6" fill="#fff6d6" stroke="#b77700"/>
   <text x="480" y="328" text-anchor="middle" font-weight="bold">Power IC → MCU</text>
   <text x="480" y="348" text-anchor="middle" font-size="11">ดูหลักการในวงจร 5.1</text>
   <text x="480" y="366" text-anchor="middle" font-size="11">ไฟเลี้ยง · Reset · Clock</text>
+  <rect x="395" y="230" width="170" height="54" rx="6" fill="#fdeeee" stroke="#c0392b"/>
+  <text x="480" y="252" text-anchor="middle" font-weight="bold" font-size="12">ภาคขับคอยล์ในกล่อง</text>
+  <text x="480" y="270" text-anchor="middle" font-size="11">สับขดปฐมภูมิเอง 300–400 V</text>
+  <rect x="395" y="650" width="170" height="54" rx="6" fill="#fff" stroke="#888" stroke-dasharray="5 4"/>
+  <text x="480" y="672" text-anchor="middle" font-size="11">ปลั๊กตัวที่ 2 (หน้าที่ยังไม่ยืนยัน)</text>
+  <text x="480" y="690" text-anchor="middle" font-size="11">ไม่มีข้อมูลขา</text>
 
-  <!-- pin box helper: small white rect with "ขา ____" -->
   <!-- LEFT: power -->
-  <text x="20" y="92" font-weight="bold" font-size="13" fill="#c0392b">ไฟเลี้ยงและกราวด์</text>
-  <rect x="20" y="102" width="170" height="34" rx="5" fill="#fdeeee" stroke="#c0392b"/><text x="30" y="124">แบตเตอรี่ +12 V (ไฟตลอด)</text>
-  <line x1="190" y1="119" x2="358" y2="119" stroke="#c0392b" stroke-width="2" marker-end="url(#r)"/>
-  <rect x="270" y="108" width="80" height="22" rx="3" fill="#fff" stroke="#888"/><text x="310" y="123" text-anchor="middle" font-size="11">ขา ____</text>
+  <text x="20" y="96" font-weight="bold" font-size="13" fill="#c0392b">ไฟเลี้ยงและกราวด์</text>
+  <rect x="20" y="106" width="170" height="34" rx="5" fill="#fdeeee" stroke="#c0392b"/><text x="30" y="128">แบตเตอรี่ +12 V (ไฟตลอด)</text>
+  <line x1="190" y1="123" x2="358" y2="123" stroke="#c0392b" stroke-width="2" marker-end="url(#r)"/>
+  <rect x="256" y="112" width="94" height="22" rx="3" fill="#fff" stroke="#888"/><text x="303" y="127" text-anchor="middle" font-size="11">ไม่พบในตาราง</text>
 
-  <rect x="20" y="146" width="170" height="34" rx="5" fill="#fdeeee" stroke="#c0392b"/><text x="30" y="168">สวิตช์กุญแจ ON (IG)</text>
-  <line x1="190" y1="163" x2="358" y2="163" stroke="#c0392b" stroke-width="2" marker-end="url(#r)"/>
-  <rect x="270" y="152" width="80" height="22" rx="3" fill="#fff" stroke="#888"/><text x="310" y="167" text-anchor="middle" font-size="11">ขา ____</text>
+  <rect x="20" y="150" width="170" height="34" rx="5" fill="#fdeeee" stroke="#c0392b"/><text x="30" y="172">สวิตช์กุญแจ ON (IG)</text>
+  <line x1="190" y1="167" x2="358" y2="167" stroke="#c0392b" stroke-width="2" marker-end="url(#r)"/>
+  <rect x="256" y="156" width="94" height="22" rx="3" fill="#fff" stroke="#1a8633" stroke-width="1.5"/><text x="303" y="171" text-anchor="middle" font-size="11" font-weight="bold" text-decoration="underline">ขา 18</text>
 
-  <rect x="20" y="190" width="170" height="44" rx="5" fill="#fdeeee" stroke="#c0392b"/><text x="30" y="209">รีเลย์หลัก</text><text x="30" y="226" font-size="11">ECU สั่ง · จ่ายไฟเลี้ยงหลัก</text>
-  <line x1="190" y1="205" x2="358" y2="205" stroke="#c0392b" stroke-width="2" marker-end="url(#r)"/>
-  <line x1="358" y1="222" x2="192" y2="222" stroke="#555" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#k)"/>
-  <rect x="270" y="194" width="80" height="22" rx="3" fill="#fff" stroke="#888"/><text x="310" y="209" text-anchor="middle" font-size="11">ขา ____</text>
+  <rect x="20" y="194" width="170" height="44" rx="5" fill="#fdeeee" stroke="#c0392b"/><text x="30" y="213">ไฟจากรีเลย์หลัก</text><text x="30" y="230" font-size="11">ขาสั่งรีเลย์: ไม่พบในตาราง</text>
+  <line x1="190" y1="209" x2="358" y2="209" stroke="#c0392b" stroke-width="2.5" marker-end="url(#r)"/>
+  <rect x="256" y="198" width="94" height="22" rx="3" fill="#fff" stroke="#1a8633" stroke-width="1.5"/><text x="303" y="213" text-anchor="middle" font-size="11" font-weight="bold"><tspan text-decoration="underline">5</tspan>, 6, <tspan text-decoration="underline">30</tspan></text>
 
-  <rect x="20" y="244" width="170" height="34" rx="5" fill="#f2f2f2" stroke="#222"/><text x="30" y="266">กราวด์ตัวถัง (หลายขา)</text>
-  <line x1="358" y1="261" x2="192" y2="261" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
-  <rect x="270" y="266" width="80" height="22" rx="3" fill="#fff" stroke="#888"/><text x="310" y="281" text-anchor="middle" font-size="11">ขา ____</text>
+  <rect x="20" y="248" width="170" height="34" rx="5" fill="#f2f2f2" stroke="#222"/><text x="30" y="270">กราวด์กำลัง</text>
+  <line x1="358" y1="265" x2="192" y2="265" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+  <rect x="256" y="270" width="94" height="22" rx="3" fill="#fff" stroke="#1a8633" stroke-width="1.5"/><text x="303" y="285" text-anchor="middle" font-size="11" font-weight="bold"><tspan text-decoration="underline">3</tspan>, 4, 77</text>
 
   <!-- LEFT: sensors -->
-  <text x="20" y="318" font-weight="bold" font-size="13" fill="#1f5fbf">เซนเซอร์ (สัญญาณเข้า)</text>
+  <text x="20" y="318" font-weight="bold" font-size="13" fill="#1f5fbf">เซนเซอร์ (สัญญาณ / กราวด์)</text>
   <g font-size="12">
     <rect x="20" y="328" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="348">CKP เพลาข้อเหวี่ยง</text>
     <rect x="20" y="366" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="386">CMP เพลาลูกเบี้ยว</text>
     <rect x="20" y="404" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="424">Knock เซนเซอร์น็อก</text>
-    <rect x="20" y="442" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="462">MAP ความดันท่อร่วม</text>
-    <rect x="20" y="480" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="500">TPS ตำแหน่งลิ้น</text>
-    <rect x="20" y="518" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="538">ECT อุณหภูมิน้ำ</text>
-    <rect x="20" y="556" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="576">IAT อุณหภูมิอากาศ</text>
-    <rect x="20" y="594" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="614">O2 ไอเสีย</text>
+    <rect x="20" y="442" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="462">MAP (+5 V ขา 20)</text>
+    <rect x="20" y="480" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="500">TPS 1 / 2 (ไฟเลี้ยงขา 21)</text>
+    <rect x="20" y="518" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="538">APS 1 / 2 คันเร่ง</text>
+    <rect x="20" y="556" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="576">ECT อุณหภูมิน้ำ</text>
+    <rect x="20" y="594" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="614">IAT อุณหภูมิอากาศ</text>
+    <rect x="20" y="632" width="170" height="30" rx="5" fill="#fff" stroke="#1f5fbf"/><text x="30" y="652">O2 ตัวบน (ฮีตเตอร์ 7)</text>
   </g>
   <g stroke="#1f5fbf" stroke-width="1.8">
     <line x1="190" y1="343" x2="358" y2="343" marker-end="url(#b)"/>
@@ -61,90 +66,90 @@
     <line x1="190" y1="533" x2="358" y2="533" marker-end="url(#b)"/>
     <line x1="190" y1="571" x2="358" y2="571" marker-end="url(#b)"/>
     <line x1="190" y1="609" x2="358" y2="609" marker-end="url(#b)"/>
+    <line x1="190" y1="647" x2="358" y2="647" marker-end="url(#b)"/>
   </g>
   <g font-size="11">
-    <rect x="270" y="332" width="80" height="20" rx="3" fill="#fff" stroke="#888"/><text x="310" y="346" text-anchor="middle">ขา ____</text>
-    <rect x="270" y="370" width="80" height="20" rx="3" fill="#fff" stroke="#888"/><text x="310" y="384" text-anchor="middle">ขา ____</text>
-    <rect x="270" y="408" width="80" height="20" rx="3" fill="#fff" stroke="#888"/><text x="310" y="422" text-anchor="middle">ขา ____</text>
-    <rect x="270" y="446" width="80" height="20" rx="3" fill="#fff" stroke="#888"/><text x="310" y="460" text-anchor="middle">ขา ____</text>
-    <rect x="270" y="484" width="80" height="20" rx="3" fill="#fff" stroke="#888"/><text x="310" y="498" text-anchor="middle">ขา ____</text>
-    <rect x="270" y="522" width="80" height="20" rx="3" fill="#fff" stroke="#888"/><text x="310" y="536" text-anchor="middle">ขา ____</text>
-    <rect x="270" y="560" width="80" height="20" rx="3" fill="#fff" stroke="#888"/><text x="310" y="574" text-anchor="middle">ขา ____</text>
-    <rect x="270" y="598" width="80" height="20" rx="3" fill="#fff" stroke="#888"/><text x="310" y="612" text-anchor="middle">ขา ____</text>
+    <rect x="256" y="332" width="94" height="20" rx="3" fill="#fff" stroke="#888"/><text x="303" y="346" text-anchor="middle">56</text>
+    <rect x="256" y="370" width="94" height="20" rx="3" fill="#fff" stroke="#888"/><text x="303" y="384" text-anchor="middle">17 / G 26</text>
+    <rect x="256" y="408" width="94" height="20" rx="3" fill="#fff" stroke="#888"/><text x="303" y="422" text-anchor="middle">91</text>
+    <rect x="256" y="446" width="94" height="20" rx="3" fill="#fff" stroke="#888"/><text x="303" y="460" text-anchor="middle">23</text>
+    <rect x="256" y="484" width="94" height="20" rx="3" fill="#fff" stroke="#888"/><text x="303" y="498" text-anchor="middle">24, 88</text>
+    <rect x="256" y="522" width="94" height="20" rx="3" fill="#fff" stroke="#888"/><text x="303" y="536" text-anchor="middle">67, 69</text>
+    <rect x="256" y="560" width="94" height="20" rx="3" fill="#fff" stroke="#888"/><text x="303" y="574" text-anchor="middle">44 / G 64</text>
+    <rect x="256" y="598" width="94" height="20" rx="3" fill="#fff" stroke="#888"/><text x="303" y="612" text-anchor="middle">22</text>
+    <rect x="256" y="636" width="94" height="20" rx="3" fill="#fff" stroke="#888"/><text x="303" y="650" text-anchor="middle">87</text>
   </g>
-  <text x="20" y="646" font-size="11" fill="#1f5fbf">เซนเซอร์แบบ 3 สายรับไฟ +5 V และกราวด์เซนเซอร์</text>
-  <text x="20" y="662" font-size="11" fill="#1f5fbf">จาก ECU (ขา +5V ____ · ขากราวด์เซนเซอร์ ____)</text>
+  <text x="20" y="684" font-size="11" fill="#1f5fbf">G = กราวด์เซนเซอร์ที่คู่มือระบุตัว (CMP 26, ECT 64)</text>
+  <text x="20" y="700" font-size="11" fill="#1f5fbf">กราวด์เซนเซอร์อื่น 63, 65, 70, 78, 83, 85, 86 ไม่ระบุตัว</text>
+  <text x="20" y="716" font-size="11" fill="#1f5fbf">APS ไฟเลี้ยง 43, 19 · O2 ตัวล่าง: ยังไม่ยืนยัน</text>
 
-  <!-- RIGHT: outputs -->
-  <text x="620" y="92" font-weight="bold" font-size="13">ขาออก (ECU สั่ง)</text>
-  <!-- injectors -->
-  <rect x="770" y="102" width="170" height="130" rx="6" fill="#fff" stroke="#e07b00" stroke-width="1.5"/>
-  <text x="780" y="122" font-weight="bold">หัวฉีด 1–4</text>
-  <text x="780" y="140" font-size="11">ขั้วหนึ่งรับ +B จากรีเลย์</text>
-  <text x="780" y="156" font-size="11">อีกขั้วต่อขา ECU</text>
-  <text x="780" y="172" font-size="11">ECU สับลงกราวด์ (8.2, 8.3)</text>
+  <!-- RIGHT: injectors -->
+  <text x="620" y="96" font-weight="bold" font-size="13">ขาออก (ECM สั่ง)</text>
+  <rect x="770" y="106" width="170" height="130" rx="6" fill="#fff" stroke="#e07b00" stroke-width="1.5"/>
+  <text x="780" y="126" font-weight="bold">หัวฉีด 1–4</text>
+  <text x="780" y="144" font-size="11">ขั้วหนึ่งรับ +B จากรีเลย์</text>
+  <text x="780" y="160" font-size="11">อีกขั้วต่อขา ECM</text>
+  <text x="780" y="176" font-size="11">ECM สับลงกราวด์ (8.2, 8.3)</text>
   <g stroke="#e07b00" stroke-width="1.8">
-    <line x1="600" y1="130" x2="768" y2="130" marker-end="url(#k)"/>
-    <line x1="600" y1="160" x2="768" y2="160" marker-end="url(#k)"/>
-    <line x1="600" y1="190" x2="768" y2="190" marker-end="url(#k)"/>
-    <line x1="600" y1="220" x2="768" y2="220" marker-end="url(#k)"/>
+    <line x1="600" y1="134" x2="768" y2="134" marker-end="url(#k)"/>
+    <line x1="600" y1="164" x2="768" y2="164" marker-end="url(#k)"/>
+    <line x1="600" y1="194" x2="768" y2="194" marker-end="url(#k)"/>
+    <line x1="600" y1="224" x2="768" y2="224" marker-end="url(#k)"/>
   </g>
   <g font-size="11">
-    <rect x="640" y="120" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="134" text-anchor="middle">สูบ 1 ขา ___</text>
-    <rect x="640" y="150" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="164" text-anchor="middle">สูบ 2 ขา ___</text>
-    <rect x="640" y="180" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="194" text-anchor="middle">สูบ 3 ขา ___</text>
-    <rect x="640" y="210" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="224" text-anchor="middle">สูบ 4 ขา ___</text>
+    <rect x="640" y="124" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="138" text-anchor="middle">สูบ 1 ขา 9</text>
+    <rect x="640" y="154" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="168" text-anchor="middle">สูบ 2 ขา 8</text>
+    <rect x="640" y="184" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="198" text-anchor="middle">สูบ 3 ขา 51</text>
+    <rect x="640" y="214" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="228" text-anchor="middle">สูบ 4 ขา 74</text>
   </g>
 
   <!-- coils -->
-  <rect x="770" y="250" width="170" height="130" rx="6" fill="#fff" stroke="#222" stroke-width="1.5"/>
-  <text x="780" y="270" font-weight="bold">คอยล์ 1–4</text>
-  <text x="780" y="288" font-size="11">ชนิดคอยล์ต้องดูคู่มือรุ่น</text>
-  <text x="780" y="306" font-size="10.5">มีภาคขับในตัว: ECU ส่งพัลส์สั่งจุด</text>
-  <text x="780" y="324" font-size="11">ไม่มีภาคขับ (2 สาย):</text>
-  <text x="780" y="340" font-size="11">ECU สับกระแสคอยล์เอง</text>
-  <g stroke="#222" stroke-width="1.8">
-    <line x1="600" y1="278" x2="768" y2="278" marker-end="url(#k)"/>
-    <line x1="600" y1="308" x2="768" y2="308" marker-end="url(#k)"/>
-    <line x1="600" y1="338" x2="768" y2="338" marker-end="url(#k)"/>
-    <line x1="600" y1="368" x2="768" y2="368" marker-end="url(#k)"/>
+  <rect x="770" y="254" width="170" height="130" rx="6" fill="#fff" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="780" y="274" font-weight="bold">คอยล์ 1–4</text>
+  <text x="780" y="292" font-size="11">ไม่มีภาคขับในตัว</text>
+  <text x="780" y="308" font-size="11">ECM สับขดปฐมภูมิเอง</text>
+  <text x="780" y="324" font-size="11" fill="#c0392b">ขา ECM มี 300–400 V</text>
+  <text x="780" y="340" font-size="11" fill="#c0392b">ตอนตัดกระแส</text>
+  <g stroke="#c0392b" stroke-width="1.8">
+    <line x1="600" y1="282" x2="768" y2="282" marker-end="url(#k)"/>
+    <line x1="600" y1="312" x2="768" y2="312" marker-end="url(#k)"/>
+    <line x1="600" y1="342" x2="768" y2="342" marker-end="url(#k)"/>
+    <line x1="600" y1="372" x2="768" y2="372" marker-end="url(#k)"/>
   </g>
   <g font-size="11">
-    <rect x="640" y="268" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="282" text-anchor="middle">สูบ 1 ขา ___</text>
-    <rect x="640" y="298" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="312" text-anchor="middle">สูบ 2 ขา ___</text>
-    <rect x="640" y="328" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="342" text-anchor="middle">สูบ 3 ขา ___</text>
-    <rect x="640" y="358" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="372" text-anchor="middle">สูบ 4 ขา ___</text>
+    <rect x="640" y="272" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="286" text-anchor="middle">สูบ 1 ขา 28</text>
+    <rect x="640" y="302" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="316" text-anchor="middle">สูบ 2 ขา 49</text>
+    <rect x="640" y="332" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="346" text-anchor="middle">สูบ 3 ขา 27</text>
+    <rect x="640" y="362" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="376" text-anchor="middle">สูบ 4 ขา 50</text>
   </g>
+
+  <!-- ETC -->
+  <rect x="770" y="402" width="170" height="54" rx="6" fill="#fff" stroke="#222"/>
+  <text x="780" y="422" font-weight="bold">มอเตอร์ลิ้นปีกผีเสื้อ</text>
+  <text x="780" y="440" font-size="11">H-Bridge (หัวข้อ 8.4)</text>
+  <line x1="600" y1="429" x2="768" y2="429" stroke="#222" stroke-width="1.8" marker-end="url(#k)"/>
+  <rect x="636" y="419" width="98" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="433" text-anchor="middle" font-size="11">+ ขา 1 · − ขา 2</text>
 
   <!-- relays -->
-  <rect x="770" y="398" width="170" height="150" rx="6" fill="#fff" stroke="#b5477b" stroke-width="1.5"/>
-  <text x="780" y="418" font-weight="bold">รีเลย์และวาล์ว</text>
-  <text x="780" y="438" font-size="11">ปั๊มน้ำมัน</text>
-  <text x="780" y="456" font-size="11">พัดลมหม้อน้ำ</text>
-  <text x="780" y="474" font-size="11">คอมแอร์</text>
-  <text x="780" y="492" font-size="11">วาล์ว Purge (EVAP)</text>
-  <text x="780" y="510" font-size="11">ไฟเตือนเครื่องยนต์ (MIL)</text>
-  <text x="780" y="530" font-size="10" fill="#555">ส่วนใหญ่ ECU สับลงกราวด์</text>
-  <g stroke="#b5477b" stroke-width="1.8">
-    <line x1="600" y1="434" x2="768" y2="434" marker-end="url(#k)"/>
-    <line x1="600" y1="452" x2="768" y2="452" marker-end="url(#k)"/>
-    <line x1="600" y1="470" x2="768" y2="470" marker-end="url(#k)"/>
-    <line x1="600" y1="488" x2="768" y2="488" marker-end="url(#k)"/>
-    <line x1="600" y1="506" x2="768" y2="506" marker-end="url(#k)"/>
-  </g>
-  <text x="685" y="425" text-anchor="middle" font-size="10">ขา ___ แต่ละเส้น</text>
+  <rect x="770" y="472" width="170" height="104" rx="6" fill="#fff" stroke="#b5477b" stroke-width="1.5"/>
+  <text x="780" y="492" font-weight="bold">รีเลย์และอุปกรณ์</text>
+  <text x="780" y="510" font-size="11">ปั๊มน้ำมัน: ขา 75 หรือ 76</text>
+  <text x="780" y="526" font-size="11">(ตามรุ่นย่อย อีกขาคือแอร์)</text>
+  <text x="780" y="542" font-size="11">MIL 73 · Purge 29</text>
+  <text x="780" y="558" font-size="11">CVVT 92 · รีเลย์สตาร์ท 52</text>
+  <line x1="600" y1="520" x2="768" y2="520" stroke="#b5477b" stroke-width="1.8" marker-end="url(#k)"/>
 
   <!-- CAN -->
-  <rect x="770" y="566" width="170" height="70" rx="6" fill="#fff" stroke="#7b3fa0" stroke-width="1.5"/>
-  <text x="780" y="586" font-weight="bold">CAN (สายคู่)</text>
-  <text x="780" y="604" font-size="11">คุยกับกล่องอื่นในรถ (ตามรุ่น)</text>
-  <text x="780" y="620" font-size="11">และขั้วต่อ OBD</text>
-  <line x1="600" y1="592" x2="768" y2="592" stroke="#7b3fa0" stroke-width="1.8" marker-end="url(#p)"/>
-  <line x1="768" y1="616" x2="600" y2="616" stroke="#7b3fa0" stroke-width="1.8" marker-end="url(#p)"/>
-  <rect x="640" y="594" width="90" height="20" rx="3" fill="#fff" stroke="#888"/><text x="685" y="608" text-anchor="middle" font-size="11">H ___ · L ___</text>
+  <rect x="770" y="592" width="170" height="60" rx="6" fill="#fff" stroke="#7b3fa0" stroke-width="1.5"/>
+  <text x="780" y="612" font-weight="bold">CAN (สายคู่)</text>
+  <text x="780" y="630" font-size="11">คุยกับกล่องอื่นและ OBD</text>
+  <line x1="600" y1="612" x2="768" y2="612" stroke="#7b3fa0" stroke-width="1.8" marker-end="url(#p)"/>
+  <line x1="768" y1="636" x2="600" y2="636" stroke="#7b3fa0" stroke-width="1.8" marker-end="url(#p)"/>
+  <rect x="640" y="614" width="90" height="20" rx="3" fill="#fff" stroke="#1a8633" stroke-width="1.5"/><text x="685" y="628" text-anchor="middle" font-size="11" font-weight="bold" text-decoration="underline">H 57 · L 79</text>
 
-  <rect x="620" y="650" width="320" height="56" rx="6" fill="#fff7e0" stroke="#b77700"/>
-  <text x="632" y="670" font-size="11">กรอกเลขขาเมื่อยืนยันแล้วเท่านั้น ระบุปลั๊ก A หรือ B ทุกครั้ง</text>
-  <text x="632" y="686" font-size="10.5">หัวฉีดและคอยล์แต่ละสูบต่อกับขาเดียว ถ้าแหล่งไหนบอกว่า</text>
-  <text x="632" y="700" font-size="10.5">อยู่ทั้ง A และ B ถือว่าผิด (ไฟเลี้ยงและกราวด์มีหลายขาได้)</text>
+  <rect x="620" y="668" width="320" height="80" rx="6" fill="#fff7e0" stroke="#b77700"/>
+  <text x="632" y="688" font-size="11">กรอบเขียวขีดเส้นใต้ = ตรงกับเอกสารเครื่องมือ MEG17.9.12</text>
+  <text x="632" y="704" font-size="11">ขาอื่นมาจากคู่มือ EGG-K วัดยืนยันกับกล่องจริงก่อนใช้</text>
+  <text x="632" y="720" font-size="11">ไฟ BATT ตรงและขาสั่งรีเลย์หลัก: ไม่พบ ต้องวัดหาเอง</text>
+  <text x="632" y="738" font-size="10" fill="#555">ทิศมองขั้วต่อ: ดูรูปในคู่มือก่อนนับขา</text>
 </svg>
