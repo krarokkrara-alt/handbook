@@ -22,6 +22,8 @@ blockquote p { margin: 4px 0; }
 code { font-family: Consolas, monospace; font-size: 9pt; background: #f2f2f2; padding: 0 3px; }
 hr { border: none; border-top: 1px solid #ccc; margin: 14px 0; }
 .chapter { break-before: page; }
+.new-page { break-before: page; }
+p:has(> img[src$="author-photo.jpg"]) + p { text-align: center; }
 .cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; }
 .cover .t1 { font-size: 30pt; font-weight: bold; color: #0d3b66; }
 .cover .t2 { font-size: 16pt; margin-top: 8px; }
@@ -100,7 +102,7 @@ hr { border: none; border-top: 1px solid #ccc; margin: 14px 0; }
 <p>⚠️ ภาพที่ระบุในคำบรรยายว่า <strong>&quot;ปรับแต่งด้วย AI&quot;</strong> อาจมีตัวอักษรบนชิป รหัสไอซี หรือรายละเอียดบางส่วนที่ไม่ตรงกับของจริง ให้ใช้ภาพเหล่านี้เพื่อดูวิธีการเท่านั้น ก่อนทำงานจริงต้องอ่านรหัสจากชิ้นส่วนบนแผงและตรวจกับดาต้าชีตทุกครั้ง</p>
 </blockquote>
 <hr>
-<h2 id="s3">เกี่ยวกับผู้เขียน</h2>
+<h2 id="s3" class="new-page">เกี่ยวกับผู้เขียน</h2>
 <p><img src="images/author-photo.jpg" alt="Supunya Pharaphong (Mytech) ผู้เขียน"></p>
 <p><em>ภาพผู้เขียนจากงานในอดีต</em></p>
 <p><strong>Supunya Pharaphong</strong> ผู้เขียนในนาม <strong>Mytech</strong> เคยศึกษาที่มหาวิทยาลัยขอนแก่น ปัจจุบันอยู่ในพื้นที่อุดรธานีและจังหวัดใกล้เคียง ใช้คำแนะนำตัวว่า &quot;Service Lamborghini&quot;</p>

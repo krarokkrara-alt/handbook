@@ -12,6 +12,8 @@ const { chromium } = require(path.join(NODE_MODULES, 'playwright'));
 const BOOK = path.resolve(__dirname, '..');
 const OUT = path.join(BOOK, 'build');
 const NAME = 'ECU_Handbook_Vol1_Free';
+// หัวข้อที่ต้องขึ้นหน้าใหม่เสมอ (นอกเหนือจากต้นบท)
+const NEW_PAGE_HEADINGS = ['เกี่ยวกับผู้เขียน'];
 
 // ไฟล์บทเรียงตามเลขนำหน้า (00-, 02-, 06- ...) ไฟล์ใหม่ที่ขึ้นต้นด้วยเลขจะถูกรวมเองอัตโนมัติ
 const chapters = fs.readdirSync(BOOK)
@@ -40,7 +42,8 @@ for (const file of chapters) {
     renderer: Object.assign(renderer, {
       heading(token) {
         const id = token.__id ? ` id="${token.__id}"` : '';
-        return `<h${token.depth}${id}>${this.parser.parseInline(token.tokens)}</h${token.depth}>\n`;
+        const cls = NEW_PAGE_HEADINGS.includes(token.text) ? ' class="new-page"' : '';
+        return `<h${token.depth}${id}${cls}>${this.parser.parseInline(token.tokens)}</h${token.depth}>\n`;
       },
     }),
   });
@@ -78,6 +81,8 @@ blockquote p { margin: 4px 0; }
 code { font-family: Consolas, monospace; font-size: 9pt; background: #f2f2f2; padding: 0 3px; }
 hr { border: none; border-top: 1px solid #ccc; margin: 14px 0; }
 .chapter { break-before: page; }
+.new-page { break-before: page; }
+p:has(> img[src$="author-photo.jpg"]) + p { text-align: center; }
 .cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; }
 .cover .t1 { font-size: 30pt; font-weight: bold; color: #0d3b66; }
 .cover .t2 { font-size: 16pt; margin-top: 8px; }
