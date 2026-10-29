@@ -72,6 +72,7 @@ h3 { font-size: 12pt; margin: 14px 0 4px; break-after: avoid; }
 p, li { orphans: 2; widows: 2; }
 img[src$="author-photo.jpg"] { width: 45mm; }
 img[src$="group-qr.png"] { width: 38mm; }
+img[src$="pinout-WRONG.jpg"] { width: 140mm; }
 img { max-width: 100%; max-height: 210mm; display: block; margin: 8px auto 4px; break-inside: avoid; }
 p:has(> img) { break-inside: avoid; break-after: avoid; margin-bottom: 0; }
 p > em:only-child { display: block; font-size: 9pt; color: #444; }
