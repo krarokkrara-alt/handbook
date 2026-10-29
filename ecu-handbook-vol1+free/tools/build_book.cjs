@@ -69,6 +69,7 @@ h2 { font-size: 14.5pt; color: #0d3b66; margin: 18px 0 6px; break-after: avoid; 
 h3 { font-size: 12pt; margin: 14px 0 4px; break-after: avoid; }
 p, li { orphans: 2; widows: 2; }
 img[src$="author-photo.jpg"] { width: 45mm; }
+img[src$="group-qr.png"] { width: 38mm; }
 img { max-width: 100%; max-height: 210mm; display: block; margin: 8px auto 4px; break-inside: avoid; }
 p:has(> img) { break-inside: avoid; break-after: avoid; margin-bottom: 0; }
 p > em:only-child { display: block; font-size: 9pt; color: #444; }
