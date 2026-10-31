@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1090 640" width="1090" height="640" font-family="Tahoma, &quot;Leelawadee UI&quot;, sans-serif">
+<rect width="1090" height="640" fill="#ffffff"/>
+<text class="t" x="30" y="32" font-size="22" text-anchor="start" font-weight="bold" fill="#111111">เส้นกราวด์ E-10: EDU, ECM, Pump ROM, TDC</text>
+<rect class="b" x="50" y="60" width="240" height="60" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="170" y="96" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">EDU E-34</text>
+<rect class="b" x="340" y="60" width="330" height="60" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="505" y="96" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">ECM J1 (E-32)</text>
+<rect class="b" x="720" y="60" width="140" height="60" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="790" y="96" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Pump ROM</text>
+<rect class="b" x="910" y="60" width="130" height="60" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="975" y="96" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">TDC</text>
+<polyline class="w" points="110,120 110,220 230,220 230,120" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="170" cy="220" r="6" fill="#111111"/>
+<polyline class="w" points="170,220 170,300" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="102" y="146" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">12</text>
+<text class="t" x="238" y="146" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">17</text>
+<text class="t" x="102" y="180" font-size="15" text-anchor="end" fill="#111111">1.25 B</text>
+<text class="t" x="238" y="180" font-size="15" text-anchor="start" fill="#111111">1.25 B</text>
+<text class="t" x="162" y="262" font-size="15" text-anchor="end" fill="#111111">2.0 B</text>
+<polyline class="w" points="400,120 400,300" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="505,120 505,220" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="610,120 610,220" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="400,220 790,220" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="790,120 790,220" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="400" cy="220" r="6" fill="#111111"/>
+<circle cx="505" cy="220" r="6" fill="#111111"/>
+<circle cx="610" cy="220" r="6" fill="#111111"/>
+<text class="t" x="392" y="146" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">38</text>
+<text class="t" x="497" y="146" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">55</text>
+<text class="t" x="602" y="146" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">54</text>
+<text class="t" x="392" y="180" font-size="15" text-anchor="end" fill="#111111">0.5 B</text>
+<text class="t" x="497" y="180" font-size="15" text-anchor="end" fill="#111111">0.5 B</text>
+<text class="t" x="602" y="180" font-size="15" text-anchor="end" fill="#111111">0.5 B</text>
+<text class="t" x="798" y="146" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">E-26/2</text>
+<text class="t" x="798" y="180" font-size="15" text-anchor="start" fill="#111111">0.5 B</text>
+<text class="t" x="392" y="262" font-size="15" text-anchor="end" fill="#111111">2.0 B</text>
+<polyline class="w" points="975,120 975,300" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="975" cy="205" r="6" fill="#111111"/>
+<text class="t" x="983" y="146" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">E-9/1</text>
+<text class="t" x="983" y="180" font-size="15" text-anchor="start" fill="#111111">0.5 B</text>
+<text class="t" x="983" y="262" font-size="15" text-anchor="start" fill="#111111">2.0 B</text>
+<rect class="b" x="130" y="300" width="80" height="40" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="170" y="327" font-size="15" text-anchor="middle" fill="#111111">E-10</text>
+<polyline class="w" points="170,340 170,420" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect class="b" x="360" y="300" width="80" height="40" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="400" y="327" font-size="15" text-anchor="middle" fill="#111111">E-10</text>
+<polyline class="w" points="400,340 400,420" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect class="b" x="935" y="300" width="80" height="40" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="975" y="327" font-size="15" text-anchor="middle" fill="#111111">E-10</text>
+<polyline class="w" points="975,340 975,420" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="40,420 1050,420" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="40,426 1050,426" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="545" y="412" font-size="15" text-anchor="middle" fill="#111111">ตัวเครื่องยนต์ (สัญลักษณ์ ENGINE ในผัง)</text>
+<polyline class="w" points="780,426 780,500" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect class="b" x="740" y="450" width="80" height="34" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="780" y="473" font-size="15" text-anchor="middle" fill="#111111">P-10</text>
+<text class="t" x="790" y="442" font-size="15" text-anchor="start" fill="#111111">20.0 B/Y</text>
+<rect class="b" x="720" y="500" width="140" height="70" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="790" y="542" font-size="15" text-anchor="middle" fill="#111111">แบตเตอรี่ −</text>
+<polyline class="w" points="720,535 600,535 600,548" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="600,548 600,560" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="582,560 618,560" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="589,567 611,567" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="595,574 605,574" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect class="b" x="640" y="520" width="60" height="30" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="670" y="542" font-size="15" text-anchor="middle" fill="#111111">P-6</text>
+<text class="t" x="670" y="510" font-size="15" text-anchor="middle" fill="#111111">8.0 B</text>
+<text class="t" x="630" y="572" font-size="15" text-anchor="start" fill="#111111">ตัวถัง BODY</text>
+<text class="t" x="40" y="480" font-size="15" text-anchor="start" fill="#111111">ผังเขียน E-10 แยก 3 สัญลักษณ์ ชื่อเดียวกัน</text>
+<text class="t" x="40" y="504" font-size="15" text-anchor="start" fill="#111111">ยังไม่รู้ว่าบนรถเป็นน็อตเดียวกันหรือไม่</text>
+<text class="t" x="40" y="528" font-size="15" text-anchor="start" fill="#111111">ต้องตามสาย 2.0 B ไปดูจุดยึดจริง</text>
+<text class="t" x="40" y="620" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">ห้ามสรุปว่าวัดโอห์มผ่านจุดเดียวแล้วผ่านทั้งหมด วัดแยกทีละเส้น</text>
+</svg>

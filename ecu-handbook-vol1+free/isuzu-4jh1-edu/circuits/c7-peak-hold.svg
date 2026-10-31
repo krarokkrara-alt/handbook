@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1090 640" width="1090" height="640" font-family="Tahoma, &quot;Leelawadee UI&quot;, sans-serif">
+<rect width="1090" height="640" fill="#ffffff"/>
+<text class="t" x="30" y="32" font-size="22" text-anchor="start" font-weight="bold" fill="#111111">กระแสและแรงดันคร่อม Spill Valve ต่อเวลา</text>
+<text class="t" x="1060" y="32" font-size="15" text-anchor="end" font-weight="bold" fill="#6b5400">แบบหลักการ ไม่มีสเกล</text>
+<text class="t" x="170" y="66" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">ไม่สั่ง</text>
+<text class="t" x="320" y="66" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">ดึง ไฟสูง</text>
+<text class="t" x="480" y="66" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">ลดกระแส</text>
+<text class="t" x="700" y="66" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">ประคอง</text>
+<text class="t" x="955" y="66" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">ปล่อย</text>
+<polyline class="w" points="220,76 220,590" fill="none" stroke="#666666" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7"/>
+<polyline class="w" points="420,76 420,590" fill="none" stroke="#666666" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7"/>
+<polyline class="w" points="540,76 540,590" fill="none" stroke="#666666" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7"/>
+<polyline class="w" points="860,76 860,590" fill="none" stroke="#666666" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7"/>
+<polyline class="w" points="120,80 120,300 1050,300" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="20" y="190" font-size="15" text-anchor="start" font-weight="bold" fill="#6a2c91">กระแส</text>
+<polyline class="w" points="120,296 220,296 270,185 330,130 420,100 540,205 560,185 580,205 600,185 620,205 640,185 660,205 680,185 700,205 720,185 740,205 760,185 780,205 800,185 820,205 840,185 860,205 950,296 1050,296" fill="none" stroke="#6a2c91" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="310" y="96" font-size="15" text-anchor="start" font-weight="bold" fill="#6a2c91">ยอดกระแสดึง</text>
+<text class="t" x="700" y="170" font-size="15" text-anchor="middle" font-weight="bold" fill="#6a2c91">แถบประคอง</text>
+<polyline class="w" points="120,350 120,570 1050,570" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="1050" y="610" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">เวลา</text>
+<text class="t" x="20" y="450" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">แรงดัน</text>
+<text class="t" x="20" y="472" font-size="15" text-anchor="start" fill="#111111">คร่อมวาล์ว</text>
+<polyline class="w" points="120,560 220,560" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="220,560 220,380 420,380 420,566" fill="none" stroke="#ee7a00" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="420,566 540,566" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="540,566 540,510 560,510 560,566 580,566" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="580,566 580,510 600,510 600,566 620,566" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="620,566 620,510 640,510 640,566 660,566" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="660,566 660,510 680,510 680,566 700,566" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="700,566 700,510 720,510 720,566 740,566" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="740,566 740,510 760,510 760,566 780,566" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="780,566 780,510 800,510 800,566 820,566" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="820,566 820,510 840,510 840,566 860,566" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="860,566 950,566 950,560 1050,560" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="320" y="372" font-size="15" text-anchor="middle" font-weight="bold" fill="#b35b00">ระดับราง HV</text>
+<text class="t" x="700" y="500" font-size="15" text-anchor="middle" font-weight="bold" fill="#d52830">ระดับไฟแบต ตัดต่อ</text>
+<text class="t" x="30" y="628" font-size="15" text-anchor="start" fill="#111111">เส้นม่วง = กระแส. ส้ม = ช่วงไฟสูง. แดง = ช่วงไฟแบต. ไม่มีตัวเลขเพราะยังไม่ได้วัดกระแสจริง</text>
+</svg>

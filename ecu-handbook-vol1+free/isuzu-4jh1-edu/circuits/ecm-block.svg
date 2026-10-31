@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1090 640" font-family="Tahoma, Leelawadee UI, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker></defs>
+<rect width="1090" height="640" fill="#fff"/>
+<rect x="395" y="50" width="300" height="540" rx="10" fill="#111820"/>
+<text x="545" y="300" font-size="40" font-weight="bold" fill="#fff" text-anchor="middle">ECM</text>
+<text x="545" y="338" font-size="20" fill="#ddd" text-anchor="middle">J1 = E-32  J2 = E-33</text>
+<text x="545" y="366" font-size="20" fill="#ddd" text-anchor="middle">ขั้วละ 64 ขา</text>
+<rect x="20" y="48" width="260" height="46" rx="5" fill="#fff" stroke="#1a7f37" stroke-width="2.5"/>
+<text x="32" y="67" font-size="17" font-weight="bold" fill="#1a7f37">TPS1 TPS2</text>
+<text x="32" y="87" font-size="15.5" fill="#333">J2-37, J2-36</text>
+<line x1="280" y1="72" x2="391" y2="72" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="20" y="99" width="260" height="46" rx="5" fill="#fff" stroke="#1a7f37" stroke-width="2.5"/>
+<text x="32" y="118" font-size="17" font-weight="bold" fill="#1a7f37">Cam Speed Sensor</text>
+<text x="32" y="138" font-size="15.5" fill="#333">J1-1, J1-17</text>
+<line x1="280" y1="123" x2="391" y2="123" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="20" y="150" width="260" height="46" rx="5" fill="#fff" stroke="#1a7f37" stroke-width="2.5"/>
+<text x="32" y="169" font-size="17" font-weight="bold" fill="#1a7f37">TDC Sensor</text>
+<text x="32" y="189" font-size="15.5" fill="#333">J1-23</text>
+<line x1="280" y1="174" x2="391" y2="174" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="20" y="201" width="260" height="46" rx="5" fill="#fff" stroke="#1a7f37" stroke-width="2.5"/>
+<text x="32" y="220" font-size="17" font-weight="bold" fill="#1a7f37">Boost, IAT</text>
+<text x="32" y="240" font-size="15.5" fill="#333">J1-58, J1-60</text>
+<line x1="280" y1="225" x2="391" y2="225" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="20" y="252" width="260" height="46" rx="5" fill="#fff" stroke="#1a7f37" stroke-width="2.5"/>
+<text x="32" y="271" font-size="17" font-weight="bold" fill="#1a7f37">Coolant, Fuel Temp</text>
+<text x="32" y="291" font-size="15.5" fill="#333">J1-42, J1-41</text>
+<line x1="280" y1="276" x2="391" y2="276" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="20" y="303" width="260" height="46" rx="5" fill="#fff" stroke="#1a7f37" stroke-width="2.5"/>
+<text x="32" y="322" font-size="17" font-weight="bold" fill="#1a7f37">EGR Sensor</text>
+<text x="32" y="342" font-size="15.5" fill="#333">J1-28</text>
+<line x1="280" y1="327" x2="391" y2="327" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="20" y="354" width="260" height="46" rx="5" fill="#fff" stroke="#1a7f37" stroke-width="2.5"/>
+<text x="32" y="373" font-size="17" font-weight="bold" fill="#1a7f37">Pump ROM</text>
+<text x="32" y="393" font-size="15.5" fill="#333">J1-50, J1-49</text>
+<line x1="280" y1="378" x2="391" y2="378" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="20" y="405" width="260" height="46" rx="5" fill="#fff" stroke="#d52830" stroke-width="2.5"/>
+<text x="32" y="424" font-size="17" font-weight="bold" fill="#d52830">IG</text>
+<text x="32" y="444" font-size="15.5" fill="#333">J2-52</text>
+<line x1="280" y1="429" x2="391" y2="429" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="20" y="456" width="260" height="46" rx="5" fill="#fff" stroke="#d52830" stroke-width="2.5"/>
+<text x="32" y="475" font-size="17" font-weight="bold" fill="#d52830">BATT</text>
+<text x="32" y="495" font-size="15.5" fill="#333">J2-2, J2-19</text>
+<line x1="280" y1="480" x2="391" y2="480" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="20" y="507" width="260" height="46" rx="5" fill="#fff" stroke="#d52830" stroke-width="2.5"/>
+<text x="32" y="526" font-size="17" font-weight="bold" fill="#d52830">+B Main Relay</text>
+<text x="32" y="546" font-size="15.5" fill="#333">J2-1, J2-17</text>
+<line x1="280" y1="531" x2="391" y2="531" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="810" y="60" width="262" height="46" rx="5" fill="#fff" stroke="#0d3b66" stroke-width="2.5"/>
+<text x="822" y="79" font-size="17" font-weight="bold" fill="#0d3b66">ECM Main Relay</text>
+<text x="822" y="99" font-size="15.5" fill="#333">J2-15</text>
+<line x1="695" y1="84" x2="806" y2="84" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="810" y="116" width="262" height="46" rx="5" fill="#fff" stroke="#e07b00" stroke-width="2.5"/>
+<text x="822" y="135" font-size="17" font-weight="bold" fill="#e07b00">Spill Valve Relay</text>
+<text x="822" y="155" font-size="15.5" fill="#333">J2-16</text>
+<line x1="695" y1="140" x2="806" y2="140" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="810" y="172" width="262" height="46" rx="5" fill="#fff" stroke="#e07b00" stroke-width="2.5"/>
+<text x="822" y="191" font-size="17" font-weight="bold" fill="#e07b00">EDU</text>
+<text x="822" y="211" font-size="15.5" fill="#333">J1-34, J1-33</text>
+<line x1="695" y1="196" x2="806" y2="196" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="810" y="228" width="262" height="46" rx="5" fill="#fff" stroke="#e07b00" stroke-width="2.5"/>
+<text x="822" y="247" font-size="17" font-weight="bold" fill="#e07b00">TCV</text>
+<text x="822" y="267" font-size="15.5" fill="#333">J1-25</text>
+<line x1="695" y1="252" x2="806" y2="252" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="810" y="284" width="262" height="46" rx="5" fill="#fff" stroke="#0d3b66" stroke-width="2.5"/>
+<text x="822" y="303" font-size="17" font-weight="bold" fill="#0d3b66">EVRV</text>
+<text x="822" y="323" font-size="15.5" fill="#333">J1-26</text>
+<line x1="695" y1="308" x2="806" y2="308" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="810" y="340" width="262" height="46" rx="5" fill="#fff" stroke="#0d3b66" stroke-width="2.5"/>
+<text x="822" y="359" font-size="17" font-weight="bold" fill="#0d3b66">VSV EGR1, EGR2</text>
+<text x="822" y="379" font-size="15.5" fill="#333">J1-9, J1-10</text>
+<line x1="695" y1="364" x2="806" y2="364" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="810" y="396" width="262" height="46" rx="5" fill="#fff" stroke="#0d3b66" stroke-width="2.5"/>
+<text x="822" y="415" font-size="17" font-weight="bold" fill="#0d3b66">VSV Intake</text>
+<text x="822" y="435" font-size="15.5" fill="#333">J2-23</text>
+<line x1="695" y1="420" x2="806" y2="420" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="810" y="452" width="262" height="46" rx="5" fill="#fff" stroke="#0d3b66" stroke-width="2.5"/>
+<text x="822" y="471" font-size="17" font-weight="bold" fill="#0d3b66">A/C Relay</text>
+<text x="822" y="491" font-size="15.5" fill="#333">J2-7</text>
+<line x1="695" y1="476" x2="806" y2="476" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="810" y="508" width="262" height="46" rx="5" fill="#fff" stroke="#7a4fa3" stroke-width="2.5"/>
+<text x="822" y="527" font-size="17" font-weight="bold" fill="#7a4fa3">Meter, TCM, DLC</text>
+<text x="822" y="547" font-size="15.5" fill="#333">J2-32, J2-14, J2-54</text>
+<line x1="695" y1="532" x2="806" y2="532" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<text x="150" y="622" font-size="18" text-anchor="middle" fill="#333">ขาเข้า</text>
+<text x="941" y="622" font-size="18" text-anchor="middle" fill="#333">ขาออกและการสื่อสาร</text>
+<text x="545" y="622" font-size="16" text-anchor="middle" fill="#555">กราวด์ J1-38, 54, 55</text>
+</svg>

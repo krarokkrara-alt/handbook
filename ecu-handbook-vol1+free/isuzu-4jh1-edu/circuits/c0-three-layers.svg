@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1090 440" width="1090" height="440" font-family="Tahoma, &quot;Leelawadee UI&quot;, sans-serif">
+<rect width="1090" height="440" fill="#ffffff"/>
+<text class="t" x="30" y="32" font-size="22" text-anchor="start" font-weight="bold" fill="#111111">ไฟ 3 ชั้นของระบบ EDU</text>
+<rect class="b" x="30" y="90" width="120" height="70" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="90" y="131" font-size="15" text-anchor="middle" fill="#111111">แบตเตอรี่</text>
+<polyline class="w" points="150,125 220,125" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect class="b" x="220" y="100" width="90" height="50" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="265" y="131" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">EB-3</text>
+<polyline class="w" points="310,125 380,125" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect class="b" x="380" y="100" width="90" height="50" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="425" y="131" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">X-5</text>
+<polyline class="w" points="470,125 620,125" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="545" y="115" font-size="15" text-anchor="middle" fill="#111111">ขา 7, 4</text>
+<rect class="b" x="620" y="70" width="220" height="230" rx="3" fill="#fafafa" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="730" y="100" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">EDU</text>
+<rect class="b" x="640" y="130" width="180" height="60" rx="3" fill="#fff6db" stroke="#ee7a00" stroke-width="2.4"/>
+<text class="t" x="730" y="166" font-size="15" text-anchor="middle" fill="#111111">ยกแรงดันในกล่อง</text>
+<polyline class="w" points="840,130 930,130 930,160" fill="none" stroke="#ee7a00" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M930 160 a11 10 0 0 0 0 20 a11 10 0 0 0 0 20 a11 10 0 0 0 0 20 a11 10 0 0 0 0 20" fill="none" stroke="#ee7a00" stroke-width="3"/>
+<polyline class="w" points="930,240 930,270 840,270" fill="none" stroke="#ee7a00" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="885" y="120" font-size="15" text-anchor="middle" fill="#111111">ขา 14</text>
+<text class="t" x="885" y="294" font-size="15" text-anchor="middle" fill="#111111">ขา 20</text>
+<text class="t" x="950" y="195" font-size="15" text-anchor="start" fill="#111111">Spill</text>
+<text class="t" x="950" y="217" font-size="15" text-anchor="start" fill="#111111">Valve</text>
+<rect class="b" x="100" y="250" width="190" height="70" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="195" y="291" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">ECM</text>
+<polyline class="w" points="290,270 620,270" fill="none" stroke="#0d5fb0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="455" y="260" font-size="15" text-anchor="middle" fill="#111111">ขา 22 และ 25</text>
+<polyline class="w" points="425,150 425,210 195,210 195,250" fill="none" stroke="#0d5fb0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="433" y="195" font-size="15" text-anchor="start" fill="#111111">คุมรีเลย์ J2-16</text>
+<polyline class="w" points="60,160 60,370 730,370 730,300" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="195,320 195,370" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="195" cy="370" r="6" fill="#111111"/>
+<circle cx="400" cy="370" r="6" fill="#111111"/>
+<polyline class="w" points="400,370 400,380" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="400,380 400,392" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="382,392 418,392" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="389,399 411,399" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="395,406 405,406" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="738" y="340" font-size="15" text-anchor="start" fill="#111111">ขา 12, 17</text>
+<text class="t" x="425" y="400" font-size="15" text-anchor="start" fill="#111111">E-10 และตัวถัง</text>
+<polyline class="w" points="30,424 64,424" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="72" y="430" font-size="15" text-anchor="start" fill="#111111">ชั้น 1 ไฟต่ำ</text>
+<polyline class="w" points="240,424 274,424" fill="none" stroke="#0d5fb0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="282" y="430" font-size="15" text-anchor="start" fill="#111111">ชั้น 2 ไฟสัญญาณ</text>
+<polyline class="w" points="480,424 514,424" fill="none" stroke="#ee7a00" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="522" y="430" font-size="15" text-anchor="start" fill="#111111">ชั้น 3 ไฟสูง</text>
+<polyline class="w" points="690,424 724,424" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="732" y="430" font-size="15" text-anchor="start" fill="#111111">กราวด์</text>
+</svg>

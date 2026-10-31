@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1090 900" width="1090" height="900" font-family="Tahoma, &quot;Leelawadee UI&quot;, sans-serif">
+<rect width="1090" height="900" fill="#ffffff"/>
+<text class="t" x="30" y="32" font-size="22" text-anchor="start" font-weight="bold" fill="#111111">Spill Valve Relay X-5: วงขดลวด และ วงหน้าสัมผัส</text>
+<text class="t" x="290" y="66" font-size="15" text-anchor="middle" fill="#111111">จากแบตเตอรี่</text>
+<polyline class="w" points="290,76 290,100" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M290 100 q14 15 0 30 q-14 15 0 30" fill="none" stroke="#d52830" stroke-width="3"/><circle cx="290" cy="100" r="5" fill="#fff" stroke="#d52830" stroke-width="2.4"/><circle cx="290" cy="160" r="5" fill="#fff" stroke="#d52830" stroke-width="2.4"/>
+<text class="t" x="310" y="124" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">EB-3 15A</text>
+<text class="t" x="310" y="146" font-size="15" text-anchor="start" fill="#111111">S/VALVE</text>
+<polyline class="w" points="290,160 290,325" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="290" cy="200" r="6" fill="#d52830"/>
+<polyline class="w" points="290,200 740,200 740,320" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="500" y="190" font-size="15" text-anchor="start" fill="#111111">2.0 R/L</text>
+<text class="t" x="282" y="235" font-size="15" text-anchor="end" fill="#111111">2.0 R/L</text>
+<rect class="b" x="210" y="260" width="640" height="170" rx="3" fill="#fafafa" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="530" y="286" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">X-5 Spill Valve Relay</text>
+<polyline class="w" points="290,375 290,560" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="290" cy="325" r="4.5" fill="#fff" stroke="#d52830" stroke-width="2.4"/><circle cx="290" cy="375" r="4.5" fill="#fff" stroke="#d52830" stroke-width="2.4"/><line x1="290" y1="370" x2="310" y2="331" stroke="#d52830" stroke-width="3"/>
+<text class="t" x="282" y="306" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">1</text>
+<text class="t" x="282" y="416" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">2</text>
+<text class="t" x="330" y="356" font-size="15" text-anchor="start" fill="#111111">หน้าสัมผัส ปกติเปิด</text>
+<path d="M740 320 a11 7.5 0 0 0 0 15 a11 7.5 0 0 0 0 15 a11 7.5 0 0 0 0 15 a11 7.5 0 0 0 0 15" fill="none" stroke="#d52830" stroke-width="3"/>
+<polyline class="w" points="740,380 740,751" fill="none" stroke="#0d5fb0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="740" cy="305" r="6" fill="#d52830"/>
+<polyline class="w" points="740,305 800,305 800,320" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="800,320 791,330 809,340 791,350 809,360 791,370 800,380" fill="none" stroke="#111111" stroke-width="2.6"/>
+<polyline class="w" points="800,380 800,400 740,400" fill="none" stroke="#0d5fb0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="740" cy="400" r="6" fill="#0d5fb0"/>
+<text class="t" x="732" y="306" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">3</text>
+<text class="t" x="732" y="422" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">4</text>
+<text class="t" x="690" y="356" font-size="15" text-anchor="end" fill="#111111">ขดลวด</text>
+<text class="t" x="748" y="470" font-size="15" text-anchor="start" fill="#111111">0.5 B/G</text>
+<rect class="b" x="715" y="490" width="50" height="30" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="740" y="511" font-size="15" text-anchor="middle" fill="#111111">H-4</text>
+<text class="t" x="771" y="511" font-size="15" text-anchor="start" fill="#111111">21</text>
+<text class="t" x="282" y="460" font-size="15" text-anchor="end" fill="#111111">2.0 B/R</text>
+<rect class="b" x="265" y="480" width="50" height="30" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="290" y="501" font-size="15" text-anchor="middle" fill="#111111">H-4</text>
+<text class="t" x="321" y="501" font-size="15" text-anchor="start" fill="#111111">17</text>
+<circle cx="290" cy="560" r="6" fill="#d52830"/>
+<polyline class="w" points="120,560 510,560" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="560" r="6" fill="#d52830"/>
+<polyline class="w" points="120,560 120,610" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="200,560 200,610" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="510,560 510,610" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="112" y="590" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">7</text>
+<text class="t" x="208" y="590" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">4</text>
+<text class="t" x="518" y="590" font-size="15" text-anchor="start" fill="#111111">E-24/1</text>
+<text class="t" x="300" y="550" font-size="15" text-anchor="start" fill="#111111">1.25 B/R ทุกเส้นแยก</text>
+<rect class="b" x="60" y="610" width="220" height="70" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="170" y="652" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">EDU E-34</text>
+<rect class="b" x="450" y="610" width="120" height="70" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="510" y="652" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">TCV</text>
+<polyline class="w" points="120,680 120,720 200,720 200,680" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="160" cy="720" r="6" fill="#111111"/>
+<polyline class="w" points="160,720 160,745" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="160,745 160,757" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="142,757 178,757" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="149,764 171,764" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="155,771 165,771" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="112" y="706" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">12</text>
+<text class="t" x="208" y="706" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">17</text>
+<text class="t" x="185" y="768" font-size="15" text-anchor="start" fill="#111111">E-10 กราวด์ 2.0 B</text>
+<polyline class="w" points="510,680 510,751" fill="none" stroke="#0d5fb0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="502" y="702" font-size="15" text-anchor="end" fill="#111111">0.5 Y</text>
+<rect class="b" x="400" y="730" width="650" height="140" rx="3" fill="none" stroke="#666666" stroke-width="2.4" stroke-dasharray="10 7"/>
+<text class="t" x="1040" y="756" font-size="18" text-anchor="end" font-weight="bold" fill="#111111">ECM</text>
+<text class="t" x="518" y="722" font-size="15" text-anchor="start" fill="#111111">J1-25</text>
+<text class="t" x="748" y="722" font-size="15" text-anchor="start" fill="#111111">J2-16 (E-33/16)</text>
+<polyline class="w" points="490,770 490,800" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="468,785 490,785" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="490,779 510,763 510,751" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="490,791 510,807 510,819" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="510,807 499,803 504,796" fill="#111111"/>
+<polyline class="w" points="510,819 510,831" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="492,831 528,831" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="499,838 521,838" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="505,845 515,845" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="510,751 510,751" fill="none" stroke="#0d5fb0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect class="b" x="415" y="765" width="40" height="40" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="435" y="791" font-size="15" text-anchor="middle" fill="#111111">µP</text>
+<polyline class="w" points="455,785 468,785" fill="none" stroke="#0d5fb0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="720,770 720,800" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="698,785 720,785" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="720,779 740,763 740,751" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="720,791 740,807 740,819" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="740,807 729,803 734,796" fill="#111111"/>
+<polyline class="w" points="740,819 740,831" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="722,831 758,831" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="729,838 751,838" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline class="w" points="735,845 745,845" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect class="b" x="645" y="765" width="40" height="40" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+<text class="t" x="665" y="791" font-size="15" text-anchor="middle" fill="#111111">µP</text>
+<polyline class="w" points="685,785 698,785" fill="none" stroke="#0d5fb0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="770" y="794" font-size="15" text-anchor="start" fill="#111111">ทรานซิสเตอร์นำ = ลงกราวด์</text>
+<text class="t" x="770" y="818" font-size="15" text-anchor="start" fill="#111111">รีเลย์ดึง</text>
+<text class="t" x="30" y="200" font-size="15" text-anchor="start" fill="#111111">วงขดลวด</text>
+<text class="t" x="30" y="222" font-size="15" text-anchor="start" fill="#111111">แบต, EB-3, X-5/3,</text>
+<text class="t" x="30" y="244" font-size="15" text-anchor="start" fill="#111111">X-5/4, J2-16, ลงกราวด์</text>
+<text class="t" x="30" y="380" font-size="15" text-anchor="start" fill="#111111">วงหน้าสัมผัส</text>
+<text class="t" x="30" y="402" font-size="15" text-anchor="start" fill="#111111">แบต, EB-3, X-5/1,</text>
+<text class="t" x="30" y="424" font-size="15" text-anchor="start" fill="#111111">X-5/2, EDU และ TCV</text>
+<polyline class="w" points="30,824 64,824" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="72" y="830" font-size="15" text-anchor="start" fill="#111111">+12 V</text>
+<polyline class="w" points="30,849 64,849" fill="none" stroke="#0d5fb0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="72" y="855" font-size="15" text-anchor="start" fill="#111111">คุม</text>
+<polyline class="w" points="140,849 174,849" fill="none" stroke="#111111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t" x="182" y="855" font-size="15" text-anchor="start" fill="#111111">กราวด์</text>
+</svg>

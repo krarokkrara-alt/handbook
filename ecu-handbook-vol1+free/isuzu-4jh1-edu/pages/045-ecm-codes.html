@@ -1,0 +1,46 @@
+<h1>อ่านรหัสไฟโชว์ที่ชี้ไป EDU</h1>
+<p><b>วิธีเรียกรหัส</b> ตำราหน้าปลั๊ก ISUZU ของ อ.ปรีชา เจียงจันทร์ หน้า 73 ระบุให้จั๊มขา 4 กับ 6 ของขั้ว Diagnosis ขา 6 คือ TE1 สาย 0.5 B/G ต่อกับ ECM J2-61 ผ่าน H-7/31 และ H-4/22 ส่วนขา 4 เป็นกราวด์ ระวังขา 16 ของขั้วเดียวกันมีไฟ +B อย่าจั๊มผิดขา <span class="tag x">ยังไม่ได้เทียบกับคู่มือ Isuzu</span></p>
+<div class="two">
+<table>
+<tr><th style="width:22%">รหัส</th><th>ระบบ</th></tr>
+<tr><td><b>61</b></td><td>EDU, Spill Valve</td></tr>
+<tr><td><b>62</b></td><td>Spill Valve</td></tr>
+<tr><td><b>63</b></td><td>Spill Valve</td></tr>
+<tr><td><b>64</b></td><td>Spill Valve</td></tr>
+<tr><td><b>46</b></td><td>TCV</td></tr>
+<tr><td><b>76</b></td><td>ECM Relay</td></tr>
+<tr><td><b>43</b></td><td>CKP</td></tr>
+<tr><td><b>41</b></td><td>Cam Position Sensor</td></tr>
+<tr><td><b>44</b></td><td>Prom</td></tr>
+<tr><td><b>55</b></td><td>ECU</td></tr>
+<tr><td><b>35</b></td><td>Battery</td></tr>
+<tr><td><b>12</b></td><td>VC</td></tr>
+</table>
+<table>
+<tr><th style="width:22%">รหัส</th><th>ระบบ</th></tr>
+<tr><td><b>34</b></td><td>MAP Sensor</td></tr>
+<tr><td><b>23</b></td><td>THA</td></tr>
+<tr><td><b>14</b></td><td>THW</td></tr>
+<tr><td><b>15</b></td><td>THF</td></tr>
+<tr><td><b>21</b></td><td>Throttle Sensor 1</td></tr>
+<tr><td><b>33</b></td><td>Throttle Sensor 2</td></tr>
+<tr><td><b>31</b></td><td>EGR Solenoid 1</td></tr>
+<tr><td><b>37</b></td><td>EGR Solenoid 2</td></tr>
+<tr><td><b>32</b></td><td>EGR, EVRV</td></tr>
+<tr><td><b>26</b></td><td>EGR</td></tr>
+<tr><td><b>24</b></td><td>SPD</td></tr>
+<tr><td><b>47</b></td><td>Inhibitor Switch</td></tr>
+</table>
+</div>
+<h2>เจอ 61 ถึง 64 แล้วเริ่มตรงไหน</h2>
+<p>ตำราบอกแค่ระบบ ความหมายแต่ละเลขยังไม่ยืนยัน จึงไล่ทั้งวงจรจากง่ายไปยาก</p>
+<ol>
+<li>ฟิวส์ EB-3 15A และไฟที่ X-5/1, X-5/3</li>
+<li>ECM ดึงขา J2-16 ลงหรือไม่</li>
+<li>ไฟถึง EDU ขา 4, 7 และ TCV ขา E-24/1 หรือไม่</li>
+<li>กราวด์ EDU ขา 12, 17 ด้วยการวัดแรงดันตก</li>
+<li>สัญญาณที่ขา 22 และ 25 วัดด้วยสโคปด้านหลังปลั๊ก ไม่แตะขา 14, 20</li>
+<li>ปิดกุญแจ ถอดปลั๊ก E-29 ก่อนเสมอ แล้ววัดฝั่งคอยล์ ความต้านทานคร่อม E-29/1–2 และแต่ละขากับตัวเรือนปั๊ม ห้ามวัดขณะมีไฟ เล่มนี้ยังไม่มีค่าเกณฑ์ ให้เทียบคอยล์ดี</li>
+<li>เมื่อทุกข้อผ่าน จึงถอดกล่อง EDU ไปตรวจบนโต๊ะ</li>
+</ol>
+<div class="warn">อย่าเปลี่ยน EDU ก่อนเช็กคอยล์ Spill Valve ถ้าคอยล์ลัดวงจรอยู่ กล่องใหม่อาจเสียซ้ำ อู่ซ่อมต่างประเทศรายงานว่าภาคขับ Spill Valve คือจุดที่พังบ่อย <span class="tag x">ยังไม่ยืนยัน</span></div>
