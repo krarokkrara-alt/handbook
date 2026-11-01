@@ -1,0 +1,49 @@
+<h1>20 ตารางสรุปสัญญาณ ECU</h1>
+<p><b>วัดอะไร ที่ไหน ด้วยอะไร:</b> ใช้ตารางนี้หาขาก่อนวัดด้วยมัลติมิเตอร์ที่หลังปลั๊ก ECU เลขขาส่วนใหญ่ยกจากผัง Altis แถวสถานะ 02041 มาจากผังขาคนละหมายเลขกล่อง ทั้งหมดยังไม่ยืนยันกับกล่อง 89661-02860 สถานะ <b>ชัด</b> = ผังรถอ่านชัด, <b>ผัง</b> = ผังรถ ภาพแตกบ้าง, <b>เว้น</b> = อ่านไม่ชัดจึงไม่ลงเลข, <b>02041</b> = มาจากผังขาคนละหมายเลขกล่อง</p>
+<div class="two">
+<table style="font-size:8.7pt">
+<tr><th>สัญญาณ</th><th>ขา</th><th>สาย</th><th>ต่อไปที่</th><th>สถานะ</th></tr>
+<tr><td>+B</td><td>16(B)</td><td>B</td><td>ราง B</td><td>ชัด</td></tr>
+<tr><td>BATT</td><td>เว้น</td><td>R/W</td><td>ทางฟิวส์ยังไม่ยืนยัน</td><td>02041</td></tr>
+<tr><td>IGSW</td><td>เว้น</td><td>B/O</td><td>หลังสวิตช์</td><td>เว้น</td></tr>
+<tr><td>MREL</td><td>เว้น</td><td>B/W</td><td>ขดลวด EFI Relay</td><td>เว้น</td></tr>
+<tr><td>FC</td><td>3(B)</td><td>G-R</td><td>C/OPEN ขา 2</td><td>ผัง</td></tr>
+<tr><td>STA</td><td>11(A)</td><td>B-W</td><td>ST Relay</td><td>ผัง</td></tr>
+<tr><td>NSW</td><td>13(A)</td><td>B-R</td><td>ป้าย (M/T) จาก ST Relay ต้องตรวจ</td><td>ผัง</td></tr>
+<tr><td>E01</td><td>21(D)</td><td>W-B</td><td>กราวด์ EC</td><td>ชัด</td></tr>
+<tr><td>E02</td><td>31(D)</td><td>W-B</td><td>กราวด์ EC</td><td>ชัด</td></tr>
+<tr><td>E03</td><td>6(C)</td><td>W-B</td><td>กราวด์</td><td>ผัง</td></tr>
+<tr><td>E1</td><td>เว้น</td><td>เว้น</td><td>ต้องตรวจ REF13</td><td>เว้น</td></tr>
+<tr><td>E2</td><td>18(C)</td><td>BR</td><td>J36 ร่วมเซ็นเซอร์</td><td>ชัด สีขัด</td></tr>
+<tr><td>RSO</td><td>16(D)</td><td>B-L</td><td>ISC ขา DUTY</td><td>ชัด</td></tr>
+<tr><td>EVP1</td><td>4(C)</td><td>L-B</td><td>V2 VSV Purge</td><td>ผัง</td></tr>
+<tr><td>VG</td><td>11(C)</td><td>G</td><td>AFM ขา 3</td><td>ชัด</td></tr>
+<tr><td>EVG</td><td>1(C)</td><td>L-W</td><td>AFM ขา 2</td><td>ชัด</td></tr>
+<tr><td>THA</td><td>22(C)</td><td>Y-B</td><td>AFM ขา 4</td><td>ชัด</td></tr>
+<tr><td>THW</td><td>14(C)</td><td>W</td><td>E2 Water Temp ขา 2</td><td>ชัด</td></tr>
+</table>
+<table style="font-size:8.7pt">
+<tr><th>สัญญาณ</th><th>ขา</th><th>สาย</th><th>ต่อไปที่</th><th>สถานะ</th></tr>
+<tr><td>VC</td><td>2(C)</td><td>Y</td><td>T1 TPS ขา 1</td><td>ชัด</td></tr>
+<tr><td>VTA</td><td>23(C)</td><td>LG</td><td>T1 TPS ขา 3</td><td>ชัด</td></tr>
+<tr><td>OCV+</td><td>24(D)</td><td>Y</td><td>C2 ขา 1</td><td>ชัด</td></tr>
+<tr><td>OCV−</td><td>23(D)</td><td>B-Y</td><td>C2 ขา 2</td><td>ชัด</td></tr>
+<tr><td>IGT1</td><td>10(D)</td><td>R-L</td><td>คอยล์ 1</td><td>ผัง</td></tr>
+<tr><td>IGT2</td><td>11(D)</td><td>Y-G</td><td>คอยล์ 2</td><td>ผัง</td></tr>
+<tr><td>IGT3</td><td>12(D)</td><td>GR</td><td>คอยล์ 3</td><td>ผัง</td></tr>
+<tr><td>IGT4</td><td>13(D)</td><td>W</td><td>คอยล์ 4</td><td>ผัง</td></tr>
+<tr><td>IGF</td><td>เว้น</td><td>L-Y</td><td>J36 ไปคอยล์ทุกตัว</td><td>เว้น</td></tr>
+<tr><td>#10</td><td>1(D)</td><td>Y</td><td>หัวฉีด 1</td><td>ผัง</td></tr>
+<tr><td>#20</td><td>2(D)</td><td>B</td><td>หัวฉีด 2</td><td>ผัง</td></tr>
+<tr><td>#30</td><td>3(D)</td><td>W</td><td>หัวฉีด 3</td><td>ผัง</td></tr>
+<tr><td>#40</td><td>4(D)</td><td>L</td><td>หัวฉีด 4</td><td>ผัง</td></tr>
+<tr><td>NE+ / NE−</td><td>เว้น</td><td>B / W สีจาก 02041</td><td>Crankshaft Sensor</td><td>เว้น 02041</td></tr>
+<tr><td>G2</td><td>16(C) ต้องตรวจ</td><td>B ตาม REF02</td><td>Camshaft Sensor</td><td>02041</td></tr>
+<tr><td>KNK1</td><td>27(D)</td><td>B</td><td>K1 Knock Sensor ชีลด์</td><td>ผัง</td></tr>
+<tr><td>TACH</td><td>27(A)</td><td>B</td><td>DLC3 ขา 9</td><td>ชัด</td></tr>
+<tr><td>SIL</td><td>11(B)</td><td>L-R</td><td>DLC3 ขา 7</td><td>ชัด</td></tr>
+<tr><td>TC</td><td>5(A)</td><td>P-B</td><td>DLC3 ขา 13</td><td>ชัด</td></tr>
+</table>
+</div>
+<div class="note"><b>ที่มาของสี</b> สีหัวฉีดและ G2 ตาม REF02 สี NE และ BATT ตามผังขา 02041 แถวอื่นเทียบ REF12, REF13 กับ REF02, REF03 <b>G2</b> ต้องตรวจเพราะ NE+ ในภาพก็อ่านเป็น 16(C) <b>J36</b> <span class="tag x">ยังไม่ยืนยัน</span> ชื่อ J36 ปรากฏทั้งชุด IGF (REF10) และชุด E2 (REF13) ยังไม่ยืนยันว่าตัวเดียวกัน <b>กลุ่มขั้ว</b> E6 = B, E7 = A, E8 = C, E9 = D</div>
+<div class="warn"><b>ข้อขัดที่ต้องจำ:</b> E2 ผังรถเขียน BR แต่ REF02 เขียน YG ต้องตรวจสายจริง ฟิวส์ IG2 อ่านได้ 7.5A กับ 15A ดูตัวจริง กลุ่ม ECT ของกล่อง A/T เช่น S1, S2, SL, SLT, NT, D, R, L, 2 ไม่อยู่ในตารางนี้ ห้ามยกมาใช้กับกล่อง M/T ห้ามจั๊มไฟเข้าขา ECU</div>
