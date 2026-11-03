@@ -38,7 +38,7 @@
 <polyline class="wire" points="110,360 110,430" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
 <g class="sym" stroke="#111111" stroke-width="3"><line x1="96" y1="430" x2="124" y2="430"/><line x1="101" y1="436" x2="119" y2="436"/><line x1="106" y1="442" x2="114" y2="442"/></g>
 <text x="124" y="410" font-size="16" text-anchor="start" fill="#222222">W-B</text>
-<text x="130" y="440" font-size="15" text-anchor="start" fill="#222222">กราวด์ BI ซ้ายเสาหลัง</text>
+<text x="130" y="440" font-size="15" text-anchor="start" fill="#222222">กราวด์ BI ด้านซ้ายเสาหลัง</text>
 <rect class="box" x="640" y="44" width="420" height="56" fill="#ffffff" stroke="#333333" stroke-width="2" stroke-dasharray="8 6"/>
 <text x="850" y="67" font-size="15" text-anchor="middle" fill="#222222" font-weight="bold">ฝั่งแหล่งจ่ายหัวฉีด: ดู REF12</text>
 <text x="850" y="90" font-size="15" text-anchor="middle" fill="#222222">เว้นค่าไว้ ต้องตรวจคู่มือ</text>

@@ -30,7 +30,7 @@
 <circle class="dot" cx="480" cy="350" r="5.5" fill="#111111"/>
 <polyline class="wire" points="660,145 660,240" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="9 7" stroke-linejoin="round"/>
 <text x="672" y="195" font-size="16" text-anchor="start" fill="#222222">ดู REF13</text>
-<text x="672" y="246" font-size="15" text-anchor="start" fill="#222222">เลขขาและสีเว้นไว้</text>
+<text x="672" y="246" font-size="15" text-anchor="start" fill="#222222">เลขขาเว้น สีเว้น</text>
 <text x="672" y="268" font-size="15" text-anchor="start" fill="#222222">ต้องตรวจก่อนใช้</text>
 <polyline class="wire" points="860,145 860,220" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
 <text x="872" y="180" font-size="16" text-anchor="start" fill="#222222">BR</text>

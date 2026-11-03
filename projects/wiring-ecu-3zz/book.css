@@ -13,7 +13,8 @@ ul, ol { margin: 0 0 2.2mm; padding-left: 6mm; }
 li { margin-bottom: 1mm; }
 img { display: block; max-width: 100%; margin: 0 auto; }
 figure { margin: 0 0 2mm; }
-figcaption, .cap { font-size: 9.8pt; color: #555; margin-top: 1.5mm; }
+figure { text-align: center; }
+figcaption, .cap { font-size: 9.8pt; color: #555; margin-top: 1.5mm; text-align: center; }
 table { border-collapse: collapse; width: 100%; font-size: 9.6pt; line-height: 1.35; margin: 1mm 0 3mm; }
 th { background: #111820; color: #fff; text-align: left; padding: 1.1mm 1.6mm; font-weight: bold; }
 td { border-bottom: 1px solid #c9c9c9; padding: 0.9mm 1.6mm; vertical-align: top; }
@@ -27,3 +28,4 @@ tr:nth-child(even) td { background: #f5f5f5; }
 .toc { list-style: none; padding: 0; margin: 0; font-size: 10.6pt; }
 .toc li { display: grid; grid-template-columns: 8.5mm 1fr; margin-bottom: 1.2mm; }
 .toc b { font-weight: normal; }
+.nw { white-space: nowrap; }

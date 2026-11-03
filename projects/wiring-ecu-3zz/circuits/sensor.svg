@@ -25,12 +25,12 @@
 <text x="205" y="243" font-size="15" text-anchor="middle" fill="#222222">อ่าน THW</text>
 <polyline class="wire" points="320,285 640,285" fill="none" stroke="#1560bd" stroke-width="3" stroke-linejoin="round"/>
 <text x="336" y="275" font-size="16" text-anchor="start" fill="#222222" font-weight="bold">THW 14(C)</text>
-<text x="490" y="275" font-size="16" text-anchor="start" fill="#222222">สาย W</text>
+<text x="476" y="310" font-size="16" text-anchor="start" fill="#222222">สาย W</text>
 <text x="628" y="275" font-size="16" text-anchor="end" fill="#222222" font-weight="bold">ขา 2</text>
 <rect class="box" x="640" y="48" width="420" height="160" fill="#ffffff" stroke="#333333" stroke-width="2"/>
 <text x="800" y="76" font-size="16" text-anchor="start" fill="#222222" font-weight="bold">T1 TPS</text>
 <text x="800" y="102" font-size="15" text-anchor="start" fill="#222222">ขา 1 VC, ขา 3 VTA</text>
-<text x="800" y="128" font-size="15" text-anchor="start" fill="#222222">ขา E2 เลขเว้นไว้</text>
+<text x="800" y="128" font-size="15" text-anchor="start" fill="#222222">ขา E2 เลขขาเว้น</text>
 <polyline class="wire" points="640,88 730,88 730,100" fill="none" stroke="#1a8f3c" stroke-width="3" stroke-linejoin="round"/>
 <rect class="sym" x="719" y="100" width="22" height="62" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
 <polyline class="wire" points="730,162 730,182 640,182" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
@@ -61,7 +61,7 @@
 <g class="mk"><circle cx="450" cy="88" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="450" y="94" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">ก</text></g>
 <g class="mk"><circle cx="450" cy="140" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="450" y="146" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">ข</text></g>
 <g class="mk"><circle cx="450" cy="285" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="450" y="291" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">ค</text></g>
-<g class="mk"><circle cx="420" cy="397" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="420" y="403" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">ง</text></g>
+<g class="mk"><circle cx="430" cy="397" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="430" y="403" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">ง</text></g>
 <polyline class="wire" points="30,485 60,485" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round"/>
 <text x="68" y="490" font-size="15" text-anchor="start" fill="#222222">+12 V</text>
 <polyline class="wire" points="143,485 173,485" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>

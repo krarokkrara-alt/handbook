@@ -36,9 +36,10 @@
 <g class="mk"><circle cx="240" cy="220" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="240" y="226" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">V</text></g>
 <polyline class="wire" points="240,245 240,380 790,380 790,175" fill="none" stroke="#7a3fa0" stroke-width="3" stroke-linejoin="round"/>
 <circle class="dot" cx="790" cy="175" r="5.5" fill="#1560bd"/>
-<text x="226" y="170" font-size="16" text-anchor="end" fill="#222222">แดงที่ไฟบวก</text>
-<text x="226" y="300" font-size="16" text-anchor="end" fill="#222222">ดำที่จุดวัด</text>
-<text x="262" y="226" font-size="16" text-anchor="start" fill="#222222">ค่าอ่าน ≈ แบต − แรงดันจุด</text>
+<text x="226" y="170" font-size="16" text-anchor="end" fill="#222222">สายแดงที่ไฟบวก</text>
+<text x="226" y="300" font-size="16" text-anchor="end" fill="#222222">สายดำที่จุดวัด</text>
+<text x="262" y="216" font-size="16" text-anchor="start" fill="#222222">แรงดันจุดนั้น ≈</text>
+<text x="262" y="240" font-size="16" text-anchor="start" fill="#222222">แรงดันแบต − ค่าอ่าน</text>
 <polyline class="wire" points="30,415 60,415" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round"/>
 <text x="68" y="420" font-size="15" text-anchor="start" fill="#222222">+12 V</text>
 <polyline class="wire" points="143,415 173,415" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>

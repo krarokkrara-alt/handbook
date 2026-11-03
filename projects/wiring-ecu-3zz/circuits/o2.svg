@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1090 450" width="1090" height="450" font-family='Tahoma, "Leelawadee UI", sans-serif'>
+<rect width="1090" height="450" fill="#ffffff"/>
+<rect class="box" x="30" y="30" width="300" height="350" fill="#f6f6f6" stroke="#333333" stroke-width="2"/>
+<text x="48" y="56" font-size="17" text-anchor="start" fill="#222222" font-weight="bold">ECU</text>
+<g class="tag"><rect x="220" y="38" width="100" height="24" rx="3" fill="#8a6d00"/><text x="270" y="56" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">ผังหลักการ</text></g>
+<rect class="box" x="380" y="40" width="180" height="36" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+<text x="470" y="64" font-size="15" text-anchor="middle" fill="#222222">ราง B หลัง EFI Relay</text>
+<text x="575" y="92" font-size="15" text-anchor="start" fill="#222222">ทางไฟยังไม่ยืนยัน</text>
+<text x="648" y="49" font-size="15" text-anchor="start" fill="#222222">สาย B</text>
+<rect class="box" x="700" y="100" width="300" height="280" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+<polyline class="wire" points="560,58 740,58 740,100" fill="none" stroke="#d52830" stroke-width="3" stroke-dasharray="9 7" stroke-linejoin="round"/>
+<polyline class="wire" points="740,100 740,140" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round"/>
+<text x="760" y="92" font-size="16" text-anchor="start" fill="#222222" font-weight="bold">H6 Heated Oxygen Sensor</text>
+<rect class="sym" x="729" y="140" width="22" height="60" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+<text x="765" y="178" font-size="15" text-anchor="start" fill="#222222">ฮีตเตอร์</text>
+<polyline class="wire" points="740,200 740,215 260,215" fill="none" stroke="#1560bd" stroke-width="3" stroke-linejoin="round"/>
+<rect class="box" x="150" y="197" width="110" height="36" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+<text x="205" y="221" font-size="15" text-anchor="middle" fill="#222222">ขับลง HT</text>
+<polyline class="wire" points="205,233 205,255" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+<g class="sym" stroke="#111111" stroke-width="3"><line x1="191" y1="255" x2="219" y2="255"/><line x1="196" y1="261" x2="214" y2="261"/><line x1="201" y1="267" x2="209" y2="267"/></g>
+<text x="350" y="205" font-size="16" text-anchor="start" fill="#222222" font-weight="bold">HT 3(C)</text>
+<text x="350" y="239" font-size="15" text-anchor="start" fill="#222222">สีสายเว้น</text>
+<text x="440" y="247" font-size="15" text-anchor="start" fill="#222222">ทางกระแสฮีตเตอร์</text>
+<text x="690" y="205" font-size="16" text-anchor="end" fill="#222222" font-weight="bold">ขา 2</text>
+<g class="tag"><rect x="610" y="226" width="70" height="24" rx="3" fill="#0d3b66"/><text x="645" y="244" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">ผังรถ</text></g>
+<circle class="sym" cx="850" cy="300" r="24" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+<text x="850" y="306" font-size="15" text-anchor="middle" fill="#222222" font-weight="bold">O2</text>
+<text x="885" y="306" font-size="15" text-anchor="start" fill="#222222">ตัวรับรู้ O2</text>
+<polyline class="wire" points="826,300 260,300" fill="none" stroke="#1560bd" stroke-width="3" stroke-linejoin="round"/>
+<rect class="box" x="150" y="282" width="110" height="36" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+<text x="205" y="306" font-size="15" text-anchor="middle" fill="#222222">อ่าน OX</text>
+<polyline class="wire" points="205,318 205,340" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+<g class="sym" stroke="#111111" stroke-width="3"><line x1="191" y1="340" x2="219" y2="340"/><line x1="196" y1="346" x2="214" y2="346"/><line x1="201" y1="352" x2="209" y2="352"/></g>
+<text x="350" y="290" font-size="16" text-anchor="start" fill="#222222" font-weight="bold">OX 12(C)</text>
+<text x="350" y="324" font-size="15" text-anchor="start" fill="#222222">สีสายเว้น</text>
+<text x="690" y="290" font-size="16" text-anchor="end" fill="#222222" font-weight="bold">ขา 4</text>
+<g class="tag"><rect x="610" y="311" width="70" height="24" rx="3" fill="#0d3b66"/><text x="645" y="329" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">ผังรถ</text></g>
+<polyline class="wire" points="850,324 850,400" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="9 7" stroke-linejoin="round"/>
+<g class="sym" stroke="#111111" stroke-width="3"><line x1="836" y1="400" x2="864" y2="400"/><line x1="841" y1="406" x2="859" y2="406"/><line x1="846" y1="412" x2="854" y2="412"/></g>
+<text x="872" y="412" font-size="15" text-anchor="start" fill="#222222">เส้นกลับสาย BR ต้องตรวจ</text>
+<g class="tag"><rect x="880" y="340" width="100" height="24" rx="3" fill="#8a6d00"/><text x="930" y="358" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">ผังหลักการ</text></g>
+<g class="mk"><circle cx="560" cy="215" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="560" y="221" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">ก</text></g>
+<g class="mk"><circle cx="520" cy="300" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="520" y="306" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">ข</text></g>
+<g class="mk"><circle cx="620" cy="58" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="620" y="64" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">ค</text></g>
+<g class="mk"><circle cx="850" cy="352" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="850" y="358" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">ง</text></g>
+<polyline class="wire" points="30,435 60,435" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round"/>
+<text x="68" y="440" font-size="15" text-anchor="start" fill="#222222">+12 V</text>
+<polyline class="wire" points="143,435 173,435" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+<text x="181" y="440" font-size="15" text-anchor="start" fill="#222222">กราวด์</text>
+<polyline class="wire" points="261,435 291,435" fill="none" stroke="#1560bd" stroke-width="3" stroke-linejoin="round"/>
+<text x="299" y="440" font-size="15" text-anchor="start" fill="#222222">สัญญาณ</text>
+<polyline class="wire" points="389,435 419,435" fill="none" stroke="#1a8f3c" stroke-width="3" stroke-linejoin="round"/>
+<text x="427" y="440" font-size="15" text-anchor="start" fill="#222222">5 V</text>
+<text x="1062" y="440" font-size="15" text-anchor="end" fill="#555555">เส้นประ = ต้องตรวจ หรือเว้นค่า</text>
+</svg>

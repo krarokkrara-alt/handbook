@@ -7,7 +7,7 @@ const path = require('path');
 const NODE_MODULES = 'C:/Users/Admin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
 const CHROME = 'C:/Program Files/Google/Chrome/Application/chrome.exe';
 const { chromium } = require(path.join(NODE_MODULES, 'playwright'));
-const { PDFDocument, StandardFonts, rgb } = require(path.join(NODE_MODULES, 'pdf-lib'));
+const { PDFDocument, StandardFonts, rgb, degrees, pushGraphicsState, popGraphicsState, rectangle, clip, endPath } = require(path.join(NODE_MODULES, 'pdf-lib'));
 
 const ROOT = __dirname;
 const SRC_PDF = path.join(ROOT, 'source', 'Mytech-Wiring-ECU-book_v1.pdf');
@@ -15,10 +15,10 @@ const OUT_PDF = process.env.BOOK_OUT || path.join(ROOT, 'build', 'Mytech-Wiring-
 const TITLE = 'Wiring ECU 3ZZ-FE';
 const OLD_LAST_BODY = 25; // หน้าสุดท้ายของเนื้อหาเดิมก่อนภาคผนวก
 const OLD_TOC = [
-  [3, '1 เครื่องมือและจุดอ้างอิงการวัด'], [4, '2 Air Flow'], [9, '3 มอเตอร์ควบคุมรอบเดินเบา'],
-  [12, '4 คอยล์จุดระเบิดและ IGT'], [16, '5 หัวฉีดน้ำมันเชื้อเพลิง'], [17, '6 VVT-i'],
-  [18, '7 การระบุ ECU และการอ่านวงจร'], [20, '8 แบบฝึก Simulator'], [24, '9 ใบงานและการประเมิน'],
-  [25, 'รายการตรวจรับเนื้อหา'],
+  [3, '1 เครื่องมือและจุดอ้างอิงการวัด'], [4, '2 การตรวจวัด Air Flow'], [9, '3 มอเตอร์ควบคุมรอบเดินเบา'],
+  [12, '4 คอยล์จุดระเบิด'], [16, '5 หัวฉีดน้ำมันเชื้อเพลิง'], [17, '6 การตรวจวัด VVT-i'],
+  [18, '7 การระบุ ECU และการอ่านวงจร'], [20, '8 แบบฝึกต่อ Simulator'], [24, '9 ใบงานบันทึกผลการตรวจวัด'],
+  [25, 'รายการตรวจรับเนื้อหาก่อนใช้สอน'],
 ];
 
 const CSS = fs.readFileSync(path.join(ROOT, 'book.css'), 'utf8');
@@ -97,9 +97,46 @@ function wrapPage(inner, number) {
   out.setAuthor('Supunya Pharaphong (Mytech)');
   const font = await out.embedFont(StandardFonts.Helvetica);
   const addFresh = async i => { const [p] = await out.copyPages(fresh, [i]); out.addPage(p); };
+  // relayout.json (สร้างจาก source/gen_layout.py) ย้ายภาพและคำบรรยายของหน้าเดิมให้อยู่กลาง
+  const RELAYOUT = JSON.parse(fs.readFileSync(path.join(ROOT, 'source', 'relayout.json'), 'utf8'));
+  const embeds = {};
+  const embedded = async n => (embeds[n] ||= await out.embedPage(src.getPage(n - 1)));
   const addSrc = async n => {
-    const [p] = await out.copyPages(src, [n - 1]);
-    out.addPage(p);
+    let p;
+    const moves = RELAYOUT[n];
+    if (!moves) {
+      [p] = await out.copyPages(src, [n - 1]);
+      out.addPage(p);
+    } else {
+      const { width: W, height: H } = src.getPage(n - 1).getSize();
+      p = out.addPage([W, H]);
+      p.drawPage(await embedded(n), { x: 0, y: 0 });
+      for (const m of moves) {
+        if (m.cover === false) continue;
+        const [x0, y0, x1, y1] = m.clip;
+        p.drawRectangle({ x: x0 - 2.5, y: H - y1 - 2.5, width: x1 - x0 + 5, height: y1 - y0 + 5, color: rgb(1, 1, 1) });
+      }
+      for (const m of moves) {
+        if (m.drop) continue;
+        // วาดทั้งหน้าซ้ำแต่ตัดเหลือเฉพาะกรอบ เพื่อไม่ให้ภาพในหน้าถูกฝังซ้ำทุกครั้ง
+        const [x0, y0, x1, y1] = m.clip;
+        const s = m.scale, w = (x1 - x0) * s, h = (y1 - y0) * s, dx = m.to[0];
+        const from = await embedded(m.src || n);
+        if (m.rotate === 90) {
+          // หมุนทวนเข็ม: กรอบปลายทางกว้างเท่าความสูงเดิม สูงเท่าความกว้างเดิม
+          const dy = H - m.to[1] - w;
+          p.pushOperators(pushGraphicsState(), rectangle(dx, dy, h, w), clip(), endPath());
+          p.drawPage(from, { x: dx + (H - y0) * s, y: dy - x0 * s, xScale: s, yScale: s, rotate: degrees(90) });
+        } else {
+          const dy = H - m.to[1] - h;
+          p.pushOperators(pushGraphicsState(), rectangle(dx, dy, w, h), clip(), endPath());
+          p.drawPage(from, { x: dx - x0 * s, y: dy - (H - y1) * s, xScale: s, yScale: s });
+        }
+        p.pushOperators(popGraphicsState());
+      }
+    }
+    // หัวกระดาษให้เหมือนหน้าที่สร้างใหม่ ยกเว้นปก
+    if (n > 1) p.drawText(TITLE, { x: 36, y: p.getHeight() - 32, size: 10.5, font, color: rgb(0.33, 0.33, 0.33) });
     // หน้าเดิมไม่มีเลขหน้า เติมเลขให้ตรงกับสารบัญ
     p.drawText(String(out.getPageCount()).padStart(2, '0'), { x: p.getWidth() - 50, y: 22, size: 11.5, font, color: rgb(0.33, 0.33, 0.33) });
   };

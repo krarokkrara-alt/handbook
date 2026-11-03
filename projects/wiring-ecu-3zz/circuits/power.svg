@@ -62,11 +62,11 @@
 <rect class="box" x="690" y="296" width="80" height="28" fill="#ffffff" stroke="#333333" stroke-width="2"/>
 <text x="730" y="316" font-size="15" text-anchor="middle" fill="#222222">ID1 ขา 9</text>
 <polyline class="wire" points="690,310 560,310" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round"/>
-<text x="815" y="302" font-size="16" text-anchor="middle" fill="#222222">B-W</text>
+<text x="815" y="336" font-size="16" text-anchor="middle" fill="#222222">B-W</text>
 <polyline class="wire" points="350,310 300,310 300,500" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
 <g class="sym" stroke="#111111" stroke-width="3"><line x1="286" y1="500" x2="314" y2="500"/><line x1="291" y1="506" x2="309" y2="506"/><line x1="296" y1="512" x2="304" y2="512"/></g>
 <text x="312" y="410" font-size="16" text-anchor="start" fill="#222222">W-B</text>
-<text x="330" y="508" font-size="16" text-anchor="start" fill="#222222">กราวด์ ED ด้านซ้าย suspension tower</text>
+<text x="330" y="508" font-size="16" text-anchor="start" fill="#222222">กราวด์ ED เบ้าโช้คหน้าด้านซ้าย (suspension tower)</text>
 <rect class="box" x="860" y="100" width="200" height="350" fill="#f6f6f6" stroke="#333333" stroke-width="2"/>
 <text x="960" y="92" font-size="17" text-anchor="middle" fill="#222222" font-weight="bold">ECU</text>
 <text x="872" y="136" font-size="16" text-anchor="start" fill="#222222" font-weight="bold">IGSW</text>
@@ -85,7 +85,7 @@
 <circle class="dot" cx="810" cy="420" r="5.5" fill="#111111"/>
 <g class="sym" stroke="#111111" stroke-width="3"><line x1="796" y1="500" x2="824" y2="500"/><line x1="801" y1="506" x2="819" y2="506"/><line x1="806" y1="512" x2="814" y2="512"/></g>
 <text x="824" y="478" font-size="16" text-anchor="start" fill="#222222">W-B</text>
-<text x="824" y="508" font-size="16" text-anchor="start" fill="#222222">กราวด์ EC</text>
+<text x="834" y="508" font-size="16" text-anchor="start" fill="#222222">กราวด์ EC</text>
 <polyline class="wire" points="90,532 90,552" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
 <g class="sym" stroke="#111111" stroke-width="3"><line x1="76" y1="552" x2="104" y2="552"/><line x1="81" y1="558" x2="99" y2="558"/><line x1="86" y1="564" x2="94" y2="564"/></g>
 <text x="112" y="560" font-size="16" text-anchor="start" fill="#222222">ขั้วลบแบตลงตัวถัง</text>
@@ -95,7 +95,7 @@
 <g class="mk"><circle cx="835" cy="130" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="835" y="136" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">4</text></g>
 <g class="mk"><circle cx="640" cy="310" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="640" y="316" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">5</text></g>
 <g class="mk"><circle cx="300" cy="450" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="300" y="456" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">6</text></g>
-<g class="mk"><circle cx="590" cy="230" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="590" y="236" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">7</text></g>
+<g class="mk"><circle cx="600" cy="230" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="600" y="236" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">7</text></g>
 <g class="mk"><circle cx="835" cy="230" r="15" fill="#ffffff" stroke="#111111" stroke-width="2"/><text x="835" y="236" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">8</text></g>
 <polyline class="wire" points="30,585 60,585" fill="none" stroke="#d52830" stroke-width="3" stroke-linejoin="round"/>
 <text x="68" y="590" font-size="15" text-anchor="start" fill="#222222">+12 V</text>
