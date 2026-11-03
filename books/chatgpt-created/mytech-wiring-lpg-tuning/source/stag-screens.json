@@ -1,0 +1,48 @@
+[
+  {
+    "source_url": "https://www.stag.gr/sites/default/files/stag-4_q-box_-_manual_eng_ver.1.6.pdf",
+    "document": "STAG-4 QBOX Controller User Manual",
+    "version": "ver. 1.6, 2014-11-17; ตัวอย่างโปรแกรม AC STAG 0.15.7",
+    "program": "AC STAG",
+    "state": "documentation screenshot; ไม่ใช่ข้อมูลรถที่ทีมจูน",
+    "copyright": "AC S.A., all rights reserved",
+    "extraction": "คัดเฉพาะส่วนรูปจาก PDF ด้วย Poppler; ไม่แก้ตัวเลขหรือสร้าง UI ใหม่",
+    "id": "stag-monitor",
+    "title": "AC STAG: อ่าน Monitor ก่อนตีความค่า",
+    "file": "tuning-assets/stag-monitor.png",
+    "page": 8,
+    "figure": "Fig. 5 — ส่วน Monitor ทางขวา",
+    "caption": "ส่วน Monitor จริงจากคู่มือ ตัวอย่างนี้ RPM = 0 ไม่ใช่ข้อมูลเดินเบาหรือโหลดจริง",
+    "read_points": [
+      "Gas และ MAP ใช้หน่วย bar แต่ความหมายแรงดันต่างกัน",
+      "เวลา P/G ใช้ ms; อุณหภูมิและไฟแบตช่วยบอกสภาวะตัวอย่าง"
+    ],
+    "do_not_infer": [
+      "ไม่ใช้ค่าที่เห็นเป็นเป้าหมายทุกคัน",
+      "ไม่ตีความ Lambda 1 เป็นค่า lambda ไร้หน่วยโดยอัตโนมัติ"
+    ]
+  },
+  {
+    "source_url": "https://www.stag.gr/sites/default/files/stag-4_q-box_-_manual_eng_ver.1.6.pdf",
+    "document": "STAG-4 QBOX Controller User Manual",
+    "version": "ver. 1.6, 2014-11-17; ตัวอย่างโปรแกรม AC STAG 0.15.7",
+    "program": "AC STAG",
+    "state": "documentation screenshot; ไม่ใช่ข้อมูลรถที่ทีมจูน",
+    "copyright": "AC S.A., all rights reserved",
+    "extraction": "คัดเฉพาะส่วนรูปจาก PDF ด้วย Poppler; ไม่แก้ตัวเลขหรือสร้าง UI ใหม่",
+    "id": "stag-multiplier",
+    "title": "AC STAG: อ่านกราฟ Multiplier ให้ถูกแกน",
+    "file": "tuning-assets/stag-multiplier.png",
+    "page": 24,
+    "figure": "Fig. 20 — Multiplier map",
+    "caption": "กราฟจริงจากคู่มือ ใช้อ่านแกนและสี ไม่ใช่แผนที่พร้อมเขียนลงรถ",
+    "read_points": [
+      "แกนนอนเป็นเวลาฉีด ms; เส้นส้มใช้แกน Multiplier ซ้าย",
+      "เส้นฟ้าและเขียวเปรียบเทียบแผนที่น้ำมันเมื่อใช้สองเชื้อเพลิง"
+    ],
+    "do_not_infer": [
+      "เส้นฟ้า/เขียวไม่ใช่ค่า AFR โดยตรง",
+      "ห้ามคัดลอกเส้นส้มเป็นค่าจูนกลาง"
+    ]
+  }
+]

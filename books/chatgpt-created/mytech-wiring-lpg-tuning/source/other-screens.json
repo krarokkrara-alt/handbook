@@ -1,0 +1,42 @@
+[
+  {
+    "id": "kme-device",
+    "title": "KME NEVO-SKY: เชื่อมต่อและสำรองค่า",
+    "file": "tuning-assets/other-kme-device.png",
+    "source_url": "https://kme.eu/schematy_kp_instrukcje_pobierz/schematy/EN_Software_manual.pdf",
+    "document": "PROGRAM AND CONFIGURATION MANUAL — NEVO-SKY",
+    "version": "ซอฟต์แวร์ NEVO-SKY 5.0.2.2; คู่มือ 1.0.9 วันที่ 17-09-2020",
+    "page": "หน้าในเล่ม 25 / หน้า PDF 26",
+    "figure": "Fig. 2.23 Controller tab",
+    "program": "KME NEVO-SKY",
+    "caption": "ภาพแถบ Device จากคู่มือผู้ผลิต แสดง Connect, Load settings และ Save settings ไม่ใช่ผลเชื่อมต่อรถของผู้เขียน",
+    "read_points": [
+      "เริ่ม Connect และยืนยันสถานะกล่องก่อนเปลี่ยนค่า",
+      "ใช้ Save settings เก็บค่าปัจจุบันเป็นไฟล์ก่อนแก้"
+    ],
+    "do_not_infer": [
+      "Load settings โหลดไฟล์เข้ากล่อง ไม่ใช่สำรองค่าออกจากกล่อง",
+      "อย่ากด Factory settings แทน Save settings และอย่าสรุปว่า Off-line คือเชื่อมต่อรถแล้ว"
+    ]
+  },
+  {
+    "id": "lpgtech-map",
+    "title": "LPGTECH Gas Setting: ดูแผนที่น้ำมันกับแก๊ส",
+    "file": "tuning-assets/other-lpgtech-map.png",
+    "source_url": "https://download.lpgtech.pl/files/Tuning-in-TECH-System.pdf",
+    "document": "TUNING IN TECH SYSTEM",
+    "version": "ภาพหน้าจอ Gas Setting 2.0.29.68; คู่มือไม่ระบุเลขฉบับ",
+    "page": "หน้า PDF 8",
+    "figure": "Img. 14 — ตัดเฉพาะหน้าต่างส่วนแผนที่และเมนู",
+    "program": "LPGTECH Gas Setting",
+    "caption": "ภาพหน้าจอจริงจากคู่มือผู้ผลิต แสดงแท็บ Map และ Table พร้อมจุดข้อมูลของแต่ละเชื้อเพลิง; ตัวเลขเป็นตัวอย่างในเอกสาร",
+    "read_points": [
+      "เลือก Map แล้ว Table ตามหน้าตัวอย่างนี้",
+      "อ่านสถานะว่ามีข้อมูลทั้ง Petrol และ Gas ก่อนเทียบกราฟ"
+    ],
+    "do_not_infer": [
+      "พื้นที่ว่างในแผนที่ไม่ใช่ผลว่าจูนผ่าน",
+      "รูปนี้ไม่ให้ค่า multiplier หรือคำสั่งแก้ส่วนผสมที่ใช้ได้กับรถทุกคัน"
+    ]
+  }
+]

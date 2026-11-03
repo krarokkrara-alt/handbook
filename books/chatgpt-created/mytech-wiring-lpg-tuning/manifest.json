@@ -1,0 +1,45 @@
+{
+  "created_by": "ChatGPT",
+  "brand": "Mytech",
+  "contact": "0830273860",
+  "pages": 45,
+  "status": "ready_for_claude_review",
+  "files": [
+    {
+      "path": "cover.png",
+      "sha256": "e5153012feb9db48901415853037501bf693f0a0a736dfb3cf38c3033e02eab7"
+    },
+    {
+      "path": "index.html",
+      "sha256": "94bc5d6695ace3276a0ba7306ef6f99ab325d69a3cda93e693bef6992f5300cf"
+    },
+    {
+      "path": "Mytech-wiring-LPG-tuning.pdf",
+      "sha256": "8100691bbe2d7f773b6a5f7c9bb41826021a105098d19321588729952097106e"
+    },
+    {
+      "path": "photo-credits.json",
+      "sha256": "14a645cf948570f2561cd51bb8ba4a84805cc8c44723f4f500eb6fab6c7529be"
+    },
+    {
+      "path": "photo-review.md",
+      "sha256": "756ae79fa9431d41252748c72045faed73e65a1d7c009086f7ddd65458cff818"
+    },
+    {
+      "path": "source/other-screens.json",
+      "sha256": "54dddaac098977d3ee6c5a3fbd246e981715c2b0a87ed2f6a9680327be22c628"
+    },
+    {
+      "path": "source/stag-screens.json",
+      "sha256": "75f2ddf8365b4948aa7246e67949bb44bf591946b8a7ad06aebc333bf25a8d89"
+    },
+    {
+      "path": "source/tuning-content.json",
+      "sha256": "5a7d81e5d934c1ad4f223325082cc85fcb7e6e1cbba9ee401a7cddab4bf7b98b"
+    },
+    {
+      "path": "tuning-review.md",
+      "sha256": "dcdbef354532e3970560c62ae5dc0298dbfe4c5489beca361d6246cabab81f75"
+    }
+  ]
+}

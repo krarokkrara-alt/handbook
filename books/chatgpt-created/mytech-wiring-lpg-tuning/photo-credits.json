@@ -1,0 +1,162 @@
+[
+  {
+    "id": "real-fuses",
+    "chapter": "E3",
+    "title": "ฟิวส์ใบมีด: ตัวจริงของ F1 / F2",
+    "file": "photo-assets/fuses.jpg",
+    "caption": "ฟิวส์รถยนต์แบบใบมีดหลายขนาดพิกัด ใช้เทียบกับสัญลักษณ์ F ในวงจรย่อย",
+    "what_to_see": [
+      "ขาโลหะสองข้างคือจุดต่อวงจร",
+      "ตัวเรือนและพิกัดแต่ละตัวต่างกัน"
+    ],
+    "limit": "ตัวเลขบนฟิวส์ในรูปไม่ใช่ค่าที่แนะนำสำหรับวงจร F1/F2 ของทุกคัน",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Car_fuses.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Car_fuses.jpg",
+    "author": "M.M.Minderhoud / Wikipedia:Michiel1972",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "real-starter",
+    "chapter": "E4",
+    "title": "มอเตอร์สตาร์ตและโซลินอยด์",
+    "file": "photo-assets/starter.jpg",
+    "caption": "มอเตอร์สตาร์ตรถยนต์พร้อมโซลินอยด์ ใช้เชื่อมภาพอุปกรณ์กับทางกำลังและกลไกสั่งงานใน E4",
+    "what_to_see": [
+      "ตัวเรือนมอเตอร์กับชุดโซลินอยด์เป็นส่วนต่างหน้าที่",
+      "อย่าสรุปหมายเลขขาหรือขั้วจากทิศวางภาพ"
+    ],
+    "limit": "ภาพตัวอย่างอุปกรณ์ ไม่ใช้ยืนยันรุ่นรถ ขนาดสาย หรือผังขั้วตรงรุ่น",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Automobile_starter.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Automobile_starter.JPG",
+    "author": "Willdre",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "diesel-glow",
+    "chapter": "D3",
+    "title": "หัวเผาดีเซล: จากสัญลักษณ์สู่ชิ้นส่วนจริง",
+    "file": "photo-assets/diesel-glow-plug.jpg",
+    "caption": "ภาพหัวเผาจากเครื่องยนต์ดีเซล เห็นปลายทำความร้อน เกลียวยึด และขั้วไฟของชิ้นงานตัวอย่าง",
+    "what_to_see": [
+      "ปลายทำความร้อนด้านซ้าย เทียบกับ GP ในวงจร D3",
+      "ส่วนเกลียวและขั้วไฟช่วยแยกตำแหน่งติดตั้งกับจุดต่อไฟ"
+    ],
+    "limit": "ตัวอย่างหนึ่งชนิดเท่านั้น ห้ามใช้รูปทรงกำหนดแรงดันหรือจ่ายแบตตรง หัวเผารุ่นอื่นอาจมีพิกัดและการควบคุมต่างกัน",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Glow_plug.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Glow_plug.JPG",
+    "author": "Donar Reiskoffer",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "ไม่ดัดแปลงภาพ; ย่อขนาดเพื่อจัดหน้าเท่านั้น"
+  },
+  {
+    "id": "diesel-injector",
+    "chapter": "D2",
+    "title": "หัวฉีดคอมมอนเรล: ชิ้นงานกับวงจรขับ",
+    "file": "photo-assets/diesel-commonrail-injector.jpg",
+    "caption": "หัวฉีดคอมมอนเรล Bosch จากเครื่องยนต์ดีเซล Deutz 7.2 ลิตรที่ใช้กับ Volvo FE/FL ตามคำอธิบายแหล่งภาพ",
+    "what_to_see": [
+      "ตัวเรือนยาวและปลายหัวฉีดด้านซ้าย เทียบกับบล็อก INJECTOR",
+      "บริเวณขั้วต่อด้านขวาเชื่อมเข้าชุดขับ ไม่ใช่ให้จ่ายไฟแบตตรง"
+    ],
+    "limit": "ภาพนี้ไม่แสดง pinout หรือวงจรภายใน ไม่ใช้ระบุแรงดันขับ ความต้านทาน หรือวิธีทดสอบหัวฉีดทุกรุ่น",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bosch_common_rail_injector.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bosch_common_rail_injector.JPG",
+    "author": "Panoha",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "ไม่ดัดแปลงภาพ; ย่อขนาดเพื่อจัดหน้าเท่านั้น"
+  },
+  {
+    "id": "diesel-rail",
+    "chapter": "D1",
+    "title": "ระบบคอมมอนเรลบนเครื่องยนต์จริง",
+    "file": "photo-assets/diesel-commonrail-system.jpg",
+    "caption": "ภาพระยะใกล้ระบบคอมมอนเรลของเครื่องยนต์ Volvo D7E 7.2 ลิตร ตามข้อมูลผู้ถ่าย",
+    "what_to_see": [
+      "แนวท่อร่วมและท่อแขนงโลหะ เทียบกับเส้นทางเชื้อเพลิงใน D1",
+      "ชุดสายไฟกับท่อน้ำมันเป็นคนละทาง ไม่ไล่ต่อกันเป็นวงจรไฟ"
+    ],
+    "limit": "ภาพหนึ่งรุ่นสำหรับเทียบลักษณะทางกายภาพ ไม่ยืนยันตำแหน่งเซนเซอร์หรือหมายเลขขาของรถรุ่นอื่น",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Common_rail_D7E.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Common_rail_D7E.jpg",
+    "author": "Panoha",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "ไม่ดัดแปลงภาพ; ย่อขนาดเพื่อจัดหน้าเท่านั้น"
+  },
+  {
+    "id": "diesel-dpf",
+    "chapter": "D4",
+    "title": "DPF จริง: ตัวกรองไม่ใช่เซนเซอร์",
+    "file": "photo-assets/diesel-dpf.jpg",
+    "caption": "ชิ้นงานผ่าของ DPF สำหรับเครื่องยนต์ Nissan M9R ตามคำอธิบายแหล่งภาพ แสดงเนื้อกรองภายในตัวเรือน",
+    "what_to_see": [
+      "ช่องทางเล็กในเนื้อกรอง เทียบกับบล็อก DPF ใน D4",
+      "ปลายท่อและตัวเรือนเป็นทางไอเสีย แยกจากสายไฟเซนเซอร์"
+    ],
+    "limit": "ภาพนี้ไม่แสดงการต่อท่อแรงดันหรือขาเซนเซอร์ครบ และไม่พิสูจน์ว่าตัวกรองอุดตัน ต้องตรวจตามเงื่อนไขระบบจริง",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Diesel_particulate_filter_01.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Diesel_particulate_filter_01.JPG",
+    "author": "Hatsukari715",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Diesel_particulate_filter_01.JPG#Licensing",
+    "changes": "ไม่ดัดแปลงภาพ; ย่อขนาดเพื่อจัดหน้าเท่านั้น"
+  },
+  {
+    "id": "photo-P2-tps",
+    "chapter": "P2",
+    "title": "TPS แบบโพเทนชิออมิเตอร์: เห็นชุดหน้าสัมผัสจริง",
+    "file": "photo-assets/petrol-tps.jpg",
+    "caption": "ภายในเซนเซอร์ตำแหน่งลิ้นเร่งแบบโพเทนชิออมิเตอร์จากระบบ Bosch Motronic MA3.1 ตามคำอธิบายต้นฉบับ",
+    "what_to_see": [
+      "ชุดหน้าสัมผัสโลหะกับชิ้นส่วนหมุนช่วยเชื่อมภาพจริงกับสัญลักษณ์ wiper ใน P2",
+      "ภาพภายในช่วยอธิบายหลักตรวจสัญญาณเปลี่ยนตามตำแหน่ง ไม่ได้บอกขั้วปลั๊ก"
+    ],
+    "limit": "ตัวอย่างเฉพาะรุ่น ไม่ใช้ระบุขา 5V/SIGNAL/RETURN จากตำแหน่งในภาพ และไม่แทนเซนเซอร์ Hall ทุกแบบ",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Throttle_position_sensor_-_1.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Throttle_position_sensor_-_1.jpg",
+    "author": "The RedBurn",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "ไม่มีการแก้เนื้อภาพ ใช้ภาพต้นฉบับและย่อเพื่อจัดหน้า"
+  },
+  {
+    "id": "photo-P3-coil",
+    "chapter": "P3",
+    "title": "คอยล์ทรงกระป๋อง: แยกขั้วแรงสูงจากขั้วด้านปฐมภูมิ",
+    "file": "photo-assets/petrol-ignition-coil.jpg",
+    "caption": "ภาพคอยล์จุดระเบิดทรงกระป๋อง แสดงช่องต่อแรงสูงกลางตัวและขั้วเกลียวด้านข้าง ภาพต้นฉบับระบุว่าขั้วบวกหนึ่งจุดเสียหาย",
+    "what_to_see": [
+      "ช่องแรงสูงกลางตัวต่างจากตำแหน่งขั้วเกลียวสำหรับวงจรด้านปฐมภูมิ",
+      "ใช้เทียบรูปร่างอุปกรณ์จริงกับบท P3 เรื่องขดลวดปฐมภูมิและด้านแรงสูง"
+    ],
+    "limit": "ภาพนี้ไม่แสดง igniter หรือวงจรภายใน ไม่ยืนยัน topology สองขดแยกแบบภาพสอน P3 และไม่ใช้กำหนดขั้ว/ขนาดแรงดันจากรูปลักษณ์",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ignition_coil.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ignition_coil.jpg",
+    "author": "Nick Ares",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "changes": "ไม่มีการแก้เนื้อภาพ ใช้ภาพต้นฉบับและย่อเพื่อจัดหน้า"
+  },
+  {
+    "id": "photo-P4-lpg",
+    "chapter": "P4",
+    "title": "ชุดอุปกรณ์ LPG จริง: แยกทางเชื้อเพลิงจากสายคำสั่ง",
+    "file": "photo-assets/petrol-lpg-parts.jpg",
+    "caption": "ภาพชุดอุปกรณ์ LPG ประกอบด้วยกล่องควบคุม ชุดสาย หม้อต้ม/ลดแรงดัน รางหัวฉีด กรอง และอุปกรณ์ประกอบตามรายการต้นฉบับ",
+    "what_to_see": [
+      "กล่องโลหะกับมัดสายด้านบนต่างหน้าที่จากหม้อต้มและรางหัวฉีดในภาพ",
+      "รางหัวฉีดและทางต่อท่อช่วยเทียบกับเส้นทางไอ LPG ใน P4 และการเชื่อมคำสั่งใน P5"
+    ],
+    "limit": "เป็นภาพจัดวางชิ้นส่วน ไม่ใช่ผังติดตั้งหรือชุดเดียวกับทุกยี่ห้อ ห้ามใช้ทิศทางวางภาพหรือสีสายทาย pinout/การต่อก๊าซ",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Teile-Autogas-Anlage-LPG.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Teile-Autogas-Anlage-LPG.jpg",
+    "author": "Dennis Schoone, LPGPARTS",
+    "license": "Copyrighted free use",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Teile-Autogas-Anlage-LPG.jpg#Licensing",
+    "changes": "ไม่มีการแก้เนื้อภาพ ใช้ภาพต้นฉบับและย่อเพื่อจัดหน้า"
+  }
+]
