@@ -1,3 +1,3 @@
+import runpy
 from pathlib import Path
-p=Path(__file__).resolve().parents[1]/'handoffs/LATEST.md'
-if p.exists():print(p.read_text(encoding='utf-8'))
+runpy.run_path(str(Path(__file__).with_name("show_claude_task.py")),run_name="__main__")

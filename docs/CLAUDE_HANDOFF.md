@@ -3,7 +3,7 @@
 เมื่อเสร็จแต่ละเล่มให้รันจากราก repository:
 
 ```powershell
-python tools/book_handoff.py --book books/chatgpt-created/mytech-wiring-lpg-tuning
+python tools/claude_handoff.py --task books/chatgpt-created/mytech-wiring-lpg-tuning
 ```
 
 คำสั่งเขียนคิวและเรียก `claude -p` ให้ตรวจต่อ หากมี CLI และลงชื่อเข้าใช้ไว้แล้ว ผลจะอยู่ในโฟลเดอร์หนังสือ/CLAUDE_REVIEW.md ไม่ยกเว้นระบบสิทธิ์หรือเปิด auto-push
@@ -11,7 +11,7 @@ python tools/book_handoff.py --book books/chatgpt-created/mytech-wiring-lpg-tuni
 ถ้าต้องการตรวจคิวใหม่อัตโนมัติ ให้เปิดเทอร์มินัลหนึ่งครั้งและคงไว้:
 
 ```powershell
-python tools/watch_book_handoffs.py
+python tools/watch_claude_tasks.py
 ```
 
 watcher ตรวจคิวทุก 2 วินาทีใน checkout นี้ ต้องดึง commit ใหม่มายัง checkout นี้เองหากงานสร้างจากอีกเครื่อง ไม่มีคำสั่ง git pull อัตโนมัติที่อาจชนงานแก้ไขอยู่ การมีไฟล์ใน GitHub ไม่ทำให้ Claude Code session ที่เปิดอยู่เริ่มเทิร์นเอง

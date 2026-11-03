@@ -1,1 +1,1 @@
-{"hooks":{"SessionStart":[{"hooks":[{"type":"command","command":"python tools/show_book_handoff.py"}]}]}}
+{"hooks":{"SessionStart":[{"hooks":[{"type":"command","command":"python tools/show_claude_handoff.py"}]}]}}

@@ -1,5 +1,4 @@
 {
-  "book_path": "books/chatgpt-created/mytech-wiring-lpg-tuning",
   "created_by": "ChatGPT",
   "revision": "5398ea8fff15340c12fafc2f6fb293ce0b72f001fe649625b46fac47e848f8e0",
   "created_at": "2026-11-03T15:34:57.855226+00:00",
@@ -8,5 +7,6 @@
     "Review tuning instructions, units and software-version scope",
     "Verify picture relevance, source credits and layout",
     "Record findings in CLAUDE_REVIEW.md; do not publish or push"
-  ]
+  ],
+  "task_path": "books/chatgpt-created/mytech-wiring-lpg-tuning"
 }
