@@ -1,0 +1,7 @@
+{
+  "testedOn": "2026-11-09",
+  "parts": 16,
+  "restoredBytes": 16627650,
+  "sha256": "3cb772b4d8fd91fdc753d155adc80c1ca6cd8a1693e150e9b26d84a2c00a89c6",
+  "result": "Fresh-directory reconstruction passed; bytes and SHA-256 match original PDF"
+}

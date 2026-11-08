@@ -1,8 +1,11 @@
 # Ready for Claude Code
 
-Task: books/chatgpt-created/mytech-wiring-lpg-tuning
+Task: projects/ev-circuit-dtc-handbook
 
 Created by: ChatGPT
-Revision: 5398ea8fff15340c12fafc2f6fb293ce0b72f001fe649625b46fac47e848f8e0
+Revision: dc38ade9efb9b1c99f11af85b6481cd95d6f91c76260456d1c0d67338a40773c
+Status: awaiting_cli
 
-Read latest.json for tasks. This file is a queue signal, not proof Claude has started.
+Read the project README/STATUS/NEXT_PROMPT. The user will specify the next task. No Claude run has started.
+
+Previous queue record is preserved in history/2026-11-09-previous-cf27f8bd.json.
