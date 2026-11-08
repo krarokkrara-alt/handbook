@@ -1,0 +1,87 @@
+{
+  "output": "EV-CIRCUIT-DTC-HANDBOOK.pdf",
+  "bytes": 16627650,
+  "sha256": "3cb772b4d8fd91fdc753d155adc80c1ca6cd8a1693e150e9b26d84a2c00a89c6",
+  "parts": [
+    {
+      "file": "artifacts/pdf-parts/part-001.bin",
+      "bytes": 1048576,
+      "sha256": "022a908690c0bd58f21d4d170b6c6814a98b3acf0af7fd8cfa246d50b7c72038"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-002.bin",
+      "bytes": 1048576,
+      "sha256": "8adb09c70cfe33dfe0e34d7eaeccd20850db74ede5afb420b7957930b073f1ff"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-003.bin",
+      "bytes": 1048576,
+      "sha256": "2b070f50e3ddb2fa16f554aba5b3655c308c62fb27dd7ab9ab85ed68bcabb85c"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-004.bin",
+      "bytes": 1048576,
+      "sha256": "5400bf2e816a590d77a41181da8ca299a6d2f4387a1bb7edd689d9f9dbfbaebf"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-005.bin",
+      "bytes": 1048576,
+      "sha256": "d2eb06bb90c22fb54b34b5f7a2e974aff7d570f78708c18722599a20fca3ea6a"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-006.bin",
+      "bytes": 1048576,
+      "sha256": "cfb71244ea00798247ed0ea41a8642c3f80b08cac4b52cc996b657f4a8c00e91"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-007.bin",
+      "bytes": 1048576,
+      "sha256": "06af89887fb3e7436e582c88874e84360e7cedc0cde3973a22388a04bf4dd4e3"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-008.bin",
+      "bytes": 1048576,
+      "sha256": "2aa4aa70c079fb5e18f4d3afb32dfb2c3191cffc833a189b4e3634ab907de39d"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-009.bin",
+      "bytes": 1048576,
+      "sha256": "01e6194db78b5e8872bbdc7bb252e7c208b8faf430de297a3d283a18075aa847"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-010.bin",
+      "bytes": 1048576,
+      "sha256": "f0240feecf32b168fde0cdb08e922c3223b307e6df70c80f66549737c93b0f41"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-011.bin",
+      "bytes": 1048576,
+      "sha256": "0fbf3abcb568f7ccae0651c9b808ca4525f92706907df59347d77deed7da3461"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-012.bin",
+      "bytes": 1048576,
+      "sha256": "710fc6a177ad185f26c7485ebbd401a24201418f527b43a0d19d322ec35cb05e"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-013.bin",
+      "bytes": 1048576,
+      "sha256": "954231d11b1915b229cb2957a9a7e784176b838439b772d4857e12ca88757885"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-014.bin",
+      "bytes": 1048576,
+      "sha256": "063a276beebceb69a5799627f9d28a3af111d497c2d2fbfb08e0482e8504c240"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-015.bin",
+      "bytes": 1048576,
+      "sha256": "60da466a338c1c896510dec45fbbd75ce81a1a53807867ae2b28afdc6073b329"
+    },
+    {
+      "file": "artifacts/pdf-parts/part-016.bin",
+      "bytes": 899010,
+      "sha256": "765c7bfe2893d2d4109314248b889ddaf8af95c4550c1d26acd0622ea785850d"
+    }
+  ]
+}

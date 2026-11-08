@@ -1,0 +1,852 @@
+﻿[
+    {
+        "page":  1,
+        "title":  "EV CIRCUIT\u003cbr\u003e\u003cspan\u003e\u0026 DTC\u003c/span\u003e\u003cbr\u003eHANDBOOK",
+        "actualPhotoIds":  [
+                               "SYS75308683",
+                               "cmp02"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  2,
+        "title":  "สารบัญและทางลัดใช้งาน",
+        "actualPhotoIds":  [
+                               "SYS20709410",
+                               "cmp11"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  3,
+        "title":  "ใช้คู่มืออย่างไรให้ตรวจงานได้",
+        "actualPhotoIds":  [
+                               "SYS4661762",
+                               "cmp52"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  4,
+        "title":  "แผนที่ระบบ: พลังงานกับข้อมูล",
+        "actualPhotoIds":  [
+                               "cmp02",
+                               "cmp11"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  5,
+        "title":  "แยกฝั่ง HV และ LV ก่อนวัด",
+        "actualPhotoIds":  [
+                               "cmp21",
+                               "cmp17"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  6,
+        "title":  "อ่านผังสายไฟและยืนยันหัวต่อ",
+        "actualPhotoIds":  [
+                               "cmp48",
+                               "cmp44"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  7,
+        "title":  "คัดกรองรถหลังน้ำท่วม",
+        "actualPhotoIds":  [
+                               "cmp14",
+                               "cmp44"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  8,
+        "title":  "ลำดับตรวจรถไม่ READY",
+        "actualPhotoIds":  [
+                               "SYS4661762",
+                               "cmp03"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  9,
+        "title":  "ไฟเลี้ยง 12 V: ตรวจที่ต้นทางและปลายทาง",
+        "actualPhotoIds":  [
+                               "SYS4661762",
+                               "cmp48"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  10,
+        "title":  "Ground และ Ignition / Wake",
+        "actualPhotoIds":  [
+                               "SYS4661762",
+                               "cmp44"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  11,
+        "title":  "Input: แรงดันอ้างอิงและสัญญาณเซนเซอร์",
+        "actualPhotoIds":  [
+                               "cmp47",
+                               "cmp48"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  12,
+        "title":  "Output: ตรวจคำสั่งก่อนตัดสินโหลด",
+        "actualPhotoIds":  [
+                               "cmp48",
+                               "cmp52"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  13,
+        "title":  "CAN ในกล่อง: แยก logic กับสายบัส",
+        "actualPhotoIds":  [
+                               "ADA01",
+                               "SYSA4759"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  14,
+        "title":  "Connector / Pinout: แผ่นงานยืนยัน",
+        "actualPhotoIds":  [
+                               "cmp44",
+                               "cmp48"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  15,
+        "title":  "BMS: มองข้อมูลเป็นกลุ่ม",
+        "actualPhotoIds":  [
+                               "cmp45",
+                               "cmp50"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  16,
+        "title":  "แรงดัน Cell: ค่าผิดกับสายวัดผิด",
+        "actualPhotoIds":  [
+                               "cmp50",
+                               "cmp12"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  17,
+        "title":  "Temperature Sensor: แยกวงจรกับความร้อน",
+        "actualPhotoIds":  [
+                               "cmp50",
+                               "cmp48"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  18,
+        "title":  "Current Sensor: ศูนย์เพี้ยนทำให้คำนวณผิด",
+        "actualPhotoIds":  [
+                               "cmp52",
+                               "cmp50"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  19,
+        "title":  "Cell Balancing: ไม่ใช่การซ่อมเซลล์เสีย",
+        "actualPhotoIds":  [
+                               "cmp25",
+                               "cmp50"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  20,
+        "title":  "Contactor และ Precharge",
+        "actualPhotoIds":  [
+                               "cmp52",
+                               "cmp16"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  21,
+        "title":  "แผนที่ชุดขับเคลื่อน",
+        "actualPhotoIds":  [
+                               "cmp18",
+                               "cmp19"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  22,
+        "title":  "Gate Driver และสวิตช์กำลัง",
+        "actualPhotoIds":  [
+                               "cmp18",
+                               "cmp21"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  23,
+        "title":  "Current Feedback: ใช้ข้อมูลหลายทางยืนยัน",
+        "actualPhotoIds":  [
+                               "cmp52",
+                               "cmp02"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  24,
+        "title":  "Motor Position Sensor",
+        "actualPhotoIds":  [
+                               "cmp03",
+                               "cmp22"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  25,
+        "title":  "ระบบหล่อเย็นและอาการตัดกำลัง",
+        "actualPhotoIds":  [
+                               "cmp29",
+                               "cmp31"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  26,
+        "title":  "AC กับ DC: เส้นทางไม่เหมือนกัน",
+        "actualPhotoIds":  [
+                               "cmp05",
+                               "cmp04"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  27,
+        "title":  "OBC: แยกกำลังเข้า การอนุญาต และกำลังออก",
+        "actualPhotoIds":  [
+                               "cmp06",
+                               "cmp29"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  28,
+        "title":  "DC-DC: ตรวจทั้ง Enable และฝั่ง LV",
+        "actualPhotoIds":  [
+                               "cmp31",
+                               "SYS4661762"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  29,
+        "title":  "Charge Port และการสื่อสาร",
+        "actualPhotoIds":  [
+                               "cmp04",
+                               "SYS45826314"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  30,
+        "title":  "ชาร์จผิดปกติ: แยกสาเหตุอย่างมีหลักฐาน",
+        "actualPhotoIds":  [
+                               "cmp04",
+                               "SYS20709410"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  31,
+        "title":  "CAN-H / CAN-L และ Termination",
+        "actualPhotoIds":  [
+                               "ADA01",
+                               "SYSA5708"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  32,
+        "title":  "วงจร CAN จริงที่ศึกษาได้",
+        "actualPhotoIds":  [
+                               "ADA01",
+                               "SYSA5724"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  33,
+        "title":  "ภาพอุปกรณ์จริง: อ่าน PCB และหัวต่อ",
+        "actualPhotoIds":  [
+                               "SYSA4759",
+                               "SYSA5708"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  34,
+        "title":  "รูปคลื่น CAN: ดูผลต่างและคุณภาพสัญญาณ",
+        "actualPhotoIds":  [
+                               "SYSA5709",
+                               "SYSA4759"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  35,
+        "title":  "ไล่กล่องหายและ U-code",
+        "actualPhotoIds":  [
+                               "SYSA5708",
+                               "SYSA5724"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  36,
+        "title":  "อ่าน DTC ให้ครบก่อนวางแผนซ่อม",
+        "actualPhotoIds":  [
+                               "SYS4661762",
+                               "cmp44"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  37,
+        "title":  "P0AA6: ความผิดปกติของฉนวน HV",
+        "actualPhotoIds":  [
+                               "cmp52",
+                               "cmp08"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  38,
+        "title":  "P0A80 / P0A7F: แบตเตอรี่ไฮบริด",
+        "actualPhotoIds":  [
+                               "cmp45",
+                               "SYS4661762"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  39,
+        "title":  "กลุ่ม Inverter: P0A78 / P0A7A / P0A94",
+        "actualPhotoIds":  [
+                               "cmp22",
+                               "cmp23"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  40,
+        "title":  "P0D26 และรหัสร่วมที่ต้องเปิดคู่มือ GM",
+        "actualPhotoIds":  [
+                               "cmp05",
+                               "cmp04"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  41,
+        "title":  "U0100 / U0101 / U0111: กล่องไม่สื่อสาร",
+        "actualPhotoIds":  [
+                               "cmp44",
+                               "cmp48"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  42,
+        "title":  "BEV และ HVIL: ตรวจรหัสเต็มตามรุ่น",
+        "actualPhotoIds":  [
+                               "cmp37",
+                               "cmp36"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  43,
+        "title":  "ตารางสัมพันธ์ DTC กับอาการหลังน้ำท่วม",
+        "actualPhotoIds":  [
+                               "cmp14",
+                               "cmp52"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  44,
+        "title":  "ใบคัดกรองและเกณฑ์ส่งต่อรถน้ำท่วม",
+        "actualPhotoIds":  [
+                               "cmp14",
+                               "cmp52"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  45,
+        "title":  "กรณี 1: P0A80/P0A7F กับทางลมแบตเตอรี่",
+        "actualPhotoIds":  [
+                               "cmp45",
+                               "SYS4661762"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  46,
+        "title":  "กรณี 2: Volt ชาร์จไม่ได้กับ P0AA6",
+        "actualPhotoIds":  [
+                               "cmp08",
+                               "cmp52"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  47,
+        "title":  "กรณี 3: ตัวอย่างคำนวณ Voltage drop ฝั่ง LV",
+        "actualPhotoIds":  [
+                               "SYS4661762",
+                               "cmp48"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  48,
+        "title":  "กรณี 4: รถน้ำท่วม สแกนไม่พบรหัส",
+        "actualPhotoIds":  [
+                               "cmp14",
+                               "SYS157506859"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  49,
+        "title":  "ตารางหน่วย ค่าตัวอย่าง และข้อห้ามใช้เหมารวม",
+        "actualPhotoIds":  [
+                               "SYS4661762",
+                               "cmp52"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    },
+    {
+        "page":  50,
+        "title":  "แหล่งข้อมูลและบัญชีสิทธิ์ภาพ",
+        "actualPhotoIds":  [
+                               "cmp04",
+                               "cmp18"
+                           ],
+        "registeredPhotoCount":  2,
+        "twoDistinctPhotos":  true,
+        "sourceVerified":  true,
+        "licenseVerified":  true,
+        "subjectVerified":  true,
+        "captionScopeVerified":  true,
+        "noUnsupportedFaultClaim":  true,
+        "integrationVerified":  true,
+        "status":  "pass_with_scope"
+    }
+]

@@ -1,0 +1,1160 @@
+[
+  {
+    "page": 1,
+    "height": 1122.515625,
+    "contentBottom": 832.75,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYS75308683",
+      "cmp02"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/sys-75308683.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp02.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 2,
+    "height": 1122.515625,
+    "contentBottom": 1020.5625,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYS20709410",
+      "cmp11"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/sys-20709410.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp11.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 3,
+    "height": 1122.515625,
+    "contentBottom": 959.078125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYS4661762",
+      "cmp52"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/sys-4661762.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp52.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 4,
+    "height": 1122.515625,
+    "contentBottom": 896.03125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp02",
+      "cmp11"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp02.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp11.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 5,
+    "height": 1122.515625,
+    "contentBottom": 867.703125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp21",
+      "cmp17"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp21.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp17.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 6,
+    "height": 1122.515625,
+    "contentBottom": 881.1875,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp48",
+      "cmp44"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp48.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp44.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 7,
+    "height": 1122.515625,
+    "contentBottom": 849.078125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp14",
+      "cmp44"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp14.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp44.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 8,
+    "height": 1122.515625,
+    "contentBottom": 822.28125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYS4661762",
+      "cmp03"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/sys-4661762.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp03.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 9,
+    "height": 1122.515625,
+    "contentBottom": 940.5625,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYS4661762",
+      "cmp48"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/sys-4661762.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp48.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 10,
+    "height": 1122.515625,
+    "contentBottom": 863.53125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYS4661762",
+      "cmp44"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/sys-4661762.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp44.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 11,
+    "height": 1122.515625,
+    "contentBottom": 875.40625,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp47",
+      "cmp48"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp47.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp48.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 12,
+    "height": 1122.515625,
+    "contentBottom": 955.4375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp48",
+      "cmp52"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp48.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp52.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 13,
+    "height": 1122.515625,
+    "contentBottom": 934.203125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "ADA01",
+      "SYSA4759"
+    ],
+    "images": [
+      {
+        "src": "assets/can-bff.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/adafruit-4759.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 14,
+    "height": 1122.515625,
+    "contentBottom": 876,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp44",
+      "cmp48"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp44.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp48.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 15,
+    "height": 1122.515625,
+    "contentBottom": 869.703125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp45",
+      "cmp50"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp45.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp50.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 16,
+    "height": 1122.515625,
+    "contentBottom": 822.28125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp50",
+      "cmp12"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp50.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp12.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 17,
+    "height": 1122.515625,
+    "contentBottom": 861.3125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp50",
+      "cmp48"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp50.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp48.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp51.png",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 18,
+    "height": 1122.515625,
+    "contentBottom": 896.03125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp52",
+      "cmp50"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp52.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp50.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 19,
+    "height": 1122.515625,
+    "contentBottom": 849.078125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp25",
+      "cmp50"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp25.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp50.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 20,
+    "height": 1122.515625,
+    "contentBottom": 925.15625,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp52",
+      "cmp16"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp52.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp16.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 21,
+    "height": 1122.515625,
+    "contentBottom": 921.609375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp18",
+      "cmp19"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp18.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp19.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 22,
+    "height": 1122.515625,
+    "contentBottom": 907.328125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp18",
+      "cmp21"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp18.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp21.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 23,
+    "height": 1122.515625,
+    "contentBottom": 919.9375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp52",
+      "cmp02"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp52.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp02.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 24,
+    "height": 1122.515625,
+    "contentBottom": 869.703125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp03",
+      "cmp22"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp03.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp22.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 25,
+    "height": 1122.515625,
+    "contentBottom": 900.984375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp29",
+      "cmp31"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp29.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp31.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 26,
+    "height": 1122.515625,
+    "contentBottom": 822.28125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp05",
+      "cmp04"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp05.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp04.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 27,
+    "height": 1122.515625,
+    "contentBottom": 942.234375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp06",
+      "cmp29"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp06.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp29.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 28,
+    "height": 1122.515625,
+    "contentBottom": 869.703125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp31",
+      "SYS4661762"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp31.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/sys-4661762.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 29,
+    "height": 1122.515625,
+    "contentBottom": 886.703125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp04",
+      "SYS45826314"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp04.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/sys-45826314.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 30,
+    "height": 1122.515625,
+    "contentBottom": 926.109375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp04",
+      "SYS20709410"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp04.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/sys-20709410.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 31,
+    "height": 1122.515625,
+    "contentBottom": 894.171875,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "ADA01",
+      "SYSA5708"
+    ],
+    "images": [
+      {
+        "src": "assets/can-bff.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/adafruit-5708.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 32,
+    "height": 1122.515625,
+    "contentBottom": 1025.703125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "ADA01",
+      "SYSA5724"
+    ],
+    "images": [
+      {
+        "src": "assets/can-bff.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/adafruit-5724.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 33,
+    "height": 1122.515625,
+    "contentBottom": 853.734375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYSA4759",
+      "SYSA5708"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/adafruit-4759.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/adafruit-5708.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/can-bff.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 34,
+    "height": 1122.515625,
+    "contentBottom": 882.296875,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYSA5709",
+      "SYSA4759"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/adafruit-5709.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/adafruit-4759.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 35,
+    "height": 1122.515625,
+    "contentBottom": 979.953125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYSA5708",
+      "SYSA5724"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/adafruit-5708.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/adafruit-5724.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 36,
+    "height": 1122.515625,
+    "contentBottom": 918.125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYS4661762",
+      "cmp44"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/sys-4661762.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp44.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 37,
+    "height": 1122.515625,
+    "contentBottom": 1017.078125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp52",
+      "cmp08"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp52.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp08.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 38,
+    "height": 1122.515625,
+    "contentBottom": 958.265625,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp45",
+      "SYS4661762"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp45.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/sys-4661762.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 39,
+    "height": 1122.515625,
+    "contentBottom": 889.234375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp22",
+      "cmp23"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp22.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp23.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 40,
+    "height": 1122.515625,
+    "contentBottom": 906.109375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp05",
+      "cmp04"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp05.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp04.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 41,
+    "height": 1122.515625,
+    "contentBottom": 908.203125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp44",
+      "cmp48"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp44.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp48.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 42,
+    "height": 1122.515625,
+    "contentBottom": 974.125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp37",
+      "cmp36"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp37.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp36.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 43,
+    "height": 1122.515625,
+    "contentBottom": 919.03125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp14",
+      "cmp52"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp14.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp52.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 44,
+    "height": 1122.515625,
+    "contentBottom": 981.359375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp14",
+      "cmp52"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp14.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp52.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 45,
+    "height": 1122.515625,
+    "contentBottom": 1013.984375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp45",
+      "SYS4661762"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp45.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/sys-4661762.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 46,
+    "height": 1122.515625,
+    "contentBottom": 1013.984375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp08",
+      "cmp52"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp08.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp52.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 47,
+    "height": 1122.515625,
+    "contentBottom": 1035.3125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYS4661762",
+      "cmp48"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/sys-4661762.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp48.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 48,
+    "height": 1122.515625,
+    "contentBottom": 972.734375,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp14",
+      "SYS157506859"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp14.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/sys-157506859.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 49,
+    "height": 1122.515625,
+    "contentBottom": 1052.296875,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "SYS4661762",
+      "cmp52"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/sys-4661762.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp52.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  },
+  {
+    "page": 50,
+    "height": 1122.515625,
+    "contentBottom": 997.03125,
+    "available": 1071.4375,
+    "overflow": false,
+    "actualPhotoIds": [
+      "cmp04",
+      "cmp18"
+    ],
+    "images": [
+      {
+        "src": "assets/real-images/cmp04.jpg",
+        "loaded": true
+      },
+      {
+        "src": "assets/real-images/cmp18.jpg",
+        "loaded": true
+      }
+    ],
+    "svgTextOutsideViewBox": 0,
+    "wide": 0
+  }
+]

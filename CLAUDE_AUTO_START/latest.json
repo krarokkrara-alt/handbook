@@ -1,12 +1,13 @@
 {
+  "task_path": "projects/ev-circuit-dtc-handbook",
   "created_by": "ChatGPT",
-  "revision": "5398ea8fff15340c12fafc2f6fb293ce0b72f001fe649625b46fac47e848f8e0",
-  "created_at": "2026-11-03T15:34:57.855226+00:00",
+  "revision": "dc38ade9efb9b1c99f11af85b6481cd95d6f91c76260456d1c0d67338a40773c",
+  "created_at": "2026-11-08T23:04:51.051Z",
   "status": "awaiting_cli",
   "next_tasks": [
-    "Review tuning instructions, units and software-version scope",
-    "Verify picture relevance, source credits and layout",
-    "Record findings in CLAUDE_REVIEW.md; do not publish or push"
+    "Read README.md, PROJECT_BRIEF.md, STATUS.md and NEXT_PROMPT.md to preserve context for the next user prompt",
+    "Do not change manuscript or publish; wait for the user to specify the next task",
+    "Existing scoped technical/image review is recorded in verification-real-images.md; any new review findings belong in CLAUDE_REVIEW.md"
   ],
-  "task_path": "books/chatgpt-created/mytech-wiring-lpg-tuning"
+  "handoff_note": "Queue only; Python and Claude CLI are unavailable in the upload environment. Queue schema and revision follow tools/claude_handoff.py; no Claude run started."
 }
