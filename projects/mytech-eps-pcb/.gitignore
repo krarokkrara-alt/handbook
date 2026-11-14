@@ -1,0 +1,6 @@
+tmp/
+__pycache__/
+*.pyc
+output/pdf/
+output/*index.json
+output/book-v2-raw-index.json

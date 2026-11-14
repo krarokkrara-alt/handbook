@@ -1,0 +1,2 @@
+14 Nov 2026
+42 pages. Three agents researched actual PCB cases, vendor schematics, and component datasheets. Technical reviewer checked board identity, supplier coordinates, relay typo, pinout scope, high-side probing and numerical claims. Navigation correction applied. All 42 rendered pages inspected; text overflow check zero. No verified internal PCB/schematic for TS4-Z51; images of other variants explicitly separated.

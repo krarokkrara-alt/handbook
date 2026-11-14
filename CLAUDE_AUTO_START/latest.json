@@ -1,12 +1,10 @@
 {
+  "task_path": "projects/mytech-eps-pcb",
   "created_by": "ChatGPT",
-  "revision": "5398ea8fff15340c12fafc2f6fb293ce0b72f001fe649625b46fac47e848f8e0",
-  "created_at": "2026-11-03T15:34:57.855226+00:00",
-  "status": "awaiting_cli",
+  "revision": "4799ddd71f843c5a05a4f8acf25ab5cf05c2b2fd7527f78c48ee18c3c12333a6",
+  "created_at": "2026-11-14T09:31:33.895864+00:00",
+  "status": "queued",
   "next_tasks": [
-    "Review tuning instructions, units and software-version scope",
-    "Verify picture relevance, source credits and layout",
-    "Record findings in CLAUDE_REVIEW.md; do not publish or push"
-  ],
-  "task_path": "books/chatgpt-created/mytech-wiring-lpg-tuning"
+    "อ่าน README และ QA_REPORT ของงานนี้ ตรวจหลักฐานภาพ PCB/วงจร/เบอร์อุปกรณ์ โดยเฉพาะบท Europe แล้วบันทึก must-fix และงานถัดไปใน CLAUDE_REVIEW.md ทำต่อเฉพาะงานนี้ตามลำดับใน README ไม่อ้างว่าพบ schematic Z51 หากไม่มีหลักฐาน ไม่ publish/push เอง"
+  ]
 }

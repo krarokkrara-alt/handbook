@@ -1,0 +1,157 @@
+[
+  {
+    "path": "eps-0.gif",
+    "bytes": 187729,
+    "sha256": "529ea8ca3f1eeceebebea45099a43c51286d6c4c7ce83a2574491a418d46a03b"
+  },
+  {
+    "path": "output/EPS-connector-face.png",
+    "bytes": 218453,
+    "sha256": "49acd17f170bf4f17749a5be74d32b53b471c39e8b5d344facb7ac59878e8065"
+  },
+  {
+    "path": "output/agent-research-assets/gabisa-tr8-top.jpg",
+    "bytes": 224746,
+    "sha256": "301f1b8a1bde39edcf56ce2bd6f6bb4fb7b542987ed6c4e1e7e0f2222c367ebe"
+  },
+  {
+    "path": "output/agent-research-assets/ti-gate-driver-figure17-excerpt.png",
+    "bytes": 175299,
+    "sha256": "d20593e186f570366aec9ed3f75a3af86067f39fe3a0333d271ab8223fba78c3"
+  },
+  {
+    "path": "output/agent-research-assets/ti-resolver-excitation-excerpt.png",
+    "bytes": 207332,
+    "sha256": "363184bd0e1d3566dda2898167f23e166ecba28bbd934ceef3bfaad651e22bc0"
+  },
+  {
+    "path": "output/agent-research-assets/ti-resolver-sine-channel-excerpt.png",
+    "bytes": 52693,
+    "sha256": "48b9a0ecfe2fd819bb7de33373f521a3a98e3e2325d2a2754b5069fc7eaf70bf"
+  },
+  {
+    "path": "output/agent-research-assets/ti-reverse-polarity-excerpt.png",
+    "bytes": 127029,
+    "sha256": "74fb7640182ce9b78b05f35e98a6a423c97e5d22962c40deba648f7156241e76"
+  },
+  {
+    "path": "output/book-assets/connectors.jpg",
+    "bytes": 1707410,
+    "sha256": "dcc12b9908b98226f50b17e9fd878716f2499fa290e3e9adcd73c2743c880db2"
+  },
+  {
+    "path": "output/book-assets/rear.jpg",
+    "bytes": 1794701,
+    "sha256": "e3f113dbc727891c6c3e818536b533665903ec706e5701417d9f84c67e8bf26a"
+  },
+  {
+    "path": "output/book-assets/side.jpg",
+    "bytes": 1659242,
+    "sha256": "6c49791cab0748ce8ef559bb3262a3a1cf576e2cbf5bde84ad8ea7300eaf0ef5"
+  },
+  {
+    "path": "output/europe-assets/015_1F.jpg",
+    "bytes": 351800,
+    "sha256": "1f34776b99adb4885c0767750a3b68f3c8bb12ea5c1d53f26bdfd68494fd7ccf"
+  },
+  {
+    "path": "output/europe-assets/015_1R.jpg",
+    "bytes": 370541,
+    "sha256": "c359ac288db559b31602086a516bc10c3bb6aafa3e687c9a3af5faf9626d7617"
+  },
+  {
+    "path": "output/europe-assets/080_1F-ready.jpg",
+    "bytes": 711572,
+    "sha256": "ca7006216e6af8044e33e1380f21672d898db8868d56adb436ce6d03e738d6bd"
+  },
+  {
+    "path": "output/europe-assets/080_1R-ready.jpg",
+    "bytes": 732389,
+    "sha256": "25d5c3df788d233a2392ba68b9373dab7235bdf7a398f378d9e6dc359f19d5ff"
+  },
+  {
+    "path": "output/europe-assets/080_3F-ready.jpg",
+    "bytes": 559178,
+    "sha256": "d0149bc4e878fa03d385b1396beb13379e52dc0f796b553864e0147f608f8c10"
+  },
+  {
+    "path": "output/europe-assets/082_1F-ready.jpg",
+    "bytes": 871652,
+    "sha256": "141f1ad650e78d74e2fdfa70662bf9eb24208c5aaeabcb02f1efea23c03a4e9f"
+  },
+  {
+    "path": "output/europe-assets/082_2F-ready.jpg",
+    "bytes": 899520,
+    "sha256": "fd12b2cd4bb5cd6f8efcfe3c58fa1a69f3d105a82b765d4b5008b862471ae5db"
+  },
+  {
+    "path": "output/europe-assets/allegro-a3935-p1.png",
+    "bytes": 395337,
+    "sha256": "de41e45cbd7fde49468894d5db78f54475398789bb812f40930857d9fe634ab0"
+  },
+  {
+    "path": "output/europe-assets/mt061909.png",
+    "bytes": 82100,
+    "sha256": "64538456354a7e7cceabdc316b721fc73966f40251a53695ed98f5480d61b502"
+  },
+  {
+    "path": "output/europe-assets/renault23-2R.jpg",
+    "bytes": 408869,
+    "sha256": "a79a0cdf02d0aaaad1330fec514406890fc507d47c198453a357e2aefa718757"
+  },
+  {
+    "path": "output/europe-assets/renault23-can.png",
+    "bytes": 41596,
+    "sha256": "b62d0b1526d074ef37bdac79ed9438a093bfc14a3000126004ed6cf3c893e7ab"
+  },
+  {
+    "path": "output/europe-assets/renault23-eeprom.png",
+    "bytes": 40249,
+    "sha256": "e3ba680cb6852703693adc5794d90f8b5461d114681729026bb6f07486f56b5d"
+  },
+  {
+    "path": "output/europe-assets/renault23-mosfet-control.png",
+    "bytes": 222063,
+    "sha256": "d510d1e362796a06b92f66a72b2a26a6ce94c4e45a44bd2a568d4999b2f9595e"
+  },
+  {
+    "path": "output/europe-assets/renault23-motor-ic.png",
+    "bytes": 78907,
+    "sha256": "e3e1e63e8db148ae15a24fbfe919f2a0493dafe6a9f2bcabc0d3277d946d206a"
+  },
+  {
+    "path": "output/research-assets/nissan-020-2F.jpg",
+    "bytes": 254177,
+    "sha256": "2463fca6b45b1b4ad992be838b7ad29e6a3abb9cd00a7dc526f0c5ee1bbc8550"
+  },
+  {
+    "path": "output/research-assets/toyota-029-1F-ready.jpg",
+    "bytes": 707655,
+    "sha256": "153e0c46a76c419cb37287d9799b11878a606020068abfb01e89aa220070c8c0"
+  },
+  {
+    "path": "output/research-assets/toyota-029-1R-ready.jpg",
+    "bytes": 529992,
+    "sha256": "e91c65bdcea2f3e2ec9c73e0667af5d3e88d71e1ffdafb697727c06e2cc489db"
+  },
+  {
+    "path": "output/research-independent-assets/hyundai-095-1F.jpg",
+    "bytes": 623530,
+    "sha256": "1e8ab0f1a1ce9aa9106018f4a90306aa40d5adcd79bd43b8119f79d9f463244e"
+  },
+  {
+    "path": "output/research-independent-assets/hyundai-095-1R.jpg",
+    "bytes": 628951,
+    "sha256": "5d783948c22468a14fc9f3875424375b649d2746c310d645f5d84b2f5b940610"
+  },
+  {
+    "path": "output/research-independent-assets/toyota-relay-position.jpg",
+    "bytes": 254572,
+    "sha256": "6e68f1be2f8ea263d197e78681ddc39d2089c55a2a48038033d813d07e3bafdb"
+  },
+  {
+    "path": "output/research-independent-assets/toyota-relay.jpg",
+    "bytes": 299934,
+    "sha256": "3313e4a5ce65dc6cf966e836a9cbd75bbc67d8ca5f2fb8feca31cb21728b9eb7"
+  }
+]

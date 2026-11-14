@@ -1,0 +1,170 @@
+[
+  {
+    "page": 1,
+    "title": "คู่มือซ่อมพวงมาลัยไฟฟ้า by mytech"
+  },
+  {
+    "page": 2,
+    "title": "เปิดเล่ม: เน้น PCB และอุปกรณ์ในบอร์ด"
+  },
+  {
+    "page": 3,
+    "title": "แผนที่ภาค PCB: หาอุปกรณ์ก่อนวัด"
+  },
+  {
+    "page": 4,
+    "title": "ภาคไฟเข้า: TVS / กลับขั้ว / ฟิลเตอร์"
+  },
+  {
+    "page": 5,
+    "title": "ภาคจ่ายไฟ: PMIC / Buck / LDO"
+  },
+  {
+    "page": 6,
+    "title": "MCU / reset / clock / memory"
+  },
+  {
+    "page": 7,
+    "title": "CAN: transceiver / ESD / choke"
+  },
+  {
+    "page": 8,
+    "title": "Gate driver: ตรวจวงจรขับก่อนลง FET"
+  },
+  {
+    "page": 9,
+    "title": "MOSFET bridge: D / G / S และแขน 3 เฟส"
+  },
+  {
+    "page": 10,
+    "title": "Current sense: shunt / amplifier / ADC"
+  },
+  {
+    "page": 11,
+    "title": "Resolver / torque: ดูชนิดเซนเซอร์ก่อน"
+  },
+  {
+    "page": 12,
+    "title": "ชี้ตัวอุปกรณ์อย่างมีหลักฐาน: ใบงาน PCB"
+  },
+  {
+    "page": 13,
+    "title": "แหล่งวงจร PCB จากผู้ผลิตชิป"
+  },
+  {
+    "page": 14,
+    "title": "PCB จริง | Honda TR8-M91: ภาคที่เห็นจากภาพ"
+  },
+  {
+    "page": 15,
+    "title": "PCB จริง | Toyota 89650-12340: รีเลย์และภาคกำลัง"
+  },
+  {
+    "page": 16,
+    "title": "PCB จริง | Hyundai / Kia: แผนที่ด้าน 1F และ 1R"
+  },
+  {
+    "page": 17,
+    "title": "PCB จริง | Nissan March / Micra K12: พิกัดซ่อม"
+  },
+  {
+    "page": 18,
+    "title": "PCB จริง | Toyota Yaris / Vios: อ่านชิ้นส่วนบนแผนที่"
+  },
+  {
+    "page": 19,
+    "title": "Schematic จริงตัวอย่าง | Driver + MOSFET + shunt"
+  },
+  {
+    "page": 20,
+    "title": "Schematic จริงตัวอย่าง | ป้องกันไฟกลับขั้ว"
+  },
+  {
+    "page": 21,
+    "title": "Schematic จริงตัวอย่าง | Resolver excitation"
+  },
+  {
+    "page": 22,
+    "title": "Schematic จริงตัวอย่าง | Resolver SINE front end"
+  },
+  {
+    "page": 23,
+    "title": "แหล่งภาพ PCB และสถานะหลักฐาน"
+  },
+  {
+    "page": 24,
+    "title": "ทางลัดหน้างาน: เริ่มตรงไหน"
+  },
+  {
+    "page": 25,
+    "title": "ภาพจริง: อ่านเลขกล่องให้ครบ"
+  },
+  {
+    "page": 26,
+    "title": "ภาพจริง: ปลั๊กไหน A ปลั๊กไหน B"
+  },
+  {
+    "page": 27,
+    "title": "รูปเรียงขา: เทียบก่อนต่อไฟ"
+  },
+  {
+    "page": 28,
+    "title": "ปลั๊ก A: จุดวัดไฟและสื่อสาร"
+  },
+  {
+    "page": 29,
+    "title": "ปลั๊ก B: แยกมอเตอร์กับเซนเซอร์"
+  },
+  {
+    "page": 30,
+    "title": "Wiring ต้นฉบับ: เห็นวงจรทั้งระบบ"
+  },
+  {
+    "page": 31,
+    "title": "Schematic แบบที่ 1: ไฟเลี้ยงและกราวด์"
+  },
+  {
+    "page": 32,
+    "title": "Schematic แบบที่ 2: สายสื่อสาร/รอบเครื่อง"
+  },
+  {
+    "page": 33,
+    "title": "Schematic แบบที่ 3: ภาคขับมอเตอร์ 3 เฟส"
+  },
+  {
+    "page": 34,
+    "title": "ไม่สื่อสาร / ไฟ EPS ค้าง: ไล่ตามนี้"
+  },
+  {
+    "page": 35,
+    "title": "DTC แรงดัน: 11-01 / 11-02 / 12-01"
+  },
+  {
+    "page": 36,
+    "title": "พวงมาลัยหนักเป็นบางครั้ง: แยกก่อนรื้อ"
+  },
+  {
+    "page": 37,
+    "title": "DTC มอเตอร์ / FET: จุดซ่อมที่ต้องพิสูจน์"
+  },
+  {
+    "page": 38,
+    "title": "Torque / resolver: แยกสายก่อนเปลี่ยนชุด"
+  },
+  {
+    "page": 39,
+    "title": "ตรวจบอร์ดเบื้องต้น: ไม่มีไฟก่อน"
+  },
+  {
+    "page": 40,
+    "title": "หลังซ่อม: ต้องผ่านก่อนส่งงาน"
+  },
+  {
+    "page": 41,
+    "title": "ใบงานตรวจซ่อม: พิมพ์ใช้หน้างาน"
+  },
+  {
+    "page": 42,
+    "title": "แหล่งอ้างอิงและผลตรวจทาน"
+  }
+]

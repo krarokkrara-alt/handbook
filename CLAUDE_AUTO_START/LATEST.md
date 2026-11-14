@@ -1,8 +1,8 @@
 # Ready for Claude Code
 
-Task: books/chatgpt-created/mytech-wiring-lpg-tuning
+Task: projects/mytech-eps-pcb
 
 Created by: ChatGPT
-Revision: 5398ea8fff15340c12fafc2f6fb293ce0b72f001fe649625b46fac47e848f8e0
+Revision: 4799ddd71f843c5a05a4f8acf25ab5cf05c2b2fd7527f78c48ee18c3c12333a6
 
 Read latest.json for tasks. This file is a queue signal, not proof Claude has started.
