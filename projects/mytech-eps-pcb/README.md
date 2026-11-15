@@ -1,11 +1,12 @@
 # คู่มือซ่อมพวงมาลัยไฟฟ้า by mytech — เน้น PCB
 
-สถานะส่งต่อ: 14 พฤศจิกายน 2026 · ฉบับญี่ปุ่น/เกาหลี/ยุโรป · **54 หน้า**
+สถานะส่งต่อ: 14 พฤศจิกายน 2026 · ฉบับญี่ปุ่น/เกาหลี/ยุโรป · **58 หน้า**
 
 ## เปิดงานจากตรงนี้
 
 - [หนังสือ PDF ล่าสุด](docs/mytech-eps-pcb-handbook.pdf)
 - [หน้าปก](docs/cover.png)
+- [ต้นฉบับผู้เขียนและกิตติกรรมประกาศ](source-documents/Author_and_Acknowledgements.pdf) — แนบครบ 4 หน้า ท้ายเล่ม หน้า 55–58
 - [เครดิตและขอบเขตสิทธิ์](SOURCES_AND_RIGHTS.md)
 - หลักฐานการค้นและตรวจภาพอยู่ใน `research/` และภาพที่ใช้จริงอยู่ใต้ `output/`
 
@@ -17,13 +18,15 @@
 
 ## ทำเสร็จแล้ว
 
-1. หนังสือ 54 หน้า พร้อมสารบัญหน้า 2, PDF bookmarks, แหล่งข้อมูลกดเปิดได้ และใบงานพิมพ์ใช้
+1. หนังสือ 58 หน้า พร้อมสารบัญหน้า 2, PDF bookmarks, แหล่งข้อมูลกดเปิดได้ และใบงานพิมพ์ใช้
 2. ภาค PCB หน้า 3–13: protection, regulator/PMIC, MCU/reset/clock/memory, CAN, gate driver, MOSFET bridge, current sensing, resolver/torque
 3. PCB จริงหลายยี่ห้อหน้า 14–18: Honda TR8-M91, Toyota 89650-12340 และ Yaris/Vios supplier map, Hyundai/Kia และ Nissan
 4. วงจรตัวอย่างจริงจาก Texas Instruments หน้า 19–22: DRV3205-Q1, reverse polarity และ resolver excitation/SINE front end
 5. ภาคผนวก Honda Z51 หน้า 24–42: ภาพผู้ใช้ หน้าปลั๊กเทียบเคียง วิธีวัดสาย/ไฟ/กราวด์/การสื่อสาร ไล่ DTC และการทดสอบหลังซ่อม
 6. ยุโรปหน้า 43–54: Fiat/Opel W-S0015 + Allegro A3935, MINI W-S0080, VAG W-S0082, Renault W-S0023 พร้อมภาพ PCB/ภาพอะไหล่ supplier และแยก EPS-C/EPS-R/EHPS
 7. agent สามสายค้นข้อมูลโดยตรง และ reviewer ตรวจ pinout, การใช้ภาพ/กริด, suffix, high-side probing, ความคลาดเคลื่อน source และเลขหน้า
+
+8. เพิ่มไฟล์ผู้เขียนและกิตติกรรมประกาศที่ผู้ใช้ส่งมาครบ 4 หน้าโดยไม่แก้เนื้อหา/รูปภาพ/QR; อยู่ท้ายเล่ม หน้า 55–58 พร้อม bookmarks
 
 ## จุดสำคัญที่ Claude ต้องรักษา
 
@@ -78,7 +81,7 @@ $env:MYTECH_FONT_BOLD = 'C:/path/to/Thai-Bold.ttf'
 python scripts/build.py
 ```
 
-Pipeline: `build_mytech_core.py` สร้าง raw 42 หน้า → `order_mytech.py` จัดลำดับเน้น PCB → `build_europe.py` สร้างปกใหม่และภาคเพิ่ม 12 หน้า → `merge_europe.py` รวมเป็น 54 หน้าแล้วคัดลอกไป `docs/` ไม่มีการ download ระหว่าง build; ใช้เฉพาะภาพ complete ที่คัดไว้
+Pipeline: `build_mytech_core.py` สร้าง raw 42 หน้า → `order_mytech.py` จัดลำดับเน้น PCB → `build_europe.py` สร้างปกใหม่และภาคเพิ่ม 12 หน้า → `merge_europe.py` รวมเนื้อหา 54 หน้า แล้วแนบไฟล์ผู้เขียน 4 หน้า รวม 58 หน้าแล้วคัดลอกไป `docs/` ไม่มีการ download ระหว่าง build; ใช้เฉพาะภาพ complete ที่คัดไว้
 
 การ render QA ใช้ Poppler `pdftoppm` (ติดตั้งแยก) ภาพที่ render เป็น preview ไม่ใช่แหล่งหลักใหม่ ต้องดูไฟล์ต้นฉบับและ source attribution เสมอ
 

@@ -18,3 +18,7 @@ Thai editorial text, code-generated block diagrams, layout and worksheets were p
 The book and research reports contain the source URLs, figure/page IDs, observed markings and uncertainty. `research/asset-manifest.json` lists the exact packaged images and SHA-256 hashes. Full vendor datasheets and incomplete download fragments are deliberately excluded from this folder; follow the manufacturer links to obtain current originals.
 
 Access on a public web page does not establish a redistribution license. No permission from the listed rights holders was obtained in this task. Before commercial/public redistribution, Claude should record each asset's actual license/permission, request permission where needed, or replace it with authorized material. Do not claim OEM endorsement or apply the root project's circuit license automatically to these external figures.
+
+## User-provided author appendix
+
+`source-documents/Author_and_Acknowledgements.pdf` was explicitly supplied for inclusion. All four pages are appended unchanged as physical pages 55–58, including biography, contact information, photograph, QR and acknowledgements. SHA-256 is recorded in `research/acknowledgements-source.json`. Inclusion does not change rights for external figures elsewhere.

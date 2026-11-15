@@ -7,3 +7,7 @@
 - Three research agents searched sources directly. Technical reviewer found no remaining must-fix in the Europe draft after preserving supplier-coordinate uncertainty and clarifying chip-family versus actual-suffix evidence.
 - Exact Honda TS4-Z51 internal PCB, OEM full-board schematic, real board measurements and per-revision compatibility remain unverified. Do not promote supplier maps or reference schematics into those claims.
 - Third-party reuse permission was not obtained. See SOURCES_AND_RIGHTS.md before downstream redistribution.
+
+## Author appendix update
+
+The four-page user-supplied PDF was visually inspected and appended unchanged after the 54 technical pages, for 58 total pages. Added author/acknowledgements bookmarks. Source SHA-256 and page-by-page extracted text are checked. Original technical-page numbering is preserved.
