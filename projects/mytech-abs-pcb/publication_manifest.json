@@ -1,0 +1,214 @@
+{
+  "edition": "3",
+  "pages": 59,
+  "photo_section_pages": [
+    3,
+    18
+  ],
+  "original_author_pages": [
+    56,
+    59
+  ],
+  "files": [
+    {
+      "path": "assets/cover-prompt.txt",
+      "bytes": 1979,
+      "sha256": "67b3d3a1a2efbef10cd3e14c89f4619239cf8d32256c5ef1d4946eb9ad1cd98e"
+    },
+    {
+      "path": "assets/cover.png",
+      "bytes": 2188849,
+      "sha256": "725bf23287bb74a10575aff006f957393f06c222080bcd88f66ccbeb7b55b63c"
+    },
+    {
+      "path": "assets/illustrations/circuit-can.png",
+      "bytes": 44657,
+      "sha256": "c66de18278584197725f5d1301bb34e94d4ef041cbcc96fc35dcb01e3cb48bb4"
+    },
+    {
+      "path": "assets/illustrations/circuit-eeprom.png",
+      "bytes": 45530,
+      "sha256": "0bb7c324e5eec853503ce25a1e035adae2ea69139f5d05b660c8f59954054eb6"
+    },
+    {
+      "path": "assets/illustrations/circuit-motor.png",
+      "bytes": 37121,
+      "sha256": "29fd9ff965158638064aa7114bbc721291ceb28d0bb8e0920b6fff2ffc19e916"
+    },
+    {
+      "path": "assets/illustrations/circuit-power.png",
+      "bytes": 34207,
+      "sha256": "63d3d8cf32ed2f4ab8387bfddd311bba10e95d24dd221951e1a18f3ab1d17064"
+    },
+    {
+      "path": "assets/illustrations/circuit-reset.png",
+      "bytes": 32859,
+      "sha256": "4f14f583ecb9b0285ecab1b9c74baefb96509240b2024d20577738b020878fb6"
+    },
+    {
+      "path": "assets/illustrations/circuit-sensor.png",
+      "bytes": 43537,
+      "sha256": "e03b61532f8df2977dbb4a37e54f089b7a51f7095498d061aba1856669a25b72"
+    },
+    {
+      "path": "assets/illustrations/circuit-shunt.png",
+      "bytes": 30448,
+      "sha256": "b0e8e2b4dd9eee41044c707f61a9af06fe0c023bc5d182b267fc024ac8dbf13c"
+    },
+    {
+      "path": "assets/illustrations/circuit-valve.png",
+      "bytes": 37945,
+      "sha256": "545c2564c10f623ba4afc7f5681bf9b93a867a5aef40d9d54a1a1733b471a04d"
+    },
+    {
+      "path": "assets/illustrations/simulation_transfer_1.png",
+      "bytes": 67433,
+      "sha256": "b4d1050d3f670710b19e25b3f8da12fa01423763a1b679990535fa1cb6af8576"
+    },
+    {
+      "path": "assets/illustrations/simulation_transfer_2.png",
+      "bytes": 65908,
+      "sha256": "6f63bef0760145de625913ef0385abb8ef6fba9e876c5133d7d98e6f6a41babb"
+    },
+    {
+      "path": "assets/real-photos/habr-1.jpg",
+      "bytes": 3018694,
+      "sha256": "cfeec6262b3f429dba61dd7e23eaa4b79acba29042fffabf11efa8d2f52e15cb"
+    },
+    {
+      "path": "assets/real-photos/habr-3.jpg",
+      "bytes": 82689,
+      "sha256": "640963b61a65de732a9620f218781506cb0e66e98b005229f92463874fe3c0a8"
+    },
+    {
+      "path": "assets/real-photos/habr-4.jpg",
+      "bytes": 62638,
+      "sha256": "6e2a1445982648662c469428ca392ab84f307654d520d90d00c2e960b2b1c2fd"
+    },
+    {
+      "path": "assets/real-photos/honda-pcb-crop.png",
+      "bytes": 1212187,
+      "sha256": "9bcd845617e6c3fb792d95a1a343b7aa40797e01aab40af7616b08f19259ba7f"
+    },
+    {
+      "path": "assets/real-photos/japan-10.jpg",
+      "bytes": 301120,
+      "sha256": "345ac98eb9b4341d6553f031194b214477b4b08d84f62e35f0adea59cb23026b"
+    },
+    {
+      "path": "assets/real-photos/japan-2.jpg",
+      "bytes": 153053,
+      "sha256": "df62fb01f266859dc90e3cb6b3fbeb39b1ebf772c05ab7b1b5e24f1775864869"
+    },
+    {
+      "path": "assets/real-photos/japan-3.jpg",
+      "bytes": 123444,
+      "sha256": "71fe47dd8c26926bed232b1450d61483cf9da8affe138ca52b209429702a9d22"
+    },
+    {
+      "path": "assets/real-photos/japan-5.jpg",
+      "bytes": 274236,
+      "sha256": "6ce6b0360d70b002f7f3214e3d212b6a2f3e0307c8879277d243d520b906c2d4"
+    },
+    {
+      "path": "assets/real-photos/japan-6.jpg",
+      "bytes": 288888,
+      "sha256": "6e657960e4555baa3715e3c1bf8d885781b518c27e047b13caf173b201dd12dd"
+    },
+    {
+      "path": "assets/real-photos/japan-8.jpg",
+      "bytes": 106110,
+      "sha256": "cd3e31e1b86a922c68d21e941462f1f984155964c9fb62f04557c2b3d39fdd23"
+    },
+    {
+      "path": "assets/real-photos/mk20-5.jpg",
+      "bytes": 83104,
+      "sha256": "760a620d4a78a6ef0f01e4db131ab42c3531b7f4fb3a75cff7186e776b666a13"
+    },
+    {
+      "path": "assets/real-photos/mk20-6.jpg",
+      "bytes": 298230,
+      "sha256": "b6e504851cef6225884fbbd115cd00a60578258753ed83ec80737e27218d94bc"
+    },
+    {
+      "path": "assets/real-photos/mk20-7.jpg",
+      "bytes": 84168,
+      "sha256": "913da635e0d3539aaee66df7cac7ca3334aa99632f2cb0bf329f09262e8c85fb"
+    },
+    {
+      "path": "assets/real-photos/mk20-mosfet-crop.png",
+      "bytes": 72214,
+      "sha256": "f97a597056f7a57a61dc4eccccfd4d081c6c717c127dae2f32d667136d0f5f9f"
+    },
+    {
+      "path": "assets/real-photos/odis-coding-test.png",
+      "bytes": 153286,
+      "sha256": "8db6b81db8ad0c193ad305d9744c94d5816919e152167ffbc939578f5aa13b4f"
+    },
+    {
+      "path": "assets/real-photos/odis-coding-values.png",
+      "bytes": 48036,
+      "sha256": "385e8c983e155e036f88c4a5af07f8f35132d6d5b94b0a2a7790e36012e2883f"
+    },
+    {
+      "path": "assets/real-photos/odis-identification.png",
+      "bytes": 74264,
+      "sha256": "2b0c2ac5bfa435c1267a571b9739056b7aa7bb2a8007cb568c088add8331a4ff"
+    },
+    {
+      "path": "assets/real-photos/odis-update-menu.png",
+      "bytes": 46871,
+      "sha256": "3edc8c33ff9f10e4c8bdf86ffc6f16637c3f08594f8b41d7d38d6db8edddfbca"
+    },
+    {
+      "path": "assets/real-photos/vag-eeprom-chip-crop.png",
+      "bytes": 114735,
+      "sha256": "bf0aeafb0a5e7462cb56cee6ee41383d919dfcfd9209a7581713cbe4fa8276db"
+    },
+    {
+      "path": "assets/real-photos/vag-mcu-crop.png",
+      "bytes": 505208,
+      "sha256": "670653da4d233661404d7689704b44160ab0826c2aacec502c0c5c22445e9805"
+    },
+    {
+      "path": "books/ABS-MyTech-Real-PCB.docx",
+      "bytes": 10384823,
+      "sha256": "7eb02e9c07ce9f31023bbf89a1645baee9b96693a5288609be89b5865df5d738"
+    },
+    {
+      "path": "books/ABS-MyTech-Real-PCB.pdf",
+      "bytes": 6581646,
+      "sha256": "7e91d7e02b321eafefe1a1e393879d20adaf09be09d9a46baf676ce046981f39"
+    },
+    {
+      "path": "image_manifest.json",
+      "bytes": 14594,
+      "sha256": "b5d050934e20e2bd0fa51455526fa740b67304ea8ab3f0d1b80981937197f12a"
+    },
+    {
+      "path": "IMAGE_SOURCES.md",
+      "bytes": 12323,
+      "sha256": "271f1c09575d9ff4dd4d9e2e3207b08db02fc4901005caf9f84491690a6f86bc"
+    },
+    {
+      "path": "manuscript.md",
+      "bytes": 112704,
+      "sha256": "bac4dd6d7691361d4ba61183ad606778ca04aa7e739d640cfe589cfa6cdc84e9"
+    },
+    {
+      "path": "source-documents/Author_and_Acknowledgements.pdf",
+      "bytes": 220961,
+      "sha256": "fa9c6ed2d28d1ff423fd5be0cfc5be48157500e5d923bee7a83f826d79bc6a15"
+    },
+    {
+      "path": "tools/abs_compare.py",
+      "bytes": 1939,
+      "sha256": "ef85ea4ee8d01a95f7f330367bb88d41615de3d4a34fdaaa3a5c5ebc4f981b24"
+    },
+    {
+      "path": "tools/validate.py",
+      "bytes": 1532,
+      "sha256": "ba443d402e03ed8e24766ea248c09484859bb40889d5c720ceecce1fa33aad1c"
+    }
+  ]
+}

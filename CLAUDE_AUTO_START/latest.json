@@ -1,10 +1,10 @@
 {
-  "task_path": "projects/mytech-eps-pcb",
+  "task_path": "projects/mytech-abs-pcb",
   "created_by": "ChatGPT",
-  "revision": "470a0e1b6f3beb99d0c95395a1c8eaa86dad8102465ddc2f6854728ae0afb87f",
-  "created_at": "2026-11-15T06:41:15.063844+00:00",
-  "status": "queued",
+  "revision": "9da3c4f2334c154a6b46216501ea8e1de012afd8dabd397001917222502b373d",
+  "created_at": "2026-11-15T09:35:51.625775+00:00",
+  "status": "awaiting_cli",
   "next_tasks": [
-    "ตรวจฉบับ58หน้า เพิ่มผู้เขียนและกิตติกรรมประกาศหน้า55-58แล้ว อ่านREADME และทำงานต่อเฉพาะงานนี้"
+    "ตรวจภาพ PCB ABS จริงและ marking อุปกรณ์กับแหล่ง R1-R5 ตรวจคำบรรยายภาพจำลองขั้นย้ายชิป การแยก coding กับ clone เครดิตผู้เขียนและกิตติกรรมประกาศ และบันทึกข้อแก้ใน CLAUDE_REVIEW.md โดยไม่ publish หรือ push เอง"
   ]
 }

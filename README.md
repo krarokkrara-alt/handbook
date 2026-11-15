@@ -78,3 +78,7 @@ Markdown ใช้สำหรับอ่านและแก้เนื้�
 ## หนังสือที่สร้างโดย ChatGPT
 
 [Mytech: คู่มือไวริ่งและจูนรถยนต์ 45 หน้า](books/chatgpt-created/mytech-wiring-lpg-tuning/README.md) พร้อม [ระบบส่งต่องาน Claude Code](docs/CLAUDE_HANDOFF.md)
+
+### ABS ภาพ PCB จริงและงานโปรแกรม
+
+[วงจร ABS และงานซ่อม PCB แต่ง by MyTech ฉบับภาพจริง 59 หน้า](projects/mytech-abs-pcb/README.md) — โฟลเดอร์ใหม่สำหรับ PDF Word ปก ภาพ PCB จริง ภาพหน้าจอโปรแกรม และภาพจำลองลำดับย้ายชิป พร้อมแหล่งภาพและขอบเขตการตรวจ

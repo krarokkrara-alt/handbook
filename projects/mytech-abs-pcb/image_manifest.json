@@ -1,0 +1,234 @@
+[
+  {
+    "file": "assets/real-photos/japan-2.jpg",
+    "caption": "ชิ้นส่วนที่แยกจากกันในลำดับงานต้นทาง",
+    "book_page": 3,
+    "kind": "real_source_image",
+    "source_url": "https://www.muraoka-cur.com/2018/05/16/タイタン-エルフ-コンドル-アトラス-r81系-absユニット修理/",
+    "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1040x1024:format=jpg/path/sfa0cfb9a8f2d4b8d/image/i48195d7eae7ce04e/version/1580376588/%E3%82%BF%E3%82%A4%E3%82%BF%E3%83%B3-%E3%82%A8%E3%83%AB%E3%83%95-%E3%82%B3%E3%83%B3%E3%83%89%E3%83%AB-%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9-r81%E7%B3%BB-abs%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E4%BF%AE%E7%90%86.jpg",
+    "original_sha256": "df62fb01f266859dc90e3cb6b3fbeb39b1ebf772c05ab7b1b5e24f1775864869",
+    "sha256": "df62fb01f266859dc90e3cb6b3fbeb39b1ebf772c05ab7b1b5e24f1775864869"
+  },
+  {
+    "file": "assets/real-photos/japan-3.jpg",
+    "caption": "ฉลากจริงอ่านได้ TK ISZ6 24 ต้องคงตัวอักษรตามภาพ",
+    "book_page": 3,
+    "kind": "real_source_image",
+    "source_url": "https://www.muraoka-cur.com/2018/05/16/タイタン-エルフ-コンドル-アトラス-r81系-absユニット修理/",
+    "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1040x1024:format=jpg/path/sfa0cfb9a8f2d4b8d/image/ib8f14db6c69f8012/version/1580376588/%E3%82%BF%E3%82%A4%E3%82%BF%E3%83%B3-%E3%82%A8%E3%83%AB%E3%83%95-%E3%82%B3%E3%83%B3%E3%83%89%E3%83%AB-%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9-r81%E7%B3%BB-abs%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E4%BF%AE%E7%90%86.jpg",
+    "original_sha256": "71fe47dd8c26926bed232b1450d61483cf9da8affe138ca52b209429702a9d22",
+    "sha256": "71fe47dd8c26926bed232b1450d61483cf9da8affe138ca52b209429702a9d22"
+  },
+  {
+    "file": "assets/real-photos/japan-5.jpg",
+    "caption": "ภาพ PCB ต้นทางก่อนปลดบัดกรีแยกจากส่วนคอยล์",
+    "book_page": 4,
+    "kind": "real_source_image",
+    "source_url": "https://www.muraoka-cur.com/2018/05/16/タイタン-エルフ-コンドル-アトラス-r81系-absユニット修理/",
+    "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1040x1024:format=jpg/path/sfa0cfb9a8f2d4b8d/image/i6be716a6ffe853f6/version/1580376588/%E3%82%BF%E3%82%A4%E3%82%BF%E3%83%B3-%E3%82%A8%E3%83%AB%E3%83%95-%E3%82%B3%E3%83%B3%E3%83%89%E3%83%AB-%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9-r81%E7%B3%BB-abs%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E4%BF%AE%E7%90%86.jpg",
+    "original_sha256": "6ce6b0360d70b002f7f3214e3d212b6a2f3e0307c8879277d243d520b906c2d4",
+    "sha256": "6ce6b0360d70b002f7f3214e3d212b6a2f3e0307c8879277d243d520b906c2d4"
+  },
+  {
+    "file": "assets/real-photos/japan-6.jpg",
+    "caption": "สังเกตแถวจุดเชื่อมด้านขวาที่อยู่ในขั้นตอนแยก PCB",
+    "book_page": 5,
+    "kind": "real_source_image",
+    "source_url": "https://www.muraoka-cur.com/2018/05/16/タイタン-エルフ-コンドル-アトラス-r81系-absユニット修理/",
+    "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1040x1024:format=jpg/path/sfa0cfb9a8f2d4b8d/image/id326adbb979d2ef8/version/1580376588/%E3%82%BF%E3%82%A4%E3%82%BF%E3%83%B3-%E3%82%A8%E3%83%AB%E3%83%95-%E3%82%B3%E3%83%B3%E3%83%89%E3%83%AB-%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9-r81%E7%B3%BB-abs%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E4%BF%AE%E7%90%86.jpg",
+    "original_sha256": "6e657960e4555baa3715e3c1bf8d885781b518c27e047b13caf173b201dd12dd",
+    "sha256": "6e657960e4555baa3715e3c1bf8d885781b518c27e047b13caf173b201dd12dd"
+  },
+  {
+    "file": "assets/real-photos/japan-8.jpg",
+    "caption": "ภาพขยายจุดที่เจ้าของงานตรวจพบความผิดปกติบริเวณแพด",
+    "book_page": 6,
+    "kind": "real_source_image",
+    "source_url": "https://www.muraoka-cur.com/2018/05/16/タイタン-エルフ-コンドル-アトラス-r81系-absユニット修理/",
+    "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1040x1024:format=jpg/path/sfa0cfb9a8f2d4b8d/image/i4878b4dd31167584/version/1580376589/%E3%82%BF%E3%82%A4%E3%82%BF%E3%83%B3-%E3%82%A8%E3%83%AB%E3%83%95-%E3%82%B3%E3%83%B3%E3%83%89%E3%83%AB-%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9-r81%E7%B3%BB-abs%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E4%BF%AE%E7%90%86.jpg",
+    "original_sha256": "cd3e31e1b86a922c68d21e941462f1f984155964c9fb62f04557c2b3d39fdd23",
+    "sha256": "cd3e31e1b86a922c68d21e941462f1f984155964c9fb62f04557c2b3d39fdd23"
+  },
+  {
+    "file": "assets/real-photos/japan-10.jpg",
+    "caption": "เห็นจุดบัดกรีที่เชื่อมกับแถวขั้วหลังติดตั้งกลับ",
+    "book_page": 7,
+    "kind": "real_source_image",
+    "source_url": "https://www.muraoka-cur.com/2018/05/16/タイタン-エルフ-コンドル-アトラス-r81系-absユニット修理/",
+    "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1040x1024:format=jpg/path/sfa0cfb9a8f2d4b8d/image/ie58eea97f6e05236/version/1580376589/%E3%82%BF%E3%82%A4%E3%82%BF%E3%83%B3-%E3%82%A8%E3%83%AB%E3%83%95-%E3%82%B3%E3%83%B3%E3%83%89%E3%83%AB-%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9-r81%E7%B3%BB-abs%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E4%BF%AE%E7%90%86.jpg",
+    "original_sha256": "345ac98eb9b4341d6553f031194b214477b4b08d84f62e35f0adea59cb23026b",
+    "sha256": "345ac98eb9b4341d6553f031194b214477b4b08d84f62e35f0adea59cb23026b"
+  },
+  {
+    "file": "assets/real-photos/honda-pcb-crop.png",
+    "caption": "ครอปเฉพาะบอร์ดจากภาพจริง ไม่เติมหรือสร้างชิ้นส่วน",
+    "book_page": 8,
+    "kind": "cropped_real_image",
+    "source_url": "https://calibraautobodysupplies.com/products/honda-vsa-abs-module-repair-service",
+    "image_url": "https://calibraautobodysupplies.com/cdn/shop/files/IMG_20250801_082900.jpg?v=1754416952&width=1946",
+    "original_sha256": "fa8be0fb632f83e18b23e90ad2416e843c9b08114a25bb4295a78650d45b912d",
+    "sha256": "9bcd845617e6c3fb792d95a1a343b7aa40797e01aab40af7616b08f19259ba7f"
+  },
+  {
+    "file": "assets/real-photos/mk20-6.jpg",
+    "caption": "ภาพเต็มบอร์ดจาก Volkswagen Technical Site คงลายน้ำเดิม",
+    "book_page": 9,
+    "kind": "real_source_image",
+    "source_url": "https://vwts.ru/articles/brake/abs_teves_mark_20.html",
+    "image_url": "https://vwts.ru/images/repair4/132783_05_big.jpg",
+    "original_sha256": "b6e504851cef6225884fbbd115cd00a60578258753ed83ec80737e27218d94bc",
+    "sha256": "b6e504851cef6225884fbbd115cd00a60578258753ed83ec80737e27218d94bc"
+  },
+  {
+    "file": "assets/real-photos/mk20-mosfet-crop.png",
+    "caption": "อ่านได้ SUB60N06 และบรรทัด 18 ซึ่งเป็นส่วนของชื่ออุปกรณ์",
+    "book_page": 10,
+    "kind": "cropped_real_image",
+    "source_url": "https://vwts.ru/articles/brake/abs_teves_mark_20.html",
+    "image_url": "https://vwts.ru/images/repair4/132783_05_big.jpg",
+    "original_sha256": "b6e504851cef6225884fbbd115cd00a60578258753ed83ec80737e27218d94bc",
+    "sha256": "f97a597056f7a57a61dc4eccccfd4d081c6c717c127dae2f32d667136d0f5f9f"
+  },
+  {
+    "file": "assets/real-photos/mk20-5.jpg",
+    "caption": "ด้านคอยล์และขั้วเชื่อมของชุด",
+    "book_page": 11,
+    "kind": "real_source_image",
+    "source_url": "https://vwts.ru/articles/brake/abs_teves_mark_20.html",
+    "image_url": "https://vwts.ru/images/repair4/132783_04.jpg",
+    "original_sha256": "760a620d4a78a6ef0f01e4db131ab42c3531b7f4fb3a75cff7186e776b666a13",
+    "sha256": "760a620d4a78a6ef0f01e4db131ab42c3531b7f4fb3a75cff7186e776b666a13"
+  },
+  {
+    "file": "assets/real-photos/mk20-7.jpg",
+    "caption": "ภาพขยายบริเวณขั้วกำลังจากรายงานเดิม",
+    "book_page": 11,
+    "kind": "real_source_image",
+    "source_url": "https://vwts.ru/articles/brake/abs_teves_mark_20.html",
+    "image_url": "https://vwts.ru/images/repair4/132783_06.jpg",
+    "original_sha256": "913da635e0d3539aaee66df7cac7ca3334aa99632f2cb0bf329f09262e8c85fb",
+    "sha256": "913da635e0d3539aaee66df7cac7ca3334aa99632f2cb0bf329f09262e8c85fb"
+  },
+  {
+    "file": "assets/real-photos/habr-1.jpg",
+    "caption": "กรอบและข้อความบนภาพเป็นของผู้เขียนต้นทาง",
+    "book_page": 12,
+    "kind": "real_source_image",
+    "source_url": "https://habr.com/ru/articles/863650/",
+    "image_url": "https://habrastorage.org/getpro/habr/upload_files/46f/c0a/b2b/46fc0ab2b3b0729f4e2a8659683e6e28.jpg",
+    "original_sha256": "cfeec6262b3f429dba61dd7e23eaa4b79acba29042fffabf11efa8d2f52e15cb",
+    "sha256": "cfeec6262b3f429dba61dd7e23eaa4b79acba29042fffabf11efa8d2f52e15cb"
+  },
+  {
+    "file": "assets/real-photos/vag-mcu-crop.png",
+    "caption": "MCU ในกรอบที่ต้นทางระบุ ไม่แต่งตัวอักษรบนชิป",
+    "book_page": 13,
+    "kind": "cropped_real_image",
+    "source_url": "https://habr.com/ru/articles/863650/",
+    "image_url": "https://habrastorage.org/getpro/habr/upload_files/46f/c0a/b2b/46fc0ab2b3b0729f4e2a8659683e6e28.jpg",
+    "original_sha256": "cfeec6262b3f429dba61dd7e23eaa4b79acba29042fffabf11efa8d2f52e15cb",
+    "sha256": "670653da4d233661404d7689704b44160ab0826c2aacec502c0c5c22445e9805"
+  },
+  {
+    "file": "assets/real-photos/vag-eeprom-chip-crop.png",
+    "caption": "ชิป EEPROM แปดขาที่ติดบนบอร์ดตามกรอบของต้นทาง",
+    "book_page": 13,
+    "kind": "cropped_real_image",
+    "source_url": "https://habr.com/ru/articles/863650/",
+    "image_url": "https://habrastorage.org/getpro/habr/upload_files/46f/c0a/b2b/46fc0ab2b3b0729f4e2a8659683e6e28.jpg",
+    "original_sha256": "cfeec6262b3f429dba61dd7e23eaa4b79acba29042fffabf11efa8d2f52e15cb",
+    "sha256": "bf0aeafb0a5e7462cb56cee6ee41383d919dfcfd9209a7581713cbe4fa8276db"
+  },
+  {
+    "file": "assets/illustrations/simulation_transfer_1.png",
+    "caption": "ภาพจำลอง ขั้น 1 ถึง 3 ใช้อธิบายช่วงที่ไม่มีภาพถ่าย",
+    "book_page": 14,
+    "kind": "simulation",
+    "source": "Original explanatory drawing created for this book; not a photograph.",
+    "sha256": "b4d1050d3f670710b19e25b3f8da12fa01423763a1b679990535fa1cb6af8576"
+  },
+  {
+    "file": "assets/illustrations/simulation_transfer_2.png",
+    "caption": "ภาพจำลอง ขั้น 4 ถึง 6 ไม่ใช่ภาพย้ายไป donor ที่ถ่ายจากเคสจริง",
+    "book_page": 15,
+    "kind": "simulation",
+    "source": "Original explanatory drawing created for this book; not a photograph.",
+    "sha256": "6f63bef0760145de625913ef0385abb8ef6fba9e876c5133d7d98e6f6a41babb"
+  },
+  {
+    "file": "assets/real-photos/habr-3.jpg",
+    "caption": "แถบความคืบหน้า 100 เปอร์เซ็นต์ แต่มีข้อความความผิดพลาด",
+    "book_page": 16,
+    "kind": "real_source_image",
+    "source_url": "https://habr.com/ru/articles/863650/",
+    "image_url": "https://habrastorage.org/getpro/habr/upload_files/fed/e5e/8c6/fede5e8c6804d2467bb91b98aba80d91.png",
+    "original_sha256": "640963b61a65de732a9620f218781506cb0e66e98b005229f92463874fe3c0a8",
+    "sha256": "640963b61a65de732a9620f218781506cb0e66e98b005229f92463874fe3c0a8"
+  },
+  {
+    "file": "assets/real-photos/habr-4.jpg",
+    "caption": "ข้อมูลระบุหน่วยที่มีหมายเลขฮาร์ดแวร์ไม่ตรงกันตามรายงาน",
+    "book_page": 16,
+    "kind": "real_source_image",
+    "source_url": "https://habr.com/ru/articles/863650/",
+    "image_url": "https://habrastorage.org/getpro/habr/upload_files/52e/95b/b6a/52e95bb6a7d57d2057b5525daa267dcd.jpg",
+    "original_sha256": "6e2a1445982648662c469428ca392ab84f307654d520d90d00c2e960b2b1c2fd",
+    "sha256": "6e2a1445982648662c469428ca392ab84f307654d520d90d00c2e960b2b1c2fd"
+  },
+  {
+    "file": "assets/real-photos/odis-identification.png",
+    "caption": "เมนูอ่าน Identification ในตัวอย่าง ODIS",
+    "book_page": 17,
+    "kind": "real_source_image",
+    "source_url": "https://static.nhtsa.gov/odi/rcl/2016/RCRIT-16V913-6522.pdf",
+    "source_document": "VW45F2 March2017",
+    "source_pages": [
+      11,
+      15,
+      49
+    ],
+    "sha256": "2b0c2ac5bfa435c1267a571b9739056b7aa7bb2a8007cb568c088add8331a4ff"
+  },
+  {
+    "file": "assets/real-photos/odis-coding-values.png",
+    "caption": "ตัวอย่างหน้าข้อมูลหน่วยและ coding ที่ต้องเก็บก่อนเปลี่ยน",
+    "book_page": 17,
+    "kind": "real_source_image",
+    "source_url": "https://static.nhtsa.gov/odi/rcl/2016/RCRIT-16V913-6522.pdf",
+    "source_document": "VW45F2 March2017",
+    "source_pages": [
+      11,
+      15,
+      49
+    ],
+    "sha256": "385e8c983e155e036f88c4a5af07f8f35132d6d5b94b0a2a7790e36012e2883f"
+  },
+  {
+    "file": "assets/real-photos/odis-coding-test.png",
+    "caption": "Test plan สำหรับ coding ชุด ABS ในเอกสารเฉพาะแคมเปญ",
+    "book_page": 18,
+    "kind": "real_source_image",
+    "source_url": "https://static.nhtsa.gov/odi/rcl/2016/RCRIT-16V913-6522.pdf",
+    "source_document": "VW45F2 March2017",
+    "source_pages": [
+      11,
+      15,
+      49
+    ],
+    "sha256": "8db6b81db8ad0c193ad305d9744c94d5816919e152167ffbc939578f5aa13b4f"
+  },
+  {
+    "file": "assets/real-photos/odis-update-menu.png",
+    "caption": "ตัวอย่างเมนูซอฟต์แวร์ ไม่ใช่โปรแกรมเมอร์อ่าน EEPROM",
+    "book_page": 18,
+    "kind": "real_source_image",
+    "source_url": "https://static.nhtsa.gov/odi/rcl/2016/RCRIT-16V913-6522.pdf",
+    "source_document": "VW45F2 March2017",
+    "source_pages": [
+      11,
+      15,
+      49
+    ],
+    "sha256": "3edc8c33ff9f10e4c8bdf86ffc6f16637c3f08594f8b41d7d38d6db8edddfbca"
+  }
+]
