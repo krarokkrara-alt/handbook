@@ -1,10 +1,10 @@
 {
-  "task_path": "projects/mytech-abs-pcb",
+  "task_path": "projects/mytech-bcm-pcb",
   "created_by": "ChatGPT",
-  "revision": "9da3c4f2334c154a6b46216501ea8e1de012afd8dabd397001917222502b373d",
-  "created_at": "2026-11-15T09:35:51.625775+00:00",
-  "status": "awaiting_cli",
+  "revision": "0f1f04d0294282dfec73c4671782e0db6777cb203bd4f58362094a75cc44997c",
+  "created_at": "2026-11-17T10:33:02.467302+00:00",
+  "status": "queued",
   "next_tasks": [
-    "ตรวจภาพ PCB ABS จริงและ marking อุปกรณ์กับแหล่ง R1-R5 ตรวจคำบรรยายภาพจำลองขั้นย้ายชิป การแยก coding กับ clone เครดิตผู้เขียนและกิตติกรรมประกาศ และบันทึกข้อแก้ใน CLAUDE_REVIEW.md โดยไม่ publish หรือ push เอง"
+    "อ่าน CLAUDE_HANDOFF.md ตรวจหนังสือ BCM และเขียน CLAUDE_REVIEW.md หลังเจ้าของเครื่องลงชื่อเข้าใช้ Claude แล้ว; อย่าเผยแพร่การแก้ไขเอง"
   ]
 }
