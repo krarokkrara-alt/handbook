@@ -1,0 +1,145 @@
+[
+  {
+    "file": "assets/schematics/protection.png",
+    "reference": "TI LM74700-Q1 SNOSD17G Fig 10-1 p16",
+    "source_document": "tmp/bcm-v2-sources/protection.pdf",
+    "pdf_page": 16,
+    "crop_fraction": [
+      0.18,
+      0.36,
+      0.84,
+      0.565
+    ],
+    "changes": "Document figure excerpt only; no changes to circuit or screenshot content"
+  },
+  {
+    "file": "assets/schematics/buck.png",
+    "reference": "TI LM53603-Q1 SNVSA42B Fig 16 p19",
+    "source_document": "tmp/bcm-v2-sources/buck.pdf",
+    "pdf_page": 19,
+    "crop_fraction": [
+      0.075,
+      0.125,
+      0.92,
+      0.47
+    ],
+    "changes": "Document figure excerpt only; no changes to circuit or screenshot content"
+  },
+  {
+    "file": "assets/schematics/ldo.png",
+    "reference": "TI TPS7B69xx-Q1 SLVSCJ8B Fig 25 p12",
+    "source_document": "tmp/bcm-v2-sources/ldo.pdf",
+    "pdf_page": 12,
+    "crop_fraction": [
+      0.215,
+      0.415,
+      0.79,
+      0.58
+    ],
+    "changes": "Document figure excerpt only; no changes to circuit or screenshot content"
+  },
+  {
+    "file": "assets/schematics/reset.png",
+    "reference": "TI TPS3808-Q1 SBVS085J Fig 14 p12",
+    "source_document": "tmp/bcm-v2-sources/reset.pdf",
+    "pdf_page": 12,
+    "crop_fraction": [
+      0.24,
+      0.415,
+      0.77,
+      0.61
+    ],
+    "changes": "Document figure excerpt only; no changes to circuit or screenshot content"
+  },
+  {
+    "file": "assets/schematics/highside.png",
+    "reference": "TI TPS1H100-Q1 SLVSCM2D Fig 45 p32",
+    "source_document": "tmp/bcm-v2-sources/highside.pdf",
+    "pdf_page": 32,
+    "crop_fraction": [
+      0.08,
+      0.365,
+      0.93,
+      0.86
+    ],
+    "changes": "Document figure excerpt only; no changes to circuit or screenshot content"
+  },
+  {
+    "file": "assets/schematics/lowside.png",
+    "reference": "TI TPL7407L SLRS066D Fig 9 p8",
+    "source_document": "tmp/bcm-v2-sources/lowside.pdf",
+    "pdf_page": 8,
+    "crop_fraction": [
+      0.28,
+      0.49,
+      0.72,
+      0.838
+    ],
+    "changes": "Document figure excerpt only; no changes to circuit or screenshot content"
+  },
+  {
+    "file": "assets/schematics/can-termination.png",
+    "reference": "TI TCAN1042-Q1 SLLSES9D Fig 10-2 p27",
+    "source_document": "tmp/bcm-sources/can.pdf",
+    "pdf_page": 27,
+    "crop_fraction": [
+      0.085,
+      0.35,
+      0.91,
+      0.595
+    ],
+    "changes": "Document figure excerpt only; no changes to circuit or screenshot content"
+  },
+  {
+    "file": "assets/schematics/lin.png",
+    "reference": "NXP TJA1021 Rev9 Fig 7 p16",
+    "source_document": "tmp/bcm-v2-sources/lin.pdf",
+    "pdf_page": 16,
+    "crop_fraction": [
+      0.085,
+      0.603,
+      0.916,
+      0.88
+    ],
+    "changes": "Document figure excerpt only; no changes to circuit or screenshot content"
+  },
+  {
+    "file": "assets/programming/cgpro-toolbar.png",
+    "reference": "CG-PRO User Manual V1.6.0 p15",
+    "source_document": "tmp/bcm-v2-sources/cgpro.pdf",
+    "pdf_page": 15,
+    "crop_fraction": [
+      0.31,
+      0.14,
+      0.91,
+      0.205
+    ],
+    "changes": "Document figure excerpt only; no changes to circuit or screenshot content"
+  },
+  {
+    "file": "assets/programming/cgpro-mcu.png",
+    "reference": "CG-PRO User Manual V1.6.0 p24 MC9S12DG64 example",
+    "source_document": "tmp/bcm-v2-sources/cgpro.pdf",
+    "pdf_page": 24,
+    "crop_fraction": [
+      0.09,
+      0.45,
+      0.91,
+      0.81
+    ],
+    "changes": "Document figure excerpt only; no changes to circuit or screenshot content"
+  },
+  {
+    "file": "assets/programming/cgpro-hex.png",
+    "reference": "CG-PRO User Manual V1.6.0 p27 Hex Editor",
+    "source_document": "tmp/bcm-v2-sources/cgpro.pdf",
+    "pdf_page": 27,
+    "crop_fraction": [
+      0.125,
+      0.55,
+      0.88,
+      0.808
+    ],
+    "changes": "Document figure excerpt only; no changes to circuit or screenshot content"
+  }
+]

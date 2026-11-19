@@ -1,10 +1,10 @@
 {
   "task_path": "projects/mytech-bcm-pcb",
   "created_by": "ChatGPT",
-  "revision": "0f1f04d0294282dfec73c4671782e0db6777cb203bd4f58362094a75cc44997c",
-  "created_at": "2026-11-17T10:33:02.467302+00:00",
+  "revision": "ec373afd107963c0da94faa2d1c1ea967c04d7d713d8b4ac840883307f7ce091",
+  "created_at": "2026-11-19T10:09:24.134849+00:00",
   "status": "queued",
   "next_tasks": [
-    "อ่าน CLAUDE_HANDOFF.md ตรวจหนังสือ BCM และเขียน CLAUDE_REVIEW.md หลังเจ้าของเครื่องลงชื่อเข้าใช้ Claude แล้ว; อย่าเผยแพร่การแก้ไขเอง"
+    "ตรวจฉบับขยาย57หน้า อ่าน REVISION_V2 และ EDITORIAL_REVIEW_V2 ข้อมูลผู้แต่งหน้า2-5 ตรวจวงจรและโปรแกรมต่อ หลังเจ้าของเครื่องลงชื่อเข้าใช้Claudeแล้ว อย่าเผยแพร่เอง"
   ]
 }

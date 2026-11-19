@@ -45,3 +45,8 @@ Agent ช่วยรับผิดชอบคำสั่งที่ผู�
 ```powershell
 python tools/claude_handoff.py --task projects/mytech-bcm-pcb --instruction "Read CLAUDE_HANDOFF.md and review the BCM handbook; record findings without publishing changes"
 ```
+
+
+## อัปเดตฉบับ 2 วันที่ 19 พฤศจิกายน 2569
+
+อ่าน REVISION_V2.md และ supplement-v2.md เพิ่ม ข้อมูลผู้แต่งเดิมย้ายไปหน้า 2–5 หลังปกแล้ว มีวงจรจริงจาก datasheet 8 ภาพ ภาพหน้าจอ CG-PRO/ACDP และตารางดีเสีย ตรวจ EDITORIAL_REVIEW_V2.md สำหรับผลทบทวนล่าสุด ห้ามใช้ CLAUDE_REVIEW.md รอบเดิมที่เป็นข้อความไม่ได้ลงชื่อเข้าใช้เป็นผลตรวจฉบับใหม่
