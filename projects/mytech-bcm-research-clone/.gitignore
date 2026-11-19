@@ -1,0 +1,7 @@
+incoming/*
+!incoming/README.md
+*.bin
+*.dump
+*.eep
+*.hex
+__pycache__/

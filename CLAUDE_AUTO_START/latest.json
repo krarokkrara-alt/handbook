@@ -1,10 +1,10 @@
 {
-  "task_path": "projects/mytech-bcm-pcb",
+  "task_path": "projects/mytech-bcm-research-clone",
   "created_by": "ChatGPT",
-  "revision": "ec373afd107963c0da94faa2d1c1ea967c04d7d713d8b4ac840883307f7ce091",
-  "created_at": "2026-11-19T10:09:24.134849+00:00",
+  "revision": "6cd120b6f83b767b0934f223ca5c24a9a63504355a8411194e4b0c7bd52044cd",
+  "created_at": "2026-11-19T10:21:51.714752+00:00",
   "status": "queued",
   "next_tasks": [
-    "ตรวจฉบับขยาย57หน้า อ่าน REVISION_V2 และ EDITORIAL_REVIEW_V2 ข้อมูลผู้แต่งหน้า2-5 ตรวจวงจรและโปรแกรมต่อ หลังเจ้าของเครื่องลงชื่อเข้าใช้Claudeแล้ว อย่าเผยแพร่เอง"
+    "อ่าน projects/mytech-bcm-research-clone/CLAUDE.md ค้นข้อมูลวงจรและภาพเพิ่ม โปรแกรมย้ายข้อมูล/โคลน พร้อมผลเปรียบเทียบและ Agent ตรวจอิสระตามคำสั่ง หลังเจ้าของเริ่ม Claude ที่มีสิทธิ์ค้นเว็บและแก้ไฟล์"
   ]
 }
