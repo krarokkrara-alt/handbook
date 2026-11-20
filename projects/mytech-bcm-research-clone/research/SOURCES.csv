@@ -1,1 +1,19 @@
 id,topic,vehicle_module,chip,document_id,revision,page_figure,url,checked_date,evidence_type,image_rights,limitations
+S01,power reference,BCM reference design (not vehicle),-,TIDA-00745,-,-,https://www.ti.com/tool/TIDA-00745,2026-11-17 (base book),chip-maker reference design,redrawn diagram by editor,not a vehicle schematic; carried over from base book; not re-accessed in this session
+S02,CAN transceiver,-,TCAN1042V-Q1,SLLSES9,D,p.5 pinout,https://www.ti.com/lit/ds/symlink/tcan1042-q1.pdf,2026-11-17 (base book),datasheet,redrawn signal map,V variant only; protection/termination not shown; carried over
+S03,LIN transceiver,-,TJA1021 SO8,TJA1021,Rev 9,p.4 pinout,https://www.nxp.com/docs/en/data-sheet/TJA1021.pdf,2026-11-17 (base book),datasheet,redrawn signal map,RXD open-drain; carried over
+S04,SPI EEPROM,-,M95640-A125/A145,DS8799,-,pinout,https://www.st.com/resource/en/datasheet/m95640-a125.pdf,2026-11-17 (base book),datasheet,redrawn signal map,not an in-circuit connection guide; carried over
+S05,reverse protection,-,LM74700-Q1,SNOSD17G,G,p.3-4 p.6-7 p.13-16 Fig 10-1,https://www.ti.com/lit/ds/symlink/lm74700-q1.pdf,2026-11-17 (base book),datasheet,chip-maker figure (TI terms),reference circuit not confirmed in any BCM; carried over
+S06,buck regulator,-,LM53603-Q1,-,-,-,https://www.ti.com/lit/ds/symlink/lm53603-q1.pdf,2026-11-17 (base book),datasheet,chip-maker figure,carried over
+S07,LDO,-,TPS7B6950-Q1,TPS7B6950EVM,-,-,https://www.ti.com/tool/TPS7B6950EVM,2026-11-17 (base book),evaluation module doc,chip-maker figure,carried over
+S08,reset supervisor,-,TPS3808-Q1,-,-,-,https://www.ti.com/lit/ds/symlink/tps3808-q1.pdf,2026-11-17 (base book),datasheet,chip-maker figure,carried over
+S09,high-side switch,-,TPS1H100-Q1,-,-,-,https://www.ti.com/lit/ds/symlink/tps1h100-q1.pdf,2026-11-17 (base book),datasheet,chip-maker figure,version A/ST and B/CS differ; carried over
+S10,low-side driver,-,TPL7407L,-,-,-,https://www.ti.com/lit/ds/symlink/tpl7407l.pdf,2026-11-17 (base book),datasheet,chip-maker figure,carried over
+S11,board photo JP,Lexus RX 2nd gen Body ECU,not readable,ClubLexus forum thread,2021-02-09,photo,https://www.clublexus.com/forums/rx-2nd-gen-2004-2009/961343-body-ecu-thread-with-pics.html,2026-11-17 (base book),forum photo,owner Margate330; no open licence,chip markings not confirmed; carried over
+S12,board photo EU,BMW FRM3,MCU mask not readable,DashTech Services repair page,-,photo,https://www.dashtechservices.co.uk/frm3-repair.html,2026-11-17 (base book),repair-shop photo,owner DashTech; no open licence,no matching label; carried over
+S13,board photo US,GM BCM,-,GM Bulletin 21-NA-183,2022-06,p.4 image 5883904,https://static.nhtsa.gov/odi/tsbs/2022/MC-10213703-0001.pdf,2026-11-17 (base book),OEM service bulletin,(c) General Motors LLC,hosting on NHTSA does not make it public domain; carried over
+S14,programmer,CG-PRO,MC9S12DG64 80QFP (example),CG-PRO User Manual,V1.6.0 2019-12,PDF p.4 p.24 p.27,https://www.cg100iii.com/guide/CG_Pro_User_Manual_EN.pdf,2026-11-17 (base book),tool manual,manual screenshots,old manual; check current software; carried over
+S15,programmer,CG100X BCM list,various,CG100X Support BCM List,-,-,https://www.cgdiprog.com/uploads/item/168561125648168784.pdf,2026-11-17 (base book),tool support list,-,support list is not compatibility or clone proof; carried over
+S16,programmer,ACDP-2 Module08 BMW FRM,MC9S12XEQ384 mask 3M25J,Yanhua Module08 page,-,menu images,https://www.acdpmaster.com/module/module8en.html,2026-11-17 (base book),tool maker page,maker images,XDT256 photo is not XEQ384 wiring; carried over
+S17,programmer,CGDI product page,-,CG100X,-,-,https://www.cgditools.com/en/c579.html,2026-11-17 (base book),tool maker page,-,carried over
+SIM1,comparison demo,none (simulated),none,tools/make_simulated_demo.py,2026-11-20,-,comparisons/simulated/SIMULATED_RESULT.md,2026-11-20,simulated data,generated,ข้อมูลจำลองเพื่ออธิบายการเปรียบเทียบ ไม่ใช่ผลจริง

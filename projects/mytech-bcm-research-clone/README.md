@@ -1,41 +1,70 @@
-# BCM ค้นคว้าวงจรและการย้ายข้อมูลเพิ่มเติม
+# BCM ค้นคว้าวงจรและการย้ายข้อมูล (MyTech · แจกฟรี)
 
-โฟลเดอร์ใหม่สำหรับเก็บไฟล์และให้ Claude AI รับช่วงค้นคว้า แยกจาก `../mytech-bcm-pcb` เริ่มจากสำเนาหนังสือ MyTech ฉบับขยาย 57 หน้า ณ commit `01034fc` ของคลังนี้
+หนังสือ BCM ภาษาไทยเรื่องวงจรในบอร์ด การย้ายชิป และการย้ายข้อมูล พร้อมเครื่องมือสร้างหนังสือและเปรียบเทียบไฟล์ แยกจาก `../mytech-bcm-pcb` เริ่มจากสำเนาฉบับขยาย ณ commit `01034fc`
 
-## เปิดอ่านและเริ่มทำงาน
+## เปิดอ่าน
 
-- [หนังสือตั้งต้น PDF](books/BCM-MyTech-Handbook.pdf)
-- [ต้นฉบับหลัก](manuscript.md) และ [ภาคขยายวงจรกับโปรแกรม](supplement-v2.md)
-- [คำสั่งให้ Claude ทำงานต่อ](CLAUDE.md)
-- [แหล่งภาพเดิม](VISUAL_SOURCES.md) และ [รายการภาพวงจร](FIGURE_MANIFEST.json)
-- [ข้อจำกัดและผลตรวจเดิม](QA_REPORT.md)
-- [ผลตรวจบรรณาธิการเดิม](EDITORIAL_REVIEW_V2.md)
+| ต้องการ | เปิดไฟล์ |
+|---|---|
+| หนังสือ PDF (58 หน้า มีลายน้ำ) | [books/BCM-MyTech-Handbook.pdf](books/BCM-MyTech-Handbook.pdf) |
+| หนังสือ HTML | [books/BCM-MyTech-Handbook.html](books/BCM-MyTech-Handbook.html) |
+| สถานะงานล่าสุด | [reports/PROGRESS.md](reports/PROGRESS.md) |
+| สิ่งที่เพิ่มจากเล่มตั้งต้น | [reports/NEW_FINDINGS.md](reports/NEW_FINDINGS.md) |
+| ผลตรวจเทคนิค / บรรณาธิการ | [reports/TECHNICAL_REVIEW.md](reports/TECHNICAL_REVIEW.md) · [reports/EDITORIAL_REVIEW.md](reports/EDITORIAL_REVIEW.md) |
+| ผลเปรียบเทียบข้อมูล | [comparisons/COMPARISON_REPORT.md](comparisons/COMPARISON_REPORT.md) · [ตัวอย่างจำลอง](comparisons/simulated/SIMULATED_RESULT.md) |
+| ต้นฉบับ | [manuscript.md](manuscript.md) (บท 1–15) · [supplement-v2.md](supplement-v2.md) (ภาคขยาย) |
+| ทะเบียนแหล่งอ้างอิง | [research/SOURCES.csv](research/SOURCES.csv) · [VISUAL_SOURCES.md](VISUAL_SOURCES.md) |
+| คำสั่งงานสำหรับ Claude | [CLAUDE.md](CLAUDE.md) |
 
-ใน Claude Code ให้เปิดโฟลเดอร์นี้ แล้วสั่ง: **อ่าน CLAUDE.md และทำงานตามคำสั่งให้ครบ เริ่มจากตรวจของเดิม แล้วเพิ่มข้อมูลที่มีหลักฐานพร้อมผลเปรียบเทียบ**
-
-## เก็บไฟล์ตรงไหน
+## โครงสร้างโฟลเดอร์
 
 | โฟลเดอร์ | ใช้เก็บ |
 |---|---|
-| books | หนังสือ PDF/HTML ที่สร้างจากต้นฉบับ |
-| assets | ภาพบอร์ด ภาพวงจร และภาพโปรแกรม พร้อมที่มา |
-| source-documents | เอกสารผู้แต่งเดิม ต้องคงครบ 4 หน้า |
-| research | ทะเบียนแหล่งใหม่ วงจร รุ่นกล่อง MCU และเครื่องมือ |
-| incoming | ไฟล์ชิ้นงานที่เจ้าของนำมาให้ตรวจ ห้ามนำ dump/VIN/ข้อมูลลับขึ้น GitHub |
-| comparisons | รายงานเปรียบเทียบข้อมูลและตารางผล ห้ามใส่ dump ของรถไว้ในโฟลเดอร์เผยแพร่ |
-| reports | รายงานตรวจเทคนิค บรรณาธิการ และสิ่งที่เพิ่มจากเล่มตั้งต้น |
-| tools | ตัวสร้างหนังสือ ตัวตรวจ และเครื่องมือเปรียบเทียบไฟล์ |
+| `books/` | หนังสือ PDF/HTML ที่สร้างจากต้นฉบับ (อย่าแก้ตรง ให้แก้ต้นฉบับแล้วสร้างใหม่) |
+| `assets/` | ภาพบอร์ด ภาพวงจร ภาพโปรแกรม พร้อมที่มาใน VISUAL_SOURCES.md |
+| `source-documents/` | เอกสารผู้แต่งเดิม 4 หน้า (อยู่หลังปกหน้า 2–5 ห้ามแก้) |
+| `research/` | ทะเบียนแหล่ง วงจร รุ่นกล่อง MCU และเครื่องมือ |
+| `incoming/` | ไฟล์ชิ้นงานที่เจ้าของนำมาตรวจ **ไม่ขึ้น GitHub** ห้าม dump/VIN/ข้อมูลลับ |
+| `comparisons/` | รายงานผลต่าง (ไม่มีค่าไบต์) และตัวอย่างจำลอง |
+| `reports/` | สถานะงาน รายงานตรวจเทคนิคและบรรณาธิการ |
+| `tools/` | ตัวสร้างหนังสือ ตัวตรวจ และเครื่องมือเปรียบเทียบ |
 
-## แสดงผลต่างของข้อมูล
+## ระบบเปรียบเทียบไฟล์
+
+เทียบคู่เดียว (คำสั่งเดิม):
 
 ```powershell
 python tools/compare_data.py --before incoming/original.bin --after incoming/readback.bin --output comparisons/compare-result.json
 ```
 
-รายงานแสดงขนาด SHA-256 จำนวนไบต์ที่ต่าง และช่วง offset โดยไม่แสดงค่าไบต์ ไม่แก้ข้อมูลต้นฉบับ ผลเหมือนกันทั้งไฟล์ไม่ยืนยันว่ากล่องทดแทนใช้งานกับรถได้ ต้องตรวจพื้นที่ข้อมูล ฮาร์ดแวร์ การตั้งค่า และผลบนรถด้วย
+เทียบหลายคู่จากไฟล์งาน พร้อมรายงานภาษาไทย:
+
+```powershell
+python tools/compare_data.py --job incoming/JOB123.json --output comparisons/JOB123.json --markdown comparisons/JOB123.md
+```
+
+ดูตัวอย่าง (สร้างไฟล์จำลองแล้วเทียบ 4 คู่):
+
+```powershell
+python tools/make_simulated_demo.py
+```
+
+ชนิดคู่ที่รองรับ: `read_repeat` (อ่านซ้ำ), `intended_vs_readback` (ตั้งใจเขียนกับอ่านกลับ), `before_after` (ก่อน/หลังซ่อม) เครื่องมือให้ข้อสรุปเฉพาะที่หลักฐานรองรับ แสดงขนาด SHA-256 จำนวนไบต์ต่าง และช่วง offset **ไม่แสดงค่าไบต์และไม่แก้ไฟล์ต้นฉบับ** ผลตรงกันทั้งไฟล์ไม่ยืนยันว่ากล่องทดแทนใช้กับรถได้
 
 ## สร้างหนังสือใหม่
 
-ติดตั้ง Python พร้อม reportlab Pillow pypdf และฟอนต์ไทย แล้วใช้ `python tools/build_book.py` และ `python tools/validate.py` จากโฟลเดอร์นี้ ต้องเปิดดูภาพหน้า PDF ใหม่หลังเปลี่ยนเนื้อหา ข้อมูลผู้แต่งอยู่หลังปกหน้า 2–5
+ต้องมี Python 3 + `pip install reportlab Pillow pypdf` และฟอนต์ Tahoma (หรือกำหนด `MYTECH_FONT_REGULAR` / `MYTECH_FONT_BOLD`)
 
-การสร้างโฟลเดอร์และคิวงานไม่ใช่หลักฐานว่า Claude เริ่มทำงานแล้ว รายงานเดิมที่คัดมาจากเล่มตั้งต้นไม่ถือว่าได้ตรวจเนื้อหาใหม่ในโฟลเดอร์นี้
+```powershell
+python tools/build_book.py
+```
+
+```powershell
+python tools/validate.py
+```
+
+ลายน้ำค่าเริ่มต้นคือ `MyTech · แจกฟรี` ใส่ทุกหน้าตั้งแต่หน้า 6 และใน HTML เปลี่ยนข้อความได้ด้วยตัวแปร `MYTECH_WATERMARK` ตัวตรวจจะล้มถ้าหน้าใดขาดลายน้ำ หรือถ้าปก/หน้าผู้แต่งถูกแก้ หลังเปลี่ยนเนื้อหาต้องเปิดดูภาพหน้า PDF ด้วยตาทุกครั้ง
+
+## ข้อจำกัด
+
+หนังสือนี้ไม่มีผลโคลนหรือผลทดสอบบนรถจริง ตัวอย่างผลต่างทั้งหมดเป็นข้อมูลจำลอง ภาพบอร์ดจริงเป็นของเจ้าของภาพต้นทาง การแจกฟรีไม่เปลี่ยนสิทธิ์ภาพ ดู [reports/PROGRESS.md](reports/PROGRESS.md) สำหรับงานที่ยังขาด

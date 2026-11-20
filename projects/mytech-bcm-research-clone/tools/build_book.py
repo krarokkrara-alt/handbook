@@ -1,6 +1,7 @@
 """Build the Thai BCM handbook offline from checked-in text and images."""
 from pathlib import Path
 import re, json, os, unicodedata, hashlib
+from urllib.parse import quote
 from xml.sax.saxutils import escape
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
@@ -9,7 +10,7 @@ from reportlab.lib.colors import HexColor
 from PIL import Image, ImageDraw, ImageFont
 from pypdf import PdfReader, PdfWriter
 
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).absolute().parents[1]
 ASSETS=ROOT/'assets'; BOOKS=ROOT/'books'; BOOKS.mkdir(exist_ok=True)
 REG=os.environ.get('MYTECH_FONT_REGULAR',r'C:\Windows\Fonts\tahoma.ttf')
 BOLD=os.environ.get('MYTECH_FONT_BOLD',r'C:\Windows\Fonts\tahomabd.ttf')
@@ -124,7 +125,7 @@ def heading(s):
 def table(rows):
     global y
     if not rows:return
-    n=len(rows[0]);widths=([130,393] if n==2 else [120,190,213] if n==3 else [85,130,158,150] if n==4 else [523/n]*n)
+    n=len(rows[0]);widths=([130,393] if n==2 else [120,190,213] if n==3 else [85,130,158,150] if n==4 else [112,72,52,112,175] if n==5 and rows[0][0].startswith('คู่เปรียบเทียบ') else [523/n]*n)
     header=rows[0]
     def row(cells,isheader=False):
         global y
@@ -226,13 +227,30 @@ assert len(tocpdf.pages)==TOC_PAGES,(len(tocpdf.pages),TOC_PAGES)
 writer=PdfWriter();writer.append(body,pages=(0,1))
 author=PdfReader(ROOT/'source-documents/Author_and_Acknowledgements.pdf');writer.append(author)
 writer.append(body,pages=(1,2));writer.append(tocpdf);writer.append(body,pages=(2,len(body.pages)))
+# Watermark: overlay on every page after the cover and the 4 original author pages.
+# Pages 1-5 are left untouched (validate.py checks the author pages are byte-identical).
+WATERMARK=os.environ.get('MYTECH_WATERMARK','MyTech · แจกฟรี')
+WATERMARK_FROM=6
+def watermark_page():
+    wc=canvas.Canvas(str(BOOKS/'watermark.pdf'),pagesize=(W,H))
+    wc.saveState();wc.setFillColor(HexColor('#007d87'));wc.setFillAlpha(0.09)
+    wc.translate(W/2,H/2);wc.rotate(35)
+    wc.setFont('ThaiB',54);wc.drawCentredString(0,-18,WATERMARK)
+    wc.setFont('ThaiB',26)
+    for dy in (-250,250):wc.drawCentredString(0,dy,WATERMARK)
+    wc.restoreState();wc.save()
+    return PdfReader(BOOKS/'watermark.pdf').pages[0]
+_wm=watermark_page()
+for _i,_p in enumerate(writer.pages,1):
+    if _i>=WATERMARK_FROM:_p.merge_page(_wm)
 writer.add_outline_item('เกี่ยวกับผู้แต่งและกิตติกรรมประกาศเดิม',1);writer.add_outline_item('สารบัญ',6)
 for title,p in toc:writer.add_outline_item(title,physical(p)-1)
 writer.add_metadata({'/Title':'BCM วงจรบอร์ด การย้ายชิป และการย้ายข้อมูล','/Author':'MyTech | Supunya Pharaphong'})
 with open(BOOKS/'BCM-MyTech-Handbook.pdf','wb') as f:writer.write(f)
 (BOOKS/'BCM-MyTech-body.pdf').unlink()
 (BOOKS/'toc.pdf').unlink()
-(ROOT/'BUILD_REPORT.json').write_text(json.dumps({'edition':2,'body_pages':len(body.pages),'author_pages':len(author.pages),'author_location':[2,5],'toc_pages':TOC_PAGES,'total_pages':len(writer.pages),'chapters':[(t,physical(p)) for t,p in toc],'out_of_bounds':[x for x in bounds if x['y']<50 or x['right']>560]},ensure_ascii=False,indent=2),encoding='utf-8')
+(BOOKS/'watermark.pdf').unlink()
+(ROOT/'BUILD_REPORT.json').write_text(json.dumps({'edition':2,'watermark':{'text':WATERMARK,'from_page':WATERMARK_FROM,'pages':len(writer.pages)-WATERMARK_FROM+1},'body_pages':len(body.pages),'author_pages':len(author.pages),'author_location':[2,5],'toc_pages':TOC_PAGES,'total_pages':len(writer.pages),'chapters':[(t,physical(p)) for t,p in toc],'out_of_bounds':[x for x in bounds if x['y']<50 or x['right']>560]},ensure_ascii=False,indent=2),encoding='utf-8')
 print('Built',len(writer.pages),'pages; bounds issues:',len([x for x in bounds if x['y']<50 or x['right']>560]))
 
 # Editable offline HTML: original source is manuscript.md.
@@ -242,8 +260,10 @@ def inline(s):
     s=re.sub(r'\*\*([^*]+)\*\*',r'<strong>\1</strong>',s)
     return s
 html=['<!doctype html><html lang="th"><meta charset="utf-8"><title>BCM แต่งโดย MyTech</title>',
-      '<style>body{font:18px/1.8 Tahoma,sans-serif;color:#172c36;max-width:900px;margin:32px auto;padding:0 24px}h1,h2{line-height:1.5}h2{margin-top:60px;border-bottom:2px solid #007d87}img{max-width:100%;max-height:800px;display:block;margin:24px auto}table{border-collapse:collapse;font-size:15px}td,th{border:1px solid #ccc;padding:10px}a{overflow-wrap:anywhere}figure{break-inside:avoid}figcaption{font-size:14px}@media print{body{font-size:11pt;max-width:none}h2{break-before:page}img{max-height:210mm}} </style>',
-      '<body><img src="../assets/cover.png" alt="ปกหนังสือ BCM"><h1>BCM วงจรบอร์ด การย้ายชิป และการย้ายข้อมูล</h1><p>แจกฟรี | แต่งโดย MyTech | Supunya Pharaphong</p>',
+      '<style>body{font:18px/1.8 Tahoma,sans-serif;color:#172c36;max-width:900px;margin:32px auto;padding:0 24px}h1,h2{line-height:1.5}h2{margin-top:60px;border-bottom:2px solid #007d87}img{max-width:100%;max-height:800px;display:block;margin:24px auto}table{border-collapse:collapse;font-size:15px}td,th{border:1px solid #ccc;padding:10px}a{overflow-wrap:anywhere}figure{break-inside:avoid}figcaption{font-size:14px}@media print{body{font-size:11pt;max-width:none}h2{break-before:page}img{max-height:210mm}}'
+      '.watermark{position:fixed;inset:0;pointer-events:none;z-index:9999;background-image:url("data:image/svg+xml,'+quote('<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300"><text x="210" y="150" text-anchor="middle" transform="rotate(-35 210 150)" font-family="Tahoma,sans-serif" font-size="30" font-weight="bold" fill="#007d87" fill-opacity="0.10">'+escape(WATERMARK)+'</text></svg>')+'");background-repeat:repeat}'
+      '@media print{.watermark{position:fixed}}</style>',
+      '<body><div class="watermark" aria-hidden="true"></div><img src="../assets/cover.png" alt="ปกหนังสือ BCM"><h1>BCM วงจรบอร์ด การย้ายชิป และการย้ายข้อมูล</h1><p>แจกฟรี | แต่งโดย MyTech | Supunya Pharaphong</p>',
       '<p>ฉบับอ้างอิงงานช่าง ไม่มีผลทดสอบโคลนสำเร็จของรถทุกกรณี ภาพปกเป็นภาพสร้าง ส่วนภาพบอร์ดจริงระบุเจ้าของภาพแยกไว้</p>']
 authorhtml='<h2>เกี่ยวกับผู้แต่งและกิตติกรรมประกาศเดิม</h2><p>ข้อความเดิมไม่ใช่การรับรองผลตรวจหนังสือ BCM ฉบับนี้</p>'+''.join('<img src="../assets/author/'+p.name+'" alt="เอกสารผู้แต่งเดิม">' for p in sorted((ASSETS/'author').glob('page-*.png')))
 html=[s.replace('<h1>',authorhtml+'<h1>',1) if 'assets/cover.png' in s else s for s in html]

@@ -1,0 +1,151 @@
+{
+  "title": "ตัวอย่างผลเปรียบเทียบ (ข้อมูลจำลอง)",
+  "simulated": true,
+  "pairs": [
+    {
+      "id": "read_repeat_fail",
+      "label": "อ่านรอบ 1 กับรอบ 2 (จำลองหนีบไม่แน่น)",
+      "before": "data/read1.bin",
+      "after": "data/read2_unstable.bin",
+      "before_size": 8192,
+      "after_size": 8192,
+      "before_sha256": "530ed7457f6cc13a66726b7f452fdd54e6caa23a0a735799021b7815796c6cb1",
+      "after_sha256": "f31071b40a503c9d3e6ad937fc7eca9a957900afd4197f2630b4952006f29eb4",
+      "identical": false,
+      "different_byte_positions": 16,
+      "different_ranges_inclusive": [
+        {
+          "start_hex": "0x400",
+          "end_hex": "0x40f",
+          "length": 16
+        }
+      ],
+      "interpretation": "Binary equality only; does not prove correct memory region, module compatibility or vehicle operation. Missing bytes count as different positions.",
+      "declared_regions": [
+        {
+          "name": "พื้นที่ A (จำลอง)",
+          "start_hex": "0x0",
+          "end_hex": "0xfff",
+          "different_bytes": 16,
+          "source": "แผนที่จำลอง ไม่ได้มาจากเอกสารรถหรือชิป"
+        },
+        {
+          "name": "พื้นที่ B (จำลอง)",
+          "start_hex": "0x1000",
+          "end_hex": "0x1fff",
+          "different_bytes": 0,
+          "source": "แผนที่จำลอง ไม่ได้มาจากเอกสารรถหรือชิป"
+        }
+      ],
+      "kind": "read_repeat",
+      "verdict_th": "อ่านสองรอบไม่ตรงกัน: หยุดงาน ตรวจการสัมผัส แหล่งจ่าย และสภาวะวงจรก่อนทำคำสั่งอื่น"
+    },
+    {
+      "id": "read_repeat_pass",
+      "label": "อ่านรอบ 1 กับรอบ 3 หลังแก้การหนีบ",
+      "before": "data/read1.bin",
+      "after": "data/read3_after_reseat.bin",
+      "before_size": 8192,
+      "after_size": 8192,
+      "before_sha256": "530ed7457f6cc13a66726b7f452fdd54e6caa23a0a735799021b7815796c6cb1",
+      "after_sha256": "530ed7457f6cc13a66726b7f452fdd54e6caa23a0a735799021b7815796c6cb1",
+      "identical": true,
+      "different_byte_positions": 0,
+      "different_ranges_inclusive": [],
+      "interpretation": "Binary equality only; does not prove correct memory region, module compatibility or vehicle operation. Missing bytes count as different positions.",
+      "declared_regions": [
+        {
+          "name": "พื้นที่ A (จำลอง)",
+          "start_hex": "0x0",
+          "end_hex": "0xfff",
+          "different_bytes": 0,
+          "source": "แผนที่จำลอง ไม่ได้มาจากเอกสารรถหรือชิป"
+        },
+        {
+          "name": "พื้นที่ B (จำลอง)",
+          "start_hex": "0x1000",
+          "end_hex": "0x1fff",
+          "different_bytes": 0,
+          "source": "แผนที่จำลอง ไม่ได้มาจากเอกสารรถหรือชิป"
+        }
+      ],
+      "kind": "read_repeat",
+      "verdict_th": "อ่านสองรอบตรงกัน: การอ่านสม่ำเสมอ (ยังไม่ยืนยันว่าเลือกพื้นที่ถูก)"
+    },
+    {
+      "id": "intended_vs_readback",
+      "label": "ไฟล์ที่ตั้งใจเขียนกับไฟล์อ่านกลับ",
+      "before": "data/intended_write.bin",
+      "after": "data/readback.bin",
+      "before_size": 8192,
+      "after_size": 8192,
+      "before_sha256": "530ed7457f6cc13a66726b7f452fdd54e6caa23a0a735799021b7815796c6cb1",
+      "after_sha256": "530ed7457f6cc13a66726b7f452fdd54e6caa23a0a735799021b7815796c6cb1",
+      "identical": true,
+      "different_byte_positions": 0,
+      "different_ranges_inclusive": [],
+      "interpretation": "Binary equality only; does not prove correct memory region, module compatibility or vehicle operation. Missing bytes count as different positions.",
+      "declared_regions": [
+        {
+          "name": "พื้นที่ A (จำลอง)",
+          "start_hex": "0x0",
+          "end_hex": "0xfff",
+          "different_bytes": 0,
+          "source": "แผนที่จำลอง ไม่ได้มาจากเอกสารรถหรือชิป"
+        },
+        {
+          "name": "พื้นที่ B (จำลอง)",
+          "start_hex": "0x1000",
+          "end_hex": "0x1fff",
+          "different_bytes": 0,
+          "source": "แผนที่จำลอง ไม่ได้มาจากเอกสารรถหรือชิป"
+        }
+      ],
+      "kind": "intended_vs_readback",
+      "verdict_th": "อ่านกลับตรงไฟล์ที่ตั้งใจเขียน: ผ่านเฉพาะการเขียนชิป ยังต้องตั้งค่าและทดสอบบนรถ"
+    },
+    {
+      "id": "before_after",
+      "label": "ก่อนกับหลังซ่อม/กู้ข้อมูล",
+      "before": "data/read1.bin",
+      "after": "data/after_repair.bin",
+      "before_size": 8192,
+      "after_size": 8192,
+      "before_sha256": "530ed7457f6cc13a66726b7f452fdd54e6caa23a0a735799021b7815796c6cb1",
+      "after_sha256": "8f2f56ecd21a3ee69ae83e6ab5c14aee1d93ad081f714864bcf480d79fff3e70",
+      "identical": false,
+      "different_byte_positions": 80,
+      "different_ranges_inclusive": [
+        {
+          "start_hex": "0x120",
+          "end_hex": "0x12f",
+          "length": 16
+        },
+        {
+          "start_hex": "0x1f00",
+          "end_hex": "0x1f3f",
+          "length": 64
+        }
+      ],
+      "interpretation": "Binary equality only; does not prove correct memory region, module compatibility or vehicle operation. Missing bytes count as different positions.",
+      "declared_regions": [
+        {
+          "name": "พื้นที่ A (จำลอง)",
+          "start_hex": "0x0",
+          "end_hex": "0xfff",
+          "different_bytes": 16,
+          "source": "แผนที่จำลอง ไม่ได้มาจากเอกสารรถหรือชิป"
+        },
+        {
+          "name": "พื้นที่ B (จำลอง)",
+          "start_hex": "0x1000",
+          "end_hex": "0x1fff",
+          "different_bytes": 64,
+          "source": "แผนที่จำลอง ไม่ได้มาจากเอกสารรถหรือชิป"
+        }
+      ],
+      "kind": "before_after",
+      "verdict_th": "มีผลต่างตามช่วงที่แสดง: ต้องมีเอกสารยืนยันว่าเป็นการเปลี่ยนที่ตั้งใจ ก่อนสรุปว่างานถูกต้อง"
+    }
+  ]
+}

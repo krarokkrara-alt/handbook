@@ -1,0 +1,48 @@
+{
+  "title": "ตัวอย่างผลเปรียบเทียบ (ข้อมูลจำลอง)",
+  "simulated": true,
+  "pairs": [
+    {
+      "id": "read_repeat_fail",
+      "kind": "read_repeat",
+      "label": "อ่านรอบ 1 กับรอบ 2 (จำลองหนีบไม่แน่น)",
+      "before": "data/read1.bin",
+      "after": "data/read2_unstable.bin"
+    },
+    {
+      "id": "read_repeat_pass",
+      "kind": "read_repeat",
+      "label": "อ่านรอบ 1 กับรอบ 3 หลังแก้การหนีบ",
+      "before": "data/read1.bin",
+      "after": "data/read3_after_reseat.bin"
+    },
+    {
+      "id": "intended_vs_readback",
+      "kind": "intended_vs_readback",
+      "label": "ไฟล์ที่ตั้งใจเขียนกับไฟล์อ่านกลับ",
+      "before": "data/intended_write.bin",
+      "after": "data/readback.bin"
+    },
+    {
+      "id": "before_after",
+      "kind": "before_after",
+      "label": "ก่อนกับหลังซ่อม/กู้ข้อมูล",
+      "before": "data/read1.bin",
+      "after": "data/after_repair.bin"
+    }
+  ],
+  "regions": [
+    {
+      "name": "พื้นที่ A (จำลอง)",
+      "start": "0x0000",
+      "end": "0x0FFF",
+      "source": "แผนที่จำลอง ไม่ได้มาจากเอกสารรถหรือชิป"
+    },
+    {
+      "name": "พื้นที่ B (จำลอง)",
+      "start": "0x1000",
+      "end": "0x1FFF",
+      "source": "แผนที่จำลอง ไม่ได้มาจากเอกสารรถหรือชิป"
+    }
+  ]
+}
