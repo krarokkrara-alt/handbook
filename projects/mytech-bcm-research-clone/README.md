@@ -6,7 +6,7 @@
 
 | ต้องการ | เปิดไฟล์ |
 |---|---|
-| หนังสือ PDF (58 หน้า มีลายน้ำ) | [books/BCM-MyTech-Handbook.pdf](books/BCM-MyTech-Handbook.pdf) |
+| หนังสือ PDF (67 หน้า มีลายน้ำ และภาพจริง 11 ภาพ) | [books/BCM-MyTech-Handbook.pdf](books/BCM-MyTech-Handbook.pdf) |
 | หนังสือ HTML | [books/BCM-MyTech-Handbook.html](books/BCM-MyTech-Handbook.html) |
 | สถานะงานล่าสุด | [reports/PROGRESS.md](reports/PROGRESS.md) |
 | สิ่งที่เพิ่มจากเล่มตั้งต้น | [reports/NEW_FINDINGS.md](reports/NEW_FINDINGS.md) |
@@ -14,6 +14,7 @@
 | ผลเปรียบเทียบข้อมูล | [comparisons/COMPARISON_REPORT.md](comparisons/COMPARISON_REPORT.md) · [ตัวอย่างจำลอง](comparisons/simulated/SIMULATED_RESULT.md) |
 | ต้นฉบับ | [manuscript.md](manuscript.md) (บท 1–15) · [supplement-v2.md](supplement-v2.md) (ภาคขยาย) |
 | ทะเบียนแหล่งอ้างอิง | [research/SOURCES.csv](research/SOURCES.csv) · [VISUAL_SOURCES.md](VISUAL_SOURCES.md) |
+| ภาพจริงสิทธิ์เปิด + ลิงก์ดาวน์โหลด | [assets/real-photos/commons/CREDITS.md](assets/real-photos/commons/CREDITS.md) |
 | คำสั่งงานสำหรับ Claude | [CLAUDE.md](CLAUDE.md) |
 
 ## โครงสร้างโฟลเดอร์
